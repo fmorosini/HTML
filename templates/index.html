@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="au-hero">
+  <div class="container">
+    <span class="badge-eyebrow">🌳 Norpatagonia · Zona cordillerana</span>
+    <h1>Mapas del arbolado urbano de la zona cordillerana de Norpatagonia</h1>
+    <p class="lead">Explorá el arbolado de las localidades del corredor de los lagos: ubicación, especies y datos de cada ejemplar relevado.</p>
+    <div class="d-flex flex-wrap gap-3 mt-4">
+      <a href="#mapa" class="btn-au-primary">Ver el mapa</a>
+      <a href="{{ base }}fichas-de-especies.html" class="btn-au-outline">Explorar {{ species_count }} especies</a>
+    </div>
+  </div>
+</section>
+
+<section class="au-section" id="mapa">
+  <div class="container">
+    <span class="au-eyebrow">Mapa interactivo</span>
+    <h2 class="au-section-title">Arbolado relevado</h2>
+    <p class="au-section-subtitle">Recorré el mapa y hacé click sobre cada árbol para ver sus datos.</p>
+    <div class="au-map-wrap">
+      <iframe src="{{ base }}mapa_sma1.html" class="au-map-frame" title="Mapa del arbolado urbano" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="au-section" style="background:#F5F5F5;">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="au-feature-card h-100">
+          <div class="au-icon-tile">🌿</div>
+          <h3 class="h5">{{ species_count }} fichas de especies</h3>
+          <p class="text-muted mb-3">Nombre científico, familia botánica, origen, descripción y fotos de cada especie.</p>
+          <a href="{{ base }}fichas-de-especies.html">Ver especies →</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="au-feature-card h-100">
+          <div class="au-icon-tile">📖</div>
+          <h3 class="h5">Referencias</h3>
+          <p class="text-muted mb-3">Cómo leer cada ficha: nomenclatura, magnitud, categorías y más.</p>
+          <a href="{{ base }}referencias.html">Ver referencias →</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="au-feature-card h-100">
+          <div class="au-icon-tile">🎓</div>
+          <h3 class="h5">¿Quiénes hacen esto?</h3>
+          <p class="text-muted mb-3">Un proyecto de la Cátedra de Arbolado Urbano y la Asociación Civil Propatagonia.</p>
+          <a href="{{ base }}acerca-de-arboles-urbanos.html">Conocer más →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

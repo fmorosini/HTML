@@ -1,0 +1,1109 @@
+[
+  {
+    "slug": "abies-alba-abeto-blanco",
+    "sci_name": "Abies alba",
+    "common_name": "Abeto blanco",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "abies-grandis-abeto-de-vancouver",
+    "sci_name": "Abies grandis",
+    "common_name": "Abeto de Vancouver",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "abies-porcera-abeto-noble",
+    "sci_name": "Abies procera",
+    "common_name": "Abeto noble",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "acacia-dealbata-romo-australiano",
+    "sci_name": "Acacia dealbata",
+    "common_name": "Aromo australiano, Aromo francés, aromo del país",
+    "family": "Fabáceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "acer-campestris-arce-menor",
+    "sci_name": "Acer campestris",
+    "common_name": "Arce campestre, Arce menor",
+    "family": "Aceráceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "acer-negundo-arce-negundo",
+    "sci_name": "Acer negundo",
+    "common_name": "Arce Negundo, Arce de hojas de fresno",
+    "family": "Aceráceas.",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "acer-palmatum-arce-japones",
+    "sci_name": "Acer palmatum",
+    "common_name": "Arce japonés, Arce enano",
+    "family": "Aceráceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "acer-platanoides-arce-real",
+    "sci_name": "Acer platanoides",
+    "common_name": "Arce Real, Acirón, Arce de Noruega",
+    "family": "Aceráceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "acer-pseudoplatanus-arce-blanco",
+    "sci_name": "Acer pseudoplatanus",
+    "common_name": "Arce blanco, Sicomoro, Falso plátano.",
+    "family": "Aceráceas.",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "acer-rubrum-arce-rojo",
+    "sci_name": "Acer rubrum",
+    "common_name": "Arce rojo",
+    "family": "Aceráceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "acer-saccharicum-arce-de-azucar",
+    "sci_name": "Acer saccharinum (Arce plateado)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "aesculus-hippocastanum-castano-de-las-indias",
+    "sci_name": "Aesculus hippocastanum (Castaño de las Indias)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "alnus-glutinosa-aliso",
+    "sci_name": "Alnus glutinosa",
+    "common_name": "Aliso común",
+    "family": "Betuláceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "araucaria-angustifolia-pino-parana",
+    "sci_name": "Araucaria Angustifolia",
+    "common_name": "",
+    "family": "Araucariáceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "araucaria-araucana-pehuen",
+    "sci_name": "Araucaria araucana",
+    "common_name": "Pehuén, Araucaria",
+    "family": "Araucariáceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "aristotelia-chilensis-maqui",
+    "sci_name": "Aristotelia chilensis",
+    "common_name": "Maqui, Queldrón",
+    "family": "Eleocarpáceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "austrocedrus-chilensis-cipres-de-la-cordillera",
+    "sci_name": "Austrocedrus chilensis (Ciprés de la cordillera)",
+    "common_name": "Ciprés de la cordillera",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "azara-microphilla-chin-chin",
+    "sci_name": "Azara Microphilla",
+    "common_name": "Chin Chin",
+    "family": "Flacourtiáceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "betula-papyrifera-abedul-de-papel",
+    "sci_name": "Betula papyrifera",
+    "common_name": "Abedul de papel, Abedul de las canoas",
+    "family": "Betuláceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "betula-pendula-abedul",
+    "sci_name": "Betula pendula",
+    "common_name": "Abedul común",
+    "family": "Betuláceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "budleja-globosa-panil",
+    "sci_name": "Budleja globosa",
+    "common_name": "Pañíl, Matico.",
+    "family": "Loganiáceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "calocedrus-decurrens-cedro-de-incienso",
+    "sci_name": "Calocedrus decurrens",
+    "common_name": "Cedro de incienso",
+    "family": "Cupresáceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "castanea-sativa-castano",
+    "sci_name": "Castanea sativa",
+    "common_name": "Castaño",
+    "family": "Fagáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "catalpa-bigninoides-catalpa",
+    "sci_name": "Catalpa bignonioides",
+    "common_name": "Catalpa, Catalpa americana, Judía india",
+    "family": "Bignoniáceas.",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "cedrus-atlantica-var-glauca-cedro-plateado",
+    "sci_name": "Cedrus atlantica Var. “Glauca”",
+    "common_name": "",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "cedrus-deodara-cedro-del-himalaya",
+    "sci_name": "Cedrus deodara",
+    "common_name": "",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "cedrus-libanii-cedro-del-libano",
+    "sci_name": "Cedrus libanii",
+    "common_name": "Cedro del Líbano",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "cercis-siliquastrum-arbol-de-judas",
+    "sci_name": "Cercis siliquastrum",
+    "common_name": "Árbol del amor, árbol de judas, árbol de Judea.",
+    "family": "Fabáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "chamaecyparis-lawsoniana-cedro-blanco",
+    "sci_name": "Chamaecyparis lawsoniana",
+    "common_name": "Cedro blanco, ciprés de Lawson",
+    "family": "Cupresáceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "cordyline-australis-dracena-arborea",
+    "sci_name": "Cordyline australis (Dracena arbórea)",
+    "common_name": "Dracena, Palma de lirios, Árbol de la col",
+    "family": "",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "cornus-mas-cornejo-macho",
+    "sci_name": "Cornus mas",
+    "common_name": "Cornejo Macho, Cornejo Cerezo, Cornalina",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "cornus-walterii-cornejo-walterii",
+    "sci_name": "Cornus walterii",
+    "common_name": "Cornejo de la china",
+    "family": "Cornáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "cataegus-cruz-galli-espino-espolon-de-gallo",
+    "sci_name": "Crataegus crus galli (Espino espolón de gallo)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "crataegus-laevigata-var-paul-scarlet-espino-de-mayo",
+    "sci_name": "Crataegus laevigata variedad Paul’s Scarlet",
+    "common_name": "",
+    "family": "Rosáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "crataegus-monogyna-espino-albar",
+    "sci_name": "Crataegus monogyna",
+    "common_name": "Crataegus, espino albar, majuelo",
+    "family": "Rosáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "crataegus-phaenopyrum-espino-de-whashington",
+    "sci_name": "Crataegus phaenopyrum",
+    "common_name": "Espino de Washington",
+    "family": "Rosáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "cryptomeria-japonica-criptomeria",
+    "sci_name": "Cryptomeria japonica (Criptomeria)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "cupressocyparis-leylandii-cipres-de-leyland",
+    "sci_name": "Cupressocyparis leylandii (Ciprés de Leyland)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "cupressus-arizonica-cipres-de-arizona",
+    "sci_name": "Cupressus arizonica",
+    "common_name": "Ciprés de Arizona",
+    "family": "Cupresáceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "cupressus-macrocarpa-cipres-de-monterrey",
+    "sci_name": "Cupressus macrocarpa",
+    "common_name": "Ciprés de Monterrey, Ciprés de California, Macrocarpa",
+    "family": "Cupresáceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "cupressus-sempervirens-cipres-del-mediterraneo",
+    "sci_name": "Cupressus sempervirens (Ciprés del Mediterraneo)",
+    "common_name": "C iprés del mediterráneo, ciprés italiano, ciprés columnar",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "cydonia-oblonga-membrillero",
+    "sci_name": "Cydonia oblonga (Membrillero)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "dasyphyllum-diacanthoides-palo-santo",
+    "sci_name": "Dasyphyllum diacanthoides",
+    "common_name": "Palo santo, Trevo, Tayu",
+    "family": "Asteráceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "discaria-chacaya-chacay",
+    "sci_name": "Discaria chacaya",
+    "common_name": "Chacay",
+    "family": "Ramnáceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "embothrium-coccineum-notro",
+    "sci_name": "Embotrhium coccineum",
+    "common_name": "Notro",
+    "family": "Proteácea",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "eucaliptus-globulus-eucalipto-blanco",
+    "sci_name": "Eucalyptus globulus (Eucalipto blanco)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "fagus-sylvatica-haya-europea",
+    "sci_name": "Fagus sylvatica (Haya europea)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "fitzroya-cupressoides-alerce-patagonico",
+    "sci_name": "Fitzroya cupressoides (Alerce patagónico)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "fraxinus-americana-fresno-blanco",
+    "sci_name": "Fraxinus americana",
+    "common_name": "",
+    "family": "Oleáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "fraxinus-excelsior-fresno-europeo",
+    "sci_name": "Fraxinus excelsior",
+    "common_name": "",
+    "family": "Oleáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "gladitsia-triacanthos-acacia-de-tres-espinas",
+    "sci_name": "Gleditsia triacanthos (Acacia de tres espinas)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "ilex-aquifolium-acebo-comun",
+    "sci_name": "Ilex aquifolium",
+    "common_name": "",
+    "family": "Aquifoliáceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "ilex-opaca-acebo-americano",
+    "sci_name": "Ilex opaca",
+    "common_name": "",
+    "family": "Aquifoliáceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "junglans-regia-nogal",
+    "sci_name": "Junglans regia (Nogal)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "juniperus-communis-enebro-comun",
+    "sci_name": "Juniperus communis (Enebro común)",
+    "common_name": "Enebro, sabina, ginebro",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "laburnum-anagyroides-lluvia-de-oro",
+    "sci_name": "Laburnum anagyroides (Lluvia de oro)",
+    "common_name": "Lluvia de oro, codeso, falso ébano",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "larix-decidua-alerce-europeo",
+    "sci_name": "Larix decidua",
+    "common_name": "Alerce europeo, Alerce común, Alerce de los Alpes",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-caduca"
+    ]
+  },
+  {
+    "slug": "larix-kaempferi-larix-japones",
+    "sci_name": "Larix kaempferi",
+    "common_name": "",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-caduca"
+    ]
+  },
+  {
+    "slug": "larix-laricina-tamarack",
+    "sci_name": "Larix laricina",
+    "common_name": "",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-caduca"
+    ]
+  },
+  {
+    "slug": "laurus-nobilis-laurel",
+    "sci_name": "Laurus nobilis (Laurel)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "liquidambar-stracyflua-liquidambar",
+    "sci_name": "Liquidambar styraciflua",
+    "common_name": "Liquidambar",
+    "family": "Hamameliáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "liriodendron-tulipifera-tulipanero",
+    "sci_name": "Liriodendron tulipifera",
+    "common_name": "Tulipanero americano, Tulipanero de Virginia",
+    "family": "Magnoliáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "lomatia-hirsuta-radal",
+    "sci_name": "Lomatia hirsuta (Radal)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "luma-apiculata-arrayan",
+    "sci_name": "Luma apiculata",
+    "common_name": "Arrayán, Quetri, palo colorado",
+    "family": "Myrtáceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "magnolia-grandiflora-magnolia",
+    "sci_name": "Magnolia grandiflora",
+    "common_name": "Magnolia",
+    "family": "Magnoliáceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "malus-floribunda-manzano-de-flor",
+    "sci_name": "Malus floribunda",
+    "common_name": "Manzano de flor, manzano japonés",
+    "family": "Rosáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "malus-sylvestris-manzano-silvestre",
+    "sci_name": "Malus sylvestris (manzano silvestre)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "maytenus-boaria-maiten",
+    "sci_name": "Maytenus boaria",
+    "common_name": "Maitén",
+    "family": "Celastráceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "nothofagus-alpina-rauli",
+    "sci_name": "Nothofagus alpina",
+    "common_name": "Raulí",
+    "family": "Nothofagáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "nothofagus-antartica-nire",
+    "sci_name": "Nothofagus antarctica",
+    "common_name": "Ñire",
+    "family": "Nothofagáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "nothofagus-dombeyi-coihue",
+    "sci_name": "Nothofagus dombeyi",
+    "common_name": "Coihue",
+    "family": "Fagáceas",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "nothofagus-obliqua-roble-pellin",
+    "sci_name": "Nothofagus obliqua",
+    "common_name": "Roble pellín",
+    "family": "Nothofagáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "nothofagus-pumilio-lenga",
+    "sci_name": "Nothofagus pumilio (lenga)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "picea-abies-picea-comun",
+    "sci_name": "Picea abies (Picea común)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "picea-omorika-picea-de-serbia",
+    "sci_name": "Picea omorika",
+    "common_name": "Picea de Serbia",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "picea-orientalis-picea-del-caucaso",
+    "sci_name": "Picea orientalis (Picea del Cáucaso)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "picea-pungens-picea-del-colorado",
+    "sci_name": "Picea pungens (Picea del Colorado)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "picea-sitchensis-picea-de-sitka",
+    "sci_name": "Picea sitchensis (Picea de Sitka)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pinus-banksiana-pino-cola-de-ratono",
+    "sci_name": "Pinus banksiana (Pino cola de ratón)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pinus-contorta-var-latifolia-pino-contorta",
+    "sci_name": "Pinus contorta var. latifolia",
+    "common_name": "",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pinus-jeffreyi-pino-de-jeffrey",
+    "sci_name": "Pinus jeffreyi (Pino de Jeffrey)",
+    "common_name": "Nombre científico",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pinus-monticola-pino-blanco-del-oeste",
+    "sci_name": "Pinus monticola (Pino blanco del oeste)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pinus-nigra-pino-negral",
+    "sci_name": "Pinus nigra (Pino negral)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pinus-ponderosa-pino-ponderosa",
+    "sci_name": "Pinus ponderosa",
+    "common_name": "Pino amarillo occidental, Pino Ponderosa",
+    "family": "Pináceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pinus-radiata-pino-de-monterrey",
+    "sci_name": "Pinus radiata (Pino de Monterrey)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pinus-strobus-pino-blanco-del-este",
+    "sci_name": "Pinus strobus (Pino blanco del este)",
+    "common_name": "Nombre científico",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pinus-sylvestris-pino-silvestre",
+    "sci_name": "Pinus sylvestris (Pino silvestre)",
+    "common_name": "Pino silvestre, Pino albar, Pino escocés",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pinus-wallichiana-pino-azul-del-himalaya",
+    "sci_name": "Pinus wallichiana (Pino azul del Himalaya)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "platycladus-orientalis-tuya-oriental",
+    "sci_name": "Platycladus orientalis (Tuya oriental)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "populus-alba-alamo-blanco",
+    "sci_name": "Populus alba",
+    "common_name": "",
+    "family": "Salicáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "populus-deltoides-alamo-carolino",
+    "sci_name": "Populus deltoides",
+    "common_name": "Alamo carolino",
+    "family": "Salicáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "populus-nigra-alamo-criollo",
+    "sci_name": "Populus nigra",
+    "common_name": "",
+    "family": "Salicáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "alamo-balsamico-populus-trichocarpa",
+    "sci_name": "Populus trichocarpa",
+    "common_name": "",
+    "family": "Salicáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "prunus-avium-cerezo",
+    "sci_name": "Prunus avium",
+    "common_name": "Cerezo",
+    "family": "Rosáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "prunus-cerasifera-ciruelo-de-flor",
+    "sci_name": "Prunus cerasifera Var. Pissardii",
+    "common_name": "Ciruelo de flor, Ciruelo japonés, Cerezo de Pissard, Cerezo mirobalán",
+    "family": "Rosáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "prunus-domestica-ciruelo-comun",
+    "sci_name": "Prunus domestica",
+    "common_name": "Ciruelo común",
+    "family": "Rosáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "prunus-dulcis-almendro",
+    "sci_name": "Prunus dulcis (Almendro)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "prunus-lauroceresus-laurel-cerezo",
+    "sci_name": "Prunus lauroceresus (Laurel cerezo)",
+    "common_name": "Laurel cerezo, laurel real",
+    "family": "",
+    "categories": [
+      "latifoliada-perenne"
+    ]
+  },
+  {
+    "slug": "prunus-mahaleb-cerezo-de-santa-lucia",
+    "sci_name": "Prunus mahaleb",
+    "common_name": "Cerezo de Santa Lucia",
+    "family": "Rosáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "prunus-persica-duraznero",
+    "sci_name": "Prunus persica (Duraznero)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "pseudotsuga-menziesii-pino-oregon",
+    "sci_name": "Pseudotsuga menziesii (Pino oregón)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "pyrus-communis-peral",
+    "sci_name": "Pyrus communis (Peral)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "quercus-alba-roble-blanco",
+    "sci_name": "Quercus alba",
+    "common_name": "Roble blanco",
+    "family": "Fagáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "quercus-palustris-roble-de-los-pantanos",
+    "sci_name": "Quercus palustris",
+    "common_name": "",
+    "family": "Fagáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "quercus-robur-roble-europeo",
+    "sci_name": "Quercus Robur",
+    "common_name": "Roble europeo",
+    "family": "Fagáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "quercus-rubra-roble-rojo-del-norte",
+    "sci_name": "Quercus rubra",
+    "common_name": "",
+    "family": "Fagáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "rhus-typhina-zumaque-de-virginia",
+    "sci_name": "Rhus typhina (Zumaque de Virginia)",
+    "common_name": "Zumaque de Virginia",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "robinia-pseudoacacia-acacia-blanca",
+    "sci_name": "Robinia pseudoacacia",
+    "common_name": "Acacia blanca, Robinia",
+    "family": "Fabáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "salix-alba-sauce-blanco",
+    "sci_name": "Salix alba (Sauce blanco)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "salix-babilonica-sauce-lloron",
+    "sci_name": "Salix babilonica (Sauce llorón)",
+    "common_name": "Sauce llorón",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "salix-erythroflexuosa-sauce-electrico",
+    "sci_name": "Salix matsudana",
+    "common_name": "Sauce eléctrico, sauce tortuoso, sauce chino",
+    "family": "Salicáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "sambucus-nigra-sauco",
+    "sci_name": "Sambucus nigra",
+    "common_name": "Sáuco",
+    "family": "Caprifoliáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "sequoyadendron-giganteum-secuoya-gigante",
+    "sci_name": "Sequoiadendron giganteum",
+    "common_name": "Sequoya gigante, Wellintonia, Gran árbol de California",
+    "family": "Taxodiáceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "sequoya-sempervirens-secuoya-roja",
+    "sci_name": "Sequoya sempervirens",
+    "common_name": "Sequoya roja, Secuoya de la costa, Secuoya de California",
+    "family": "Taxodiáceas",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "sorbus-aria-mostajo",
+    "sci_name": "Sorbus aria (Mostajo)",
+    "common_name": "Mostajo",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "sorbus-aucuparia-serbal-del-cazador",
+    "sci_name": "Sorbus aucuparia",
+    "common_name": "Serbal del cazador, Serbal silvestre, Pajarero",
+    "family": "Rosáceas",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "sorbus-torminalis-serbal-silvestre",
+    "sci_name": "Sorbus torminalis (Serbal silvestre)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "taxus-baccata-tejo-comun",
+    "sci_name": "Taxus baccata (Tejo común)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "thuja-occidentalis-tuya-occidental",
+    "sci_name": "Thuja occidentalis (Tuya occidental)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "thuja-plicata-tuya-gigante",
+    "sci_name": "Thuja plicata",
+    "common_name": "Tuya gigante, Cedro rojo del Pacífico",
+    "family": "",
+    "categories": [
+      "conifera-perenne"
+    ]
+  },
+  {
+    "slug": "tilia-cordata-tilo-comun",
+    "sci_name": "Tilia cordata (Tilo común)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "ulmus-glabra-olmo-de-montana",
+    "sci_name": "Ulmus glabra (Olmo de montaña)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  },
+  {
+    "slug": "ulmus-pumila-olmo-siberiano",
+    "sci_name": "Ulmus pumila (Olmo siberiano)",
+    "common_name": "",
+    "family": "",
+    "categories": [
+      "latifoliada-caduca"
+    ]
+  }
+]

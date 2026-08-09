@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="au-page-header">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ base }}index.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ title }}</li>
+      </ol>
+    </nav>
+    <h1>{{ title }}</h1>
+  </div>
+</div>
+
+<div class="au-section">
+  <div class="container au-content-block" style="max-width: 900px;">
+    {% for row in rows %}
+    <div class="row au-content-row">
+      {% for cell in row %}
+      <div class="col-md-{{ (12 // (row|length)) if row|length in [1,2,3] else 12 }} mb-3">
+        {% for block in cell %}
+          {% if block.type == 'text' %}
+            {% for p in block.paragraphs %}
+            <p>{{ p|safe }}</p>
+            {% endfor %}
+          {% elif block.type == 'heading' %}
+            {% if block.level == 'h2' %}<h2>{{ block.text }}</h2>
+            {% elif block.level == 'h3' %}<h3>{{ block.text }}</h3>
+            {% else %}<h4>{{ block.text }}</h4>{% endif %}
+          {% elif block.type == 'list' %}
+            {% if block.ordered %}
+            <ol>{% for it in block['items'] %}<li>{{ it|safe }}</li>{% endfor %}</ol>
+            {% else %}
+            <ul>{% for it in block['items'] %}<li>{{ it|safe }}</li>{% endfor %}</ul>
+            {% endif %}
+          {% elif block.type == 'image' and block.file %}
+            <img src="{{ base }}assets/img/site/{{ block.file }}" alt="{{ block.alt }}" class="img-fluid au-rounded au-shadow-sm mb-2" loading="lazy">
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

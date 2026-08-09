@@ -1,0 +1,543 @@
+/* =========================================================
+   Arboles Urbanos — Design system
+   Fuente: manual de marca (Branding Sitio/220729_AU_Brand_Guidelines.pdf)
+   ========================================================= */
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  /* Paleta principal */
+  --au-green: #06C569;
+  --au-green-tint: #5EF998;
+  --au-green-shade: #00933C;
+  --au-teal: #015758;
+  --au-teal-tint: #40675B;
+  --au-teal-shade: #00170A;
+
+  /* Apoyo */
+  --au-white: #FFFFFF;
+  --au-gray: #DCDCDC;
+  --au-gray-mid: #AAAAAA;
+  --au-black: #282828;
+
+  /* Naturaleza (acentos / categorías) */
+  --au-arcilla: #FFECB1;
+  --au-lacar: #92D3F3;
+  --au-ginkgo: #FCC850;
+  --au-otono: #FF814E;
+  --au-arce: #FF5655;
+  --au-ciruelo: #B780CC;
+  --au-tronco: #985249;
+
+  --au-font: "Space Grotesk", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+  --au-radius: 10px;
+  --au-shadow: 0 8px 24px rgba(1, 23, 10, 0.10);
+  --au-shadow-sm: 0 2px 8px rgba(1, 23, 10, 0.08);
+
+  --au-header-h: 76px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--au-font);
+  color: var(--au-teal-shade);
+  background: var(--au-white);
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--au-font);
+  font-weight: 700;
+  color: var(--au-teal-shade);
+  letter-spacing: -0.01em;
+}
+
+a { color: var(--au-green-shade); text-decoration: none; }
+a:hover { color: var(--au-teal); text-decoration: underline; }
+
+.au-link-plain { color: inherit; text-decoration: none; }
+
+strong, b { font-weight: 600; }
+
+.text-au-green { color: var(--au-green) !important; }
+.bg-au-green { background-color: var(--au-green) !important; }
+.bg-au-teal { background-color: var(--au-teal) !important; }
+.bg-au-teal-shade { background-color: var(--au-teal-shade) !important; }
+
+/* =========================================================
+   Header / Navbar
+   ========================================================= */
+.au-header {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background: var(--au-white);
+  border-bottom: 1px solid var(--au-gray);
+  height: var(--au-header-h);
+}
+
+.au-navbar { height: var(--au-header-h); }
+
+.au-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.au-brand img { height: 40px; }
+
+.au-nav .nav-link {
+  font-weight: 600;
+  color: var(--au-teal-shade);
+  padding: 0.5rem 1rem;
+}
+.au-nav .nav-link:hover,
+.au-nav .nav-link.active {
+  color: var(--au-green-shade);
+}
+
+.au-nav .dropdown-menu {
+  border: none;
+  box-shadow: var(--au-shadow);
+  border-radius: var(--au-radius);
+  padding: 0.5rem;
+}
+.au-nav .dropdown-item {
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 0.55rem 0.9rem;
+}
+.au-nav .dropdown-item:hover,
+.au-nav .dropdown-item:focus {
+  background-color: rgba(6, 197, 105, 0.10);
+  color: var(--au-green-shade);
+}
+.au-nav .dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+}
+
+/* =========================================================
+   Buttons
+   ========================================================= */
+.btn-au-primary {
+  background-color: var(--au-green);
+  border-color: var(--au-green);
+  color: var(--au-white);
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.6rem 1.5rem;
+}
+.btn-au-primary:hover {
+  background-color: var(--au-green-shade);
+  border-color: var(--au-green-shade);
+  color: var(--au-white);
+}
+.btn-au-outline {
+  background: transparent;
+  border: 2px solid var(--au-white);
+  color: var(--au-white);
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.55rem 1.4rem;
+}
+.btn-au-outline:hover {
+  background: var(--au-white);
+  color: var(--au-teal-shade);
+}
+
+/* =========================================================
+   Hero
+   ========================================================= */
+.au-hero {
+  background: linear-gradient(135deg, var(--au-teal-shade) 0%, var(--au-teal) 100%);
+  color: var(--au-white);
+  padding: 4.5rem 0 3rem;
+  position: relative;
+  overflow: hidden;
+}
+.au-hero::after {
+  content: "";
+  position: absolute;
+  right: -80px;
+  top: -80px;
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(6,197,105,0.35) 0%, rgba(6,197,105,0) 70%);
+  pointer-events: none;
+}
+.au-hero h1 {
+  color: var(--au-white);
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  margin-bottom: 0.75rem;
+}
+.au-hero p.lead {
+  color: rgba(255,255,255,0.85);
+  max-width: 640px;
+}
+.au-hero .badge-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(6,197,105,0.18);
+  color: var(--au-green-tint);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.au-page-header {
+  background: var(--au-teal-shade);
+  color: var(--au-white);
+  padding: 3rem 0 2rem;
+}
+.au-page-header h1 { color: var(--au-white); margin-bottom: 0.25rem; }
+.au-page-header .breadcrumb { margin-bottom: 0; }
+.au-page-header .breadcrumb a { color: rgba(255,255,255,0.7); }
+.au-page-header .breadcrumb-item.active { color: var(--au-green-tint); }
+.au-page-header .breadcrumb-item + .breadcrumb-item::before { color: rgba(255,255,255,0.4); }
+
+/* =========================================================
+   Map section (home)
+   ========================================================= */
+.au-map-frame {
+  width: 100%;
+  height: 640px;
+  border: 0;
+  display: block;
+  background: #eef3f0;
+}
+.au-map-wrap {
+  border-radius: var(--au-radius);
+  overflow: hidden;
+  box-shadow: var(--au-shadow);
+}
+
+/* =========================================================
+   Cards / sections
+   ========================================================= */
+.au-section { padding: 3.5rem 0; }
+.au-section-title {
+  font-size: 1.9rem;
+  margin-bottom: 0.5rem;
+}
+.au-section-subtitle {
+  color: var(--au-teal-tint);
+  margin-bottom: 2rem;
+}
+
+.au-icon-tile {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--au-green);
+  color: var(--au-white);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.au-feature-card {
+  border: 1px solid var(--au-gray);
+  border-radius: var(--au-radius);
+  padding: 1.75rem;
+  height: 100%;
+  transition: box-shadow .15s ease, transform .15s ease;
+  background: var(--au-white);
+}
+.au-feature-card:hover { box-shadow: var(--au-shadow); transform: translateY(-2px); }
+
+/* =========================================================
+   Species listing + search
+   ========================================================= */
+.au-search-bar {
+  border-radius: 999px;
+  border: 1px solid var(--au-gray);
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  width: 100%;
+}
+.au-search-bar:focus {
+  outline: none;
+  border-color: var(--au-green);
+  box-shadow: 0 0 0 3px rgba(6,197,105,0.18);
+}
+
+.au-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--au-gray);
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--au-teal-shade);
+  background: var(--au-white);
+  cursor: pointer;
+  user-select: none;
+}
+.au-filter-chip .dot {
+  width: 10px; height: 10px; border-radius: 50%; display: inline-block;
+}
+.au-filter-chip.active {
+  background: var(--au-teal-shade);
+  color: var(--au-white);
+  border-color: var(--au-teal-shade);
+}
+
+.au-cat-latifoliada-perenne { background-color: var(--au-green); }
+.au-cat-latifoliada-caduca { background-color: var(--au-otono); }
+.au-cat-conifera-perenne { background-color: var(--au-teal); }
+.au-cat-conifera-caduca { background-color: var(--au-ginkgo); }
+
+.badge-cat {
+  font-weight: 600;
+  font-size: 0.72rem;
+  padding: 0.32rem 0.65rem;
+  border-radius: 999px;
+  color: var(--au-white);
+  display: inline-block;
+}
+.badge-cat.au-cat-conifera-caduca,
+.badge-cat.au-cat-latifoliada-perenne { color: var(--au-teal-shade); }
+
+.au-species-card {
+  border: 1px solid var(--au-gray);
+  border-radius: var(--au-radius);
+  overflow: hidden;
+  height: 100%;
+  background: var(--au-white);
+  transition: box-shadow .15s ease, transform .15s ease;
+}
+.au-species-card:hover { box-shadow: var(--au-shadow); transform: translateY(-3px); }
+.au-species-card .thumb {
+  aspect-ratio: 4 / 3;
+  background: var(--au-gray);
+  overflow: hidden;
+}
+.au-species-card .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.au-species-card .thumb.no-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--au-teal-tint);
+  font-size: 2.2rem;
+}
+.au-species-card .body { padding: 1rem 1.1rem 1.2rem; }
+.au-species-card .sci-name { font-style: italic; color: var(--au-teal-tint); font-size: 0.85rem; }
+.au-species-card h3 {
+  font-size: 1.05rem;
+  margin: 0.15rem 0 0.5rem;
+}
+.au-species-card a.card-link {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+.au-species-card { position: relative; }
+
+.au-empty-state {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--au-teal-tint);
+}
+
+/* =========================================================
+   Ficha de especie (detalle)
+   ========================================================= */
+.au-ficha-header {
+  background: var(--au-teal-shade);
+  color: var(--au-white);
+  padding: 2.5rem 0 2rem;
+}
+.au-ficha-header .common-name { color: var(--au-white); font-size: 2rem; margin-bottom: 0.15rem; }
+.au-ficha-header .sci-name { font-style: italic; color: var(--au-green-tint); font-size: 1.15rem; }
+
+.au-field-list dt {
+  font-weight: 700;
+  color: var(--au-teal);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-top: 1.1rem;
+}
+.au-field-list dd {
+  margin-bottom: 0;
+  color: var(--au-black);
+}
+
+.au-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+}
+@media (max-width: 576px) {
+  .au-gallery-grid { grid-template-columns: repeat(2, 1fr); }
+}
+.au-gallery-grid a {
+  display: block;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--au-gray);
+}
+.au-gallery-grid img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  transition: transform .2s ease;
+}
+.au-gallery-grid a:hover img { transform: scale(1.06); }
+.au-gallery-caption { color: var(--au-teal-tint); font-size: 0.85rem; margin-bottom: 0.75rem; }
+
+.au-ficha-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-top: 1px solid var(--au-gray);
+  padding-top: 1.5rem;
+  margin-top: 2.5rem;
+}
+.au-ficha-nav a {
+  font-weight: 600;
+  color: var(--au-teal-shade);
+  max-width: 45%;
+}
+.au-ficha-nav .dir { display: block; font-size: 0.75rem; color: var(--au-teal-tint); text-transform: uppercase; letter-spacing: .04em; }
+
+/* Lightbox */
+.au-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(1, 23, 10, 0.92);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 2rem;
+}
+.au-lightbox.open { display: flex; }
+.au-lightbox img { max-width: 100%; max-height: 88vh; border-radius: 6px; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+.au-lightbox-close {
+  position: absolute;
+  top: 1.2rem; right: 1.5rem;
+  color: var(--au-white);
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+.au-lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.12);
+  border: none;
+  color: var(--au-white);
+  font-size: 1.8rem;
+  width: 52px; height: 52px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.au-lightbox-nav.prev { left: 1rem; }
+.au-lightbox-nav.next { right: 1rem; }
+.au-lightbox-nav:hover { background: rgba(255,255,255,0.22); }
+
+/* =========================================================
+   Content pages (Acerca de, Propatagonia, etc.)
+   ========================================================= */
+.au-content-row { align-items: center; margin-bottom: 2.5rem; }
+.au-content-row img { width: 100%; border-radius: var(--au-radius); box-shadow: var(--au-shadow-sm); }
+.au-content-row p { margin-bottom: 1rem; }
+.au-content-block ul { padding-left: 1.2rem; }
+.au-content-block li { margin-bottom: 0.4rem; }
+
+/* =========================================================
+   Footer
+   ========================================================= */
+.au-footer {
+  background: var(--au-teal-shade);
+  color: rgba(255,255,255,0.75);
+  padding: 3rem 0 1.5rem;
+}
+.au-footer a { color: var(--au-white); }
+.au-footer a:hover { color: var(--au-green-tint); }
+.au-footer h6 {
+  color: var(--au-white);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 1rem;
+}
+.au-footer .au-brand img { height: 34px; }
+.au-footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.12);
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  font-size: 0.85rem;
+}
+.au-social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+/* =========================================================
+   Utilities
+   ========================================================= */
+.au-eyebrow {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--au-green-shade);
+}
+.au-shadow-sm { box-shadow: var(--au-shadow-sm); }
+.au-rounded { border-radius: var(--au-radius); }
+
+/* Back to top on ficha nav */
+.au-back-home {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+}

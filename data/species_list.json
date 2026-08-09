@@ -1,0 +1,617 @@
+[
+  {
+    "slug": "abies-alba-abeto-blanco",
+    "url": "https://arbolesurbanos.com.ar/abies-alba-abeto-blanco/",
+    "title": "Abies alba (Abeto blanco)"
+  },
+  {
+    "slug": "abies-grandis-abeto-de-vancouver",
+    "url": "https://arbolesurbanos.com.ar/abies-grandis-abeto-de-vancouver/",
+    "title": "Abies grandis (Abeto de Vancouver)"
+  },
+  {
+    "slug": "abies-porcera-abeto-noble",
+    "url": "https://arbolesurbanos.com.ar/abies-porcera-abeto-noble/",
+    "title": "Abies procera (Abeto noble)"
+  },
+  {
+    "slug": "acacia-dealbata-romo-australiano",
+    "url": "https://arbolesurbanos.com.ar/acacia-dealbata-romo-australiano/",
+    "title": "Acacia dealbata (Aromo australiano)"
+  },
+  {
+    "slug": "acer-campestris-arce-menor",
+    "url": "https://arbolesurbanos.com.ar/acer-campestris-arce-menor/",
+    "title": "Acer campestris (Arce menor)"
+  },
+  {
+    "slug": "acer-negundo-arce-negundo",
+    "url": "https://arbolesurbanos.com.ar/acer-negundo-arce-negundo/",
+    "title": "Acer negundo (Arce negundo)"
+  },
+  {
+    "slug": "acer-palmatum-arce-japones",
+    "url": "https://arbolesurbanos.com.ar/acer-palmatum-arce-japones/",
+    "title": "Acer palmatum (Arce japonés)"
+  },
+  {
+    "slug": "acer-platanoides-arce-real",
+    "url": "https://arbolesurbanos.com.ar/acer-platanoides-arce-real/",
+    "title": "Acer platanoides (Arce real)"
+  },
+  {
+    "slug": "acer-pseudoplatanus-arce-blanco",
+    "url": "https://arbolesurbanos.com.ar/acer-pseudoplatanus-arce-blanco/",
+    "title": "Acer pseudoplatanus (Arce blanco)"
+  },
+  {
+    "slug": "acer-rubrum-arce-rojo",
+    "url": "https://arbolesurbanos.com.ar/acer-rubrum-arce-rojo/",
+    "title": "Acer rubrum (Arce rojo)"
+  },
+  {
+    "slug": "acer-saccharicum-arce-de-azucar",
+    "url": "https://arbolesurbanos.com.ar/acer-saccharicum-arce-de-azucar/",
+    "title": "Acer saccharinum (Arce plateado)"
+  },
+  {
+    "slug": "aesculus-hippocastanum-castano-de-las-indias",
+    "url": "https://arbolesurbanos.com.ar/aesculus-hippocastanum-castano-de-las-indias/",
+    "title": "Aesculus hippocastanum (Castaño de las Indias)"
+  },
+  {
+    "slug": "alamo-balsamico-populus-trichocarpa",
+    "url": "https://arbolesurbanos.com.ar/alamo-balsamico-populus-trichocarpa/",
+    "title": "Populus trichocarpa (alamo balsamico)"
+  },
+  {
+    "slug": "alnus-glutinosa-aliso",
+    "url": "https://arbolesurbanos.com.ar/alnus-glutinosa-aliso/",
+    "title": "Alnus glutinosa (Aliso)"
+  },
+  {
+    "slug": "araucaria-angustifolia-pino-parana",
+    "url": "https://arbolesurbanos.com.ar/araucaria-angustifolia-pino-parana/",
+    "title": "Araucaria angustifolia (Pino Paraná)"
+  },
+  {
+    "slug": "araucaria-araucana-pehuen",
+    "url": "https://arbolesurbanos.com.ar/araucaria-araucana-pehuen/",
+    "title": "Araucaria araucana (Pehuén)"
+  },
+  {
+    "slug": "aristotelia-chilensis-maqui",
+    "url": "https://arbolesurbanos.com.ar/aristotelia-chilensis-maqui/",
+    "title": "Aristotelia chilensis (Maqui)"
+  },
+  {
+    "slug": "austrocedrus-chilensis-cipres-de-la-cordillera",
+    "url": "https://arbolesurbanos.com.ar/austrocedrus-chilensis-cipres-de-la-cordillera/",
+    "title": "Austrocedrus chilensis (Ciprés de la cordillera)"
+  },
+  {
+    "slug": "azara-microphilla-chin-chin",
+    "url": "https://arbolesurbanos.com.ar/azara-microphilla-chin-chin/",
+    "title": "Azara microphilla (Chin chin)"
+  },
+  {
+    "slug": "betula-papyrifera-abedul-de-papel",
+    "url": "https://arbolesurbanos.com.ar/betula-papyrifera-abedul-de-papel/",
+    "title": "Betula papyrifera (Abedul de papel)"
+  },
+  {
+    "slug": "betula-pendula-abedul",
+    "url": "https://arbolesurbanos.com.ar/betula-pendula-abedul/",
+    "title": "Betula pendula (Abedul)"
+  },
+  {
+    "slug": "budleja-globosa-panil",
+    "url": "https://arbolesurbanos.com.ar/budleja-globosa-panil/",
+    "title": "Budleja globosa (Pañil)"
+  },
+  {
+    "slug": "calocedrus-decurrens-cedro-de-incienso",
+    "url": "https://arbolesurbanos.com.ar/calocedrus-decurrens-cedro-de-incienso/",
+    "title": "Calocedrus decurrens (Cedro de incienso)"
+  },
+  {
+    "slug": "castanea-sativa-castano",
+    "url": "https://arbolesurbanos.com.ar/castanea-sativa-castano/",
+    "title": "Castanea sativa (Castaño)"
+  },
+  {
+    "slug": "cataegus-cruz-galli-espino-espolon-de-gallo",
+    "url": "https://arbolesurbanos.com.ar/cataegus-cruz-galli-espino-espolon-de-gallo/",
+    "title": "Crataegus crus galli (Espino espolón de gallo)"
+  },
+  {
+    "slug": "catalpa-bigninoides-catalpa",
+    "url": "https://arbolesurbanos.com.ar/catalpa-bigninoides-catalpa/",
+    "title": "Catalpa bigninoides (Catalpa)"
+  },
+  {
+    "slug": "cedrus-atlantica-var-glauca-cedro-plateado",
+    "url": "https://arbolesurbanos.com.ar/cedrus-atlantica-var-glauca-cedro-plateado/",
+    "title": "Cedrus atlantica var. glauca (Cedro plateado)"
+  },
+  {
+    "slug": "cedrus-deodara-cedro-del-himalaya",
+    "url": "https://arbolesurbanos.com.ar/cedrus-deodara-cedro-del-himalaya/",
+    "title": "Cedrus deodara (Cedro del Himalaya)"
+  },
+  {
+    "slug": "cedrus-libanii-cedro-del-libano",
+    "url": "https://arbolesurbanos.com.ar/cedrus-libanii-cedro-del-libano/",
+    "title": "Cedrus libanii (Cedro del Líbano)"
+  },
+  {
+    "slug": "cercis-siliquastrum-arbol-de-judas",
+    "url": "https://arbolesurbanos.com.ar/cercis-siliquastrum-arbol-de-judas/",
+    "title": "Cercis siliquastrum (Arbol de judas)"
+  },
+  {
+    "slug": "chamaecyparis-lawsoniana-cedro-blanco",
+    "url": "https://arbolesurbanos.com.ar/chamaecyparis-lawsoniana-cedro-blanco/",
+    "title": "Chamaecyparis lawsoniana (Cedro blanco)"
+  },
+  {
+    "slug": "cordyline-australis-dracena-arborea",
+    "url": "https://arbolesurbanos.com.ar/cordyline-australis-dracena-arborea/",
+    "title": "Cordyline australis (Dracena arbórea)"
+  },
+  {
+    "slug": "cornus-mas-cornejo-macho",
+    "url": "https://arbolesurbanos.com.ar/cornus-mas-cornejo-macho/",
+    "title": "Cornus mas (Cornejo macho)"
+  },
+  {
+    "slug": "cornus-walterii-cornejo-walterii",
+    "url": "https://arbolesurbanos.com.ar/cornus-walterii-cornejo-walterii/",
+    "title": "Cornus walterii (Cornejo chino)"
+  },
+  {
+    "slug": "crataegus-laevigata-var-paul-scarlet-espino-de-mayo",
+    "url": "https://arbolesurbanos.com.ar/crataegus-laevigata-var-paul-scarlet-espino-de-mayo/",
+    "title": "Crataegus laevigata var. Paul Scarlet (Espino de mayo)"
+  },
+  {
+    "slug": "crataegus-monogyna-espino-albar",
+    "url": "https://arbolesurbanos.com.ar/crataegus-monogyna-espino-albar/",
+    "title": "Crataegus  monogyna (Espino albar)"
+  },
+  {
+    "slug": "crataegus-phaenopyrum-espino-de-whashington",
+    "url": "https://arbolesurbanos.com.ar/crataegus-phaenopyrum-espino-de-whashington/",
+    "title": "Crataegus  phaenopyrum (Espino de Washington)"
+  },
+  {
+    "slug": "cryptomeria-japonica-criptomeria",
+    "url": "https://arbolesurbanos.com.ar/cryptomeria-japonica-criptomeria/",
+    "title": "Cryptomeria japonica (Criptomeria)"
+  },
+  {
+    "slug": "cupressocyparis-leylandii-cipres-de-leyland",
+    "url": "https://arbolesurbanos.com.ar/cupressocyparis-leylandii-cipres-de-leyland/",
+    "title": "Cupressocyparis leylandii (Ciprés de Leyland)"
+  },
+  {
+    "slug": "cupressus-arizonica-cipres-de-arizona",
+    "url": "https://arbolesurbanos.com.ar/cupressus-arizonica-cipres-de-arizona/",
+    "title": "Cupressus arizonica (Ciprés de Arizona)"
+  },
+  {
+    "slug": "cupressus-macrocarpa-cipres-de-monterrey",
+    "url": "https://arbolesurbanos.com.ar/cupressus-macrocarpa-cipres-de-monterrey/",
+    "title": "Cupressus macrocarpa (Ciprés de Monterrey)"
+  },
+  {
+    "slug": "cupressus-sempervirens-cipres-del-mediterraneo",
+    "url": "https://arbolesurbanos.com.ar/cupressus-sempervirens-cipres-del-mediterraneo/",
+    "title": "Cupressus sempervirens (Ciprés del Mediterraneo)"
+  },
+  {
+    "slug": "cydonia-oblonga-membrillero",
+    "url": "https://arbolesurbanos.com.ar/cydonia-oblonga-membrillero/",
+    "title": "Cydonia oblonga (Membrillero)"
+  },
+  {
+    "slug": "dasyphyllum-diacanthoides-palo-santo",
+    "url": "https://arbolesurbanos.com.ar/dasyphyllum-diacanthoides-palo-santo/",
+    "title": "Dasyphillum diacanthoides (Palo santo)"
+  },
+  {
+    "slug": "discaria-chacaya-chacay",
+    "url": "https://arbolesurbanos.com.ar/discaria-chacaya-chacay/",
+    "title": "Discaria chacaya (Chacay)"
+  },
+  {
+    "slug": "embothrium-coccineum-notro",
+    "url": "https://arbolesurbanos.com.ar/embothrium-coccineum-notro/",
+    "title": "Embothrium coccineum (Notro)"
+  },
+  {
+    "slug": "eucaliptus-globulus-eucalipto-blanco",
+    "url": "https://arbolesurbanos.com.ar/eucaliptus-globulus-eucalipto-blanco/",
+    "title": "Eucalyptus globulus (Eucalipto blanco)"
+  },
+  {
+    "slug": "fagus-sylvatica-haya-europea",
+    "url": "https://arbolesurbanos.com.ar/fagus-sylvatica-haya-europea/",
+    "title": "Fagus sylvatica (Haya europea)"
+  },
+  {
+    "slug": "fitzroya-cupressoides-alerce-patagonico",
+    "url": "https://arbolesurbanos.com.ar/fitzroya-cupressoides-alerce-patagonico/",
+    "title": "Fitzroya cupressoides (Alerce patagónico)"
+  },
+  {
+    "slug": "fraxinus-americana-fresno-blanco",
+    "url": "https://arbolesurbanos.com.ar/fraxinus-americana-fresno-blanco/",
+    "title": "Fraxinus americana (Fresno blanco)"
+  },
+  {
+    "slug": "fraxinus-excelsior-fresno-europeo",
+    "url": "https://arbolesurbanos.com.ar/fraxinus-excelsior-fresno-europeo/",
+    "title": "Fraxinus excelsior (Fresno europeo)"
+  },
+  {
+    "slug": "gladitsia-triacanthos-acacia-de-tres-espinas",
+    "url": "https://arbolesurbanos.com.ar/gladitsia-triacanthos-acacia-de-tres-espinas/",
+    "title": "Gleditsia triacanthos (Acacia de tres espinas)"
+  },
+  {
+    "slug": "ilex-aquifolium-acebo-comun",
+    "url": "https://arbolesurbanos.com.ar/ilex-aquifolium-acebo-comun/",
+    "title": "Ilex aquifolium (Acebo común)"
+  },
+  {
+    "slug": "ilex-opaca-acebo-americano",
+    "url": "https://arbolesurbanos.com.ar/ilex-opaca-acebo-americano/",
+    "title": "Ilex opaca (Acebo americano)"
+  },
+  {
+    "slug": "junglans-regia-nogal",
+    "url": "https://arbolesurbanos.com.ar/junglans-regia-nogal/",
+    "title": "Junglans regia (Nogal)"
+  },
+  {
+    "slug": "juniperus-communis-enebro-comun",
+    "url": "https://arbolesurbanos.com.ar/juniperus-communis-enebro-comun/",
+    "title": "Juniperus communis (Enebro común)"
+  },
+  {
+    "slug": "laburnum-anagyroides-lluvia-de-oro",
+    "url": "https://arbolesurbanos.com.ar/laburnum-anagyroides-lluvia-de-oro/",
+    "title": "Laburnum anagyroides (Lluvia de oro)"
+  },
+  {
+    "slug": "larix-decidua-alerce-europeo",
+    "url": "https://arbolesurbanos.com.ar/larix-decidua-alerce-europeo/",
+    "title": "Larix decidua (Alerce europeo)"
+  },
+  {
+    "slug": "larix-kaempferi-larix-japones",
+    "url": "https://arbolesurbanos.com.ar/larix-kaempferi-larix-japones/",
+    "title": "Larix kaempferi (Alerce japonés)"
+  },
+  {
+    "slug": "larix-laricina-tamarack",
+    "url": "https://arbolesurbanos.com.ar/larix-laricina-tamarack/",
+    "title": "Larix laricina (Tamarack)"
+  },
+  {
+    "slug": "laurus-nobilis-laurel",
+    "url": "https://arbolesurbanos.com.ar/laurus-nobilis-laurel/",
+    "title": "Laurus nobilis (Laurel)"
+  },
+  {
+    "slug": "liquidambar-stracyflua-liquidambar",
+    "url": "https://arbolesurbanos.com.ar/liquidambar-stracyflua-liquidambar/",
+    "title": "Liquidambar stracyflua (Liquidambar)"
+  },
+  {
+    "slug": "liriodendron-tulipifera-tulipanero",
+    "url": "https://arbolesurbanos.com.ar/liriodendron-tulipifera-tulipanero/",
+    "title": "Liriodendron tulipifera (Tulipanero)"
+  },
+  {
+    "slug": "lomatia-hirsuta-radal",
+    "url": "https://arbolesurbanos.com.ar/lomatia-hirsuta-radal/",
+    "title": "Lomatia hirsuta (Radal)"
+  },
+  {
+    "slug": "luma-apiculata-arrayan",
+    "url": "https://arbolesurbanos.com.ar/luma-apiculata-arrayan/",
+    "title": "Luma apiculata (Arrayán)"
+  },
+  {
+    "slug": "magnolia-grandiflora-magnolia",
+    "url": "https://arbolesurbanos.com.ar/magnolia-grandiflora-magnolia/",
+    "title": "Magnolia grandiflora (Magnolia)"
+  },
+  {
+    "slug": "malus-floribunda-manzano-de-flor",
+    "url": "https://arbolesurbanos.com.ar/malus-floribunda-manzano-de-flor/",
+    "title": "Malus floribunda (Manzano de flor)"
+  },
+  {
+    "slug": "malus-sylvestris-manzano-silvestre",
+    "url": "https://arbolesurbanos.com.ar/malus-sylvestris-manzano-silvestre/",
+    "title": "Malus sylvestris (manzano silvestre)"
+  },
+  {
+    "slug": "maytenus-boaria-maiten",
+    "url": "https://arbolesurbanos.com.ar/maytenus-boaria-maiten/",
+    "title": "Maytenus boaria (Maitén)"
+  },
+  {
+    "slug": "nothofagus-alpina-rauli",
+    "url": "https://arbolesurbanos.com.ar/nothofagus-alpina-rauli/",
+    "title": "Nothofagus alpina (Raulí)"
+  },
+  {
+    "slug": "nothofagus-antartica-nire",
+    "url": "https://arbolesurbanos.com.ar/nothofagus-antartica-nire/",
+    "title": "Nothofagus antarctica (Ñire)"
+  },
+  {
+    "slug": "nothofagus-dombeyi-coihue",
+    "url": "https://arbolesurbanos.com.ar/nothofagus-dombeyi-coihue/",
+    "title": "Nothofagus dombeyi (Coihue)"
+  },
+  {
+    "slug": "nothofagus-obliqua-roble-pellin",
+    "url": "https://arbolesurbanos.com.ar/nothofagus-obliqua-roble-pellin/",
+    "title": "Nothofagus obliqua (Roble pellín)"
+  },
+  {
+    "slug": "nothofagus-pumilio-lenga",
+    "url": "https://arbolesurbanos.com.ar/nothofagus-pumilio-lenga/",
+    "title": "Nothofagus pumilio (lenga)"
+  },
+  {
+    "slug": "picea-abies-picea-comun",
+    "url": "https://arbolesurbanos.com.ar/picea-abies-picea-comun/",
+    "title": "Picea abies (Picea común)"
+  },
+  {
+    "slug": "picea-omorika-picea-de-serbia",
+    "url": "https://arbolesurbanos.com.ar/picea-omorika-picea-de-serbia/",
+    "title": "Picea omorika (Picea de Serbia)"
+  },
+  {
+    "slug": "picea-orientalis-picea-del-caucaso",
+    "url": "https://arbolesurbanos.com.ar/picea-orientalis-picea-del-caucaso/",
+    "title": "Picea orientalis (Picea del Cáucaso)"
+  },
+  {
+    "slug": "picea-pungens-picea-del-colorado",
+    "url": "https://arbolesurbanos.com.ar/picea-pungens-picea-del-colorado/",
+    "title": "Picea pungens (Picea del Colorado)"
+  },
+  {
+    "slug": "picea-sitchensis-picea-de-sitka",
+    "url": "https://arbolesurbanos.com.ar/picea-sitchensis-picea-de-sitka/",
+    "title": "Picea sitchensis (Picea de Sitka)"
+  },
+  {
+    "slug": "pinus-banksiana-pino-cola-de-ratono",
+    "url": "https://arbolesurbanos.com.ar/pinus-banksiana-pino-cola-de-ratono/",
+    "title": "Pinus banksiana (Pino cola de ratón)"
+  },
+  {
+    "slug": "pinus-contorta-var-latifolia-pino-contorta",
+    "url": "https://arbolesurbanos.com.ar/pinus-contorta-var-latifolia-pino-contorta/",
+    "title": "Pinus contorta var. latifolia (Pino contorta)"
+  },
+  {
+    "slug": "pinus-jeffreyi-pino-de-jeffrey",
+    "url": "https://arbolesurbanos.com.ar/pinus-jeffreyi-pino-de-jeffrey/",
+    "title": "Pinus jeffreyi (Pino de Jeffrey)"
+  },
+  {
+    "slug": "pinus-monticola-pino-blanco-del-oeste",
+    "url": "https://arbolesurbanos.com.ar/pinus-monticola-pino-blanco-del-oeste/",
+    "title": "Pinus monticola (Pino blanco del oeste)"
+  },
+  {
+    "slug": "pinus-nigra-pino-negral",
+    "url": "https://arbolesurbanos.com.ar/pinus-nigra-pino-negral/",
+    "title": "Pinus nigra (Pino negral)"
+  },
+  {
+    "slug": "pinus-ponderosa-pino-ponderosa",
+    "url": "https://arbolesurbanos.com.ar/pinus-ponderosa-pino-ponderosa/",
+    "title": "Pinus ponderosa (Pino ponderosa)"
+  },
+  {
+    "slug": "pinus-radiata-pino-de-monterrey",
+    "url": "https://arbolesurbanos.com.ar/pinus-radiata-pino-de-monterrey/",
+    "title": "Pinus radiata (Pino de Monterrey)"
+  },
+  {
+    "slug": "pinus-strobus-pino-blanco-del-este",
+    "url": "https://arbolesurbanos.com.ar/pinus-strobus-pino-blanco-del-este/",
+    "title": "Pinus strobus (Pino blanco del este)"
+  },
+  {
+    "slug": "pinus-sylvestris-pino-silvestre",
+    "url": "https://arbolesurbanos.com.ar/pinus-sylvestris-pino-silvestre/",
+    "title": "Pinus sylvestris (Pino silvestre)"
+  },
+  {
+    "slug": "pinus-wallichiana-pino-azul-del-himalaya",
+    "url": "https://arbolesurbanos.com.ar/pinus-wallichiana-pino-azul-del-himalaya/",
+    "title": "Pinus wallichiana (Pino azul del Himalaya)"
+  },
+  {
+    "slug": "platycladus-orientalis-tuya-oriental",
+    "url": "https://arbolesurbanos.com.ar/platycladus-orientalis-tuya-oriental/",
+    "title": "Platycladus orientalis (Tuya oriental)"
+  },
+  {
+    "slug": "populus-alba-alamo-blanco",
+    "url": "https://arbolesurbanos.com.ar/populus-alba-alamo-blanco/",
+    "title": "Populus alba (Alamo blanco)"
+  },
+  {
+    "slug": "populus-deltoides-alamo-carolino",
+    "url": "https://arbolesurbanos.com.ar/populus-deltoides-alamo-carolino/",
+    "title": "Populus deltoides (Álamo carolino)"
+  },
+  {
+    "slug": "populus-nigra-alamo-criollo",
+    "url": "https://arbolesurbanos.com.ar/populus-nigra-alamo-criollo/",
+    "title": "Populus nigra (Alamo criollo)"
+  },
+  {
+    "slug": "prunus-avium-cerezo",
+    "url": "https://arbolesurbanos.com.ar/prunus-avium-cerezo/",
+    "title": "Prunus avium (Cerezo)"
+  },
+  {
+    "slug": "prunus-cerasifera-ciruelo-de-flor",
+    "url": "https://arbolesurbanos.com.ar/prunus-cerasifera-ciruelo-de-flor/",
+    "title": "Prunus cerassifera (Ciruelo de flor)"
+  },
+  {
+    "slug": "prunus-domestica-ciruelo-comun",
+    "url": "https://arbolesurbanos.com.ar/prunus-domestica-ciruelo-comun/",
+    "title": "Prunus domestica (Ciruelo común)"
+  },
+  {
+    "slug": "prunus-dulcis-almendro",
+    "url": "https://arbolesurbanos.com.ar/prunus-dulcis-almendro/",
+    "title": "Prunus dulcis (Almendro)"
+  },
+  {
+    "slug": "prunus-lauroceresus-laurel-cerezo",
+    "url": "https://arbolesurbanos.com.ar/prunus-lauroceresus-laurel-cerezo/",
+    "title": "Prunus lauroceresus (Laurel cerezo)"
+  },
+  {
+    "slug": "prunus-mahaleb-cerezo-de-santa-lucia",
+    "url": "https://arbolesurbanos.com.ar/prunus-mahaleb-cerezo-de-santa-lucia/",
+    "title": "Prunus mahaleb (Cerezo de Santa Lucia)"
+  },
+  {
+    "slug": "prunus-persica-duraznero",
+    "url": "https://arbolesurbanos.com.ar/prunus-persica-duraznero/",
+    "title": "Prunus persica (Duraznero)"
+  },
+  {
+    "slug": "pseudotsuga-menziesii-pino-oregon",
+    "url": "https://arbolesurbanos.com.ar/pseudotsuga-menziesii-pino-oregon/",
+    "title": "Pseudotsuga menziesii (Pino oregón)"
+  },
+  {
+    "slug": "pyrus-communis-peral",
+    "url": "https://arbolesurbanos.com.ar/pyrus-communis-peral/",
+    "title": "Pyrus communis (Peral)"
+  },
+  {
+    "slug": "quercus-alba-roble-blanco",
+    "url": "https://arbolesurbanos.com.ar/quercus-alba-roble-blanco/",
+    "title": "Quercus alba (Roble blanco)"
+  },
+  {
+    "slug": "quercus-palustris-roble-de-los-pantanos",
+    "url": "https://arbolesurbanos.com.ar/quercus-palustris-roble-de-los-pantanos/",
+    "title": "Quercus palustris (Roble de los pantanos)"
+  },
+  {
+    "slug": "quercus-robur-roble-europeo",
+    "url": "https://arbolesurbanos.com.ar/quercus-robur-roble-europeo/",
+    "title": "Quercus robur (Roble europeo)"
+  },
+  {
+    "slug": "quercus-rubra-roble-rojo-del-norte",
+    "url": "https://arbolesurbanos.com.ar/quercus-rubra-roble-rojo-del-norte/",
+    "title": "Quercus rubra (Roble rojo del norte)"
+  },
+  {
+    "slug": "rhus-typhina-zumaque-de-virginia",
+    "url": "https://arbolesurbanos.com.ar/rhus-typhina-zumaque-de-virginia/",
+    "title": "Rhus typhina (Zumaque de Virginia)"
+  },
+  {
+    "slug": "robinia-pseudoacacia-acacia-blanca",
+    "url": "https://arbolesurbanos.com.ar/robinia-pseudoacacia-acacia-blanca/",
+    "title": "Robinia pseudoacacia (Acacia blanca)"
+  },
+  {
+    "slug": "salix-alba-sauce-blanco",
+    "url": "https://arbolesurbanos.com.ar/salix-alba-sauce-blanco/",
+    "title": "Salix alba (Sauce blanco)"
+  },
+  {
+    "slug": "salix-babilonica-sauce-lloron",
+    "url": "https://arbolesurbanos.com.ar/salix-babilonica-sauce-lloron/",
+    "title": "Salix babilonica (Sauce llorón)"
+  },
+  {
+    "slug": "salix-erythroflexuosa-sauce-electrico",
+    "url": "https://arbolesurbanos.com.ar/salix-erythroflexuosa-sauce-electrico/",
+    "title": "Salix erythroflexuosa (Sauce eléctrico)"
+  },
+  {
+    "slug": "sambucus-nigra-sauco",
+    "url": "https://arbolesurbanos.com.ar/sambucus-nigra-sauco/",
+    "title": "Sambucus nigra (Sauco)"
+  },
+  {
+    "slug": "sequoya-sempervirens-secuoya-roja",
+    "url": "https://arbolesurbanos.com.ar/sequoya-sempervirens-secuoya-roja/",
+    "title": "Sequoya sempervirens (Secuoya roja)"
+  },
+  {
+    "slug": "sequoyadendron-giganteum-secuoya-gigante",
+    "url": "https://arbolesurbanos.com.ar/sequoyadendron-giganteum-secuoya-gigante/",
+    "title": "Sequoyadendron giganteum (Secuoya gigante)"
+  },
+  {
+    "slug": "sorbus-aria-mostajo",
+    "url": "https://arbolesurbanos.com.ar/sorbus-aria-mostajo/",
+    "title": "Sorbus aria (Mostajo)"
+  },
+  {
+    "slug": "sorbus-aucuparia-serbal-del-cazador",
+    "url": "https://arbolesurbanos.com.ar/sorbus-aucuparia-serbal-del-cazador/",
+    "title": "Sorbus aucuparia (Serbal del cazador)"
+  },
+  {
+    "slug": "sorbus-torminalis-serbal-silvestre",
+    "url": "https://arbolesurbanos.com.ar/sorbus-torminalis-serbal-silvestre/",
+    "title": "Sorbus torminalis (Serbal silvestre)"
+  },
+  {
+    "slug": "taxus-baccata-tejo-comun",
+    "url": "https://arbolesurbanos.com.ar/taxus-baccata-tejo-comun/",
+    "title": "Taxus baccata (Tejo común)"
+  },
+  {
+    "slug": "thuja-occidentalis-tuya-occidental",
+    "url": "https://arbolesurbanos.com.ar/thuja-occidentalis-tuya-occidental/",
+    "title": "Thuja occidentalis (Tuya occidental)"
+  },
+  {
+    "slug": "thuja-plicata-tuya-gigante",
+    "url": "https://arbolesurbanos.com.ar/thuja-plicata-tuya-gigante/",
+    "title": "Thuja plicata (Tuya gigante)"
+  },
+  {
+    "slug": "tilia-cordata-tilo-comun",
+    "url": "https://arbolesurbanos.com.ar/tilia-cordata-tilo-comun/",
+    "title": "Tilia cordata (Tilo común)"
+  },
+  {
+    "slug": "ulmus-glabra-olmo-de-montana",
+    "url": "https://arbolesurbanos.com.ar/ulmus-glabra-olmo-de-montana/",
+    "title": "Ulmus glabra (Olmo de montaña)"
+  },
+  {
+    "slug": "ulmus-pumila-olmo-siberiano",
+    "url": "https://arbolesurbanos.com.ar/ulmus-pumila-olmo-siberiano/",
+    "title": "Ulmus pumila (Olmo siberiano)"
+  }
+]

@@ -1,0 +1,674 @@
+{
+  "acerca-de-arboles-urbanos": {
+    "slug": "acerca-de-arboles-urbanos",
+    "title": "Por qué esta página?",
+    "rows": [
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "El objetivo de esta ciber-guía es acercar datos de las distintas especies de árboles que se pueden encontrar a lo largo del corredor de los Lagos, así como también algunos lugares donde las podemos encontrar.",
+              "Cualquiera podría preguntarse ¿Porque se describen solamente las especies arbóreas?, la respuesta más honesta es que sería una tarea que escapa a nuestra capacidad describir todas las especies vegetales, además se corre el peligro de terminar realizando algo demasiado extenso, que quite las ganas y esa es una de las cosas que no queremos hacer. Sí, queremos hacer algo, despertar la curiosidad empezando por los árboles. Queremos que sea algo que puede llevarse en cualquier momento y que ayude a saldar dudas, que se use, tanto en el celular y en la computadora, sabiendo que no llegamos a todos, pero si a una parte, el hecho de poder verlo en la computadora fue pensado en las personas que no pueden acceder a los distintos lugares ya sea por cuestiones varias, desde la lejanía o algún tipo de impedimento físico.",
+              "No hay manera de poder valorar los árboles si no se conocen, no se puede apropiar el espacio público si no se lo conoce y tampoco se lo puede valorar; la oportunidad de conocer es también la oportunidad de poder disfrutarlo de manera más integral."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "foto2.jpeg",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "image",
+            "file": "foto5.jpeg",
+            "alt": ""
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Importancia del arbolado urbano y los espacios verdes",
+              "Más allá de las funciones que tiene los vegetales, desde las algas unicelulares hasta los árboles casi gigantescos, que entre otras cosas son los responsables de una atmósfera que nos permite vivir; podemos agrupar en dos grandes tipos los beneficios del arbolado urbano, los físicos y los sociales.",
+              "Respecto de los beneficios físicos son todos aquellos que aumentan la calidad de vida por la mejoría en las variables ambientales.",
+              "Para empezar uno de los primeros beneficios del arbolado urbano es que atempera las condiciones climáticas, reduciendo la temperatura en el verano debido a la sombra que producen y aumentando la humedad relativa, principalmente porque se reduce el efecto producido por las construcciones de los centros urbanos que crean grandes superficies que emiten gran cantidad de calor (edificios, calles pavimentadas, veredas, etc.). Al mismo tiempo de brindar reparo en verano y aislamiento en el invierno, el arbolado urbano reduce los costos de energía en refrigeración y calefacción respectivamente."
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Mejora la calidad del aire capturando partículas de polvo en suspensión principalmente en la superficie de sus hojas. Absorbe contaminantes gaseosos libres en el aire por medio de los estomas de sus hojas. Respecto de esto último no es menor el papel de los árboles urbanos en la captura de Dióxido de carbono (CO²) uno de los principales gases causantes del efecto invernadero.",
+              "Tiene un importante papel en la regulación hídrica local, esto es por varios motivos principalmente porque reduce los efectos de la escorrentía, ya que amortigua la caída de la lluvia, mitigando daños por inundaciones, además de frenar procesos erosivos al retener el suelo",
+              "Reducen los niveles de ruido, principalmente el follaje y las ramas de las copas de los árboles producen una disminución considerable de la contaminación acústica, provocada generalmente por el tráfico.",
+              "Refugio de fauna silvestre, tanto los árboles como los parques son espacios donde principalmente los pájaros encuentran albergue, esto hace a su vez que aumente la biodiversidad y se enriquezca de alguna manera el entorno urbano."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "foto1.jpeg",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "image",
+            "file": "foto7.jpeg",
+            "alt": ""
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Dentro de los beneficios sociales, a pesar de ser más difíciles de cuantificar; por ejemplo existen niveles de violencia más bajos en centros urbanos con suficientes parques públicos, probablemente por ser lugares donde la población crea otro tipo de vínculos, son espacios comunes e igualadores, articuladores de relaciones que refuerzan el entramado social. De ahí la importancia de los parques públicos, al ser de todos y por eso históricamente el papel social de las plazas como escenario de la vida social, principalmente en los centros urbanos.",
+              "Disminución de estrés de la población, ya sea el entorno conformado por el arbolado urbanos, los parques y o los bosques comunales, sus cambios de tonalidades a lo largo del año, la ruptura de la monotonía dada por las edificaciones, etc. reducen la presión en la personas y mejoran sus estados de ánimo.",
+              "Juntando tanto las variables ambientales como las sociales (de por si indivisibles) vemos que en estos tiempos de cambio climático, concentración en los centros urbanos y maneras de relacionarse hace que los espacios verdes públicos algo de suma importancia y los árboles son protagonistas."
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "asociacion-civil-propatagonia": {
+    "slug": "asociacion-civil-propatagonia",
+    "title": "Asociación Civil Propatagonia",
+    "rows": [
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Pro Patagonia es una Organización No Gubernamental (ONG), conformada por un grupo de técnicos y profesionales que trabajamos en diversos temas y desde diferentes ámbitos, con las Comunidades Mapuche de la zona sur de la provincia de Neuquén y pobladores rurales en general."
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Nos constituimos el día 7 de agosto de 1995, bajo la forma de Asociación Civil sin Fines de Lucro. Personería Jurídica 948/96."
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Nuestra Misión es “Construir y apoyar procesos de organización del campo popular, tendientes al desarrollo local”.",
+              "Los objetivos se enuncian en el artículo segundo del Estatuto, que transcribimos a continuación:"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "\"Son sus propósitos estimular, difundir y apoyar acciones de desarrollo social y\npromoción humana en el marco de la gestión sustentable de los recursos naturales, en\ncomunidades de pueblos originarios y criollas, del medio rural o urbano\nfundamentalmente de Neuquén y de la Patagonia e Instituciones ligadas al desarrollo\nsocial y a la gestión de los recursos naturales para lo cual podrá prestar servicios\ntécnicos de asesoramiento; contribuir en terreno a la realización de programas oproyectos de desarrollo social, promoción humana y gestión ambiental; promover las\ninvestigaciones necesarias vinculadas con el tema; organizar y apoyar acciones de\ncapacitación a distintos niveles contribuyendo a la formación de recursos humanos;\npromover la autogestión, estimular la difusión y un mayor conocimiento de los temas\nde política social y ambiental ...\""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "Captura-de-pantalla-2020-08-17-20-43-12.png",
+            "alt": "Educación Ambiental"
+          },
+          {
+            "type": "image",
+            "file": "Captura-de-pantalla-2020-08-17-20-45-18.png",
+            "alt": "Trabajo con Comunidades Mapuche"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Producción Sustentable / Planificación territorial\nSoberanía Alimentaria\nEconomía solidaria\nEducación ambiental y espacios sociales"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Asociación Civil Pro Patagonia\nPersonería Jurídica 948/96\nSarmiento 396 (C.P. 8370) S.M. Andes - Neuquén – Argentina\nTe-Fax:\n54-02972-422129\nE mail:\n[email protected]\nhttp://www.propatagonia.org.ar"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "Captura-de-pantalla-2020-08-17-20-46-01.png",
+            "alt": "Trabajo con comunidades mapuche"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "image",
+            "file": "Captura-de-pantalla-2020-08-25-00-39-55.png",
+            "alt": "Ubicación Parque Nacional Lanín"
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "Captura-de-pantalla-2020-08-25-00-40-38.png",
+            "alt": "PN Lanín"
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "image",
+            "file": "Captura-de-pantalla-2020-08-17-20-44-32.png",
+            "alt": "Ferias de intercambio de semillas, plantines y saberes"
+          }
+        ]
+      ]
+    ]
+  },
+  "catedra-arbolado-urbano": {
+    "slug": "catedra-arbolado-urbano",
+    "title": "Cátedra Arbolado Urbano",
+    "rows": [
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "La cátedra de Arbolado Urbano es una de las asignaturas de la carrera de <strong>Técnico Universitario en Espacios Verdes</strong>, esta carrera se dicta desde el año 2010 y se dicta en el <strong>Asentamiento Universitario San Martín de los Andes</strong>, que forma parte de la <strong>Universidad Nacional del Comahue</strong>."
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "En la asignatura principalmente se brindan herramientas básicas, que tienen que ver con la temática del <strong>Arbolado Urbano</strong>, que de por sí es muy amplia, desde el reconocimiento de especies, sus cualidades ornamentales y sus necesidades ecológicas, también técnicas de mantenimiento como poda, manejo de herramientas, etc."
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Es una asignatura eminentemente práctica, lo mismo que la carrera, por eso se realizan además de prácticos, viajes de estudios (en la medida de lo posible) a distintos lugares para ver otras realidades que se presentan en la región, esto mayormente se realiza con otras cátedras, como la de<strong> Plantas Ornamentales</strong>."
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Desde la cátedra consideramos que la <strong>Extensión Universitaria</strong>, es tan importante como las otras funciones de la <strong>Universidad Pública</strong>, la <strong>Educación</strong> y la <strong>Investigación</strong>. Una de las maneras de llegar a otros lados es la realización de charlas y cursos de capacitación tanto en la localidad como en municipios cercanos tales como <strong>Junín de los Andes</strong> o <strong>Aluminé</strong>."
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "También se realizan capacitaciones para los guardaparques del <strong>Parque Nacional Lanín</strong> y los aspirantes a guardaparques, tanto en el reconocimiento de especies nativas y exóticas, este trabajo es fundamental para poder controlar las exóticas dentro del parque, por ejemplo en las inmediaciones del <strong>Arboretum Pucará</strong>, estas actividades se realizan en conjunto con otras cátedras como las cátedras de <strong>Dendrología</strong> y <strong>Sanidad Forestal</strong>. Cabe mencionar que con estas cátedras se realizó un sendero interpretativo en dicho arboretum, con el objeto de que los visitantes puedan reconocer algunas de las especies implantadas en la década del 50, este sendero se realizó en conjunto con los trabajadores del equipo de <strong>Educación Ambiental</strong> del <strong>Parque Nacional Lanín</strong>."
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Como parte de un proceso continuo de <strong>Extensión</strong> es que acercamos y divulgamos estos recorridos dendrológicos, con la premisa de considerar que no se puede valorar lo que no se conoce. Varios estudiantes de la carrera han realizado sus trabajos finales en temáticas relacionadas a la materia, es por eso que los anexamos para compartir las distintas miradas de los estudiantes sobre el <strong>Arbolado Urbano</strong>."
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "practicas-laborales-alumnos": {
+    "slug": "practicas-laborales-alumnos",
+    "title": "Prácticas Laborales Alumnos",
+    "rows": [
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nEstefanía María del Rosario Urra Matus.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nAlen Olivera.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nFrancisco Santana.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nMaría Luz Cassini.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, Marzo 2020."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nNéstor Carlos Herrera.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, Mayo 2017."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nGiovana Miño.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, Marzo 2019."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nIsabel Pellao.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2018."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nFernanda Castillo.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2018."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nNahuel Alfredo Bastian.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2020."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nCastiñeira, Leandro Manuel.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2020."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nFigueroa Cristian Darío.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2020."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nYamila Gisel Álvarez.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2023."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nViviana A. Quijada Vieyra.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2024."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudiante:\nSebastián Daniel Jara.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2024."
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "pdf.gif",
+            "alt": ""
+          }
+        ]
+      ]
+    ]
+  },
+  "licencia-de-uso": {
+    "slug": "licencia-de-uso",
+    "title": "Licencia de uso",
+    "rows": [
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Esta obra está licenciada bajo la Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional. Para ver una copia de esta licencia, visite <a href=\"http://creativecommons.org/licenses/by-sa/4.0/.\" rel=\"noopener noreferrer\" target=\"_blank\">http://creativecommons.org/licenses/by-sa/4.0/.</a>"
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "image",
+            "file": "logocopyleft.png",
+            "alt": ""
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Se puede reutilizar el material citando la fuente: <strong>«Arboles Urbanos https://arbolesurbanos.com.ar»</strong>"
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Compartir igual implica que el material derivado del uso de esta obra no puede publicarse bajo una licencia más restrictiva. Puede hacerse uso comercial de una obra derivada siempre que no se restrinja su uso y reproducción."
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Los datos utilizados para la georreferenciación del arbolado son abiertos y pueden solicitarse en los siguientes enlaces con el formato elegido:"
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "<a href=\"https://arbolesurbanos.com.ar/opendata\" rel=\"noopener noreferrer\">GeoJSON</a>",
+              "<a href=\"https://arbolesurbanos.com.ar/opendata\">ESRI Shape</a>",
+              "<a href=\"https://arbolesurbanos.com.ar/opendata\">KML</a>"
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "<strong>Se puede agregar como capa WFS para QGIS .</strong>"
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "<a href=\"https://arbolesurbanos.com.ar/opendata\">Solicitar datos servidor WFS</a>"
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "referencias": {
+    "slug": "referencias",
+    "title": "Referencias",
+    "rows": [
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "En cada una de las fichas de las descripciones de las especies aparece algunas características generales"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "NOMBRE CIENTÍFICO\n: Se refiere a la terminología utilizada por la Taxonomía, rama de la biología que se ocupa de la clasificación de los organismos, agrupa los organismos en distintas categorías taxonómicas (reino, división, clase, orden, familia, género, especie, etc.). Se utiliza el sistema binomial, inventado por Carlos Lineo en el siglo XVIII, ya sigue siendo el más utilizado. El mismo consta de dos nombres, de ahí lo de binomial, el primero se refiere al Género (que es la categoría intermedia entre la Familia y la Especie), mientras que el segundo nombre es el epíteto específico. Casi siempre tanto el epíteto genérico y el específico hacen referencia tanto a características morfológicas, como referencias geográficas, también se hace referencia a personas.\nAcá les mostramos un ejemplo de nombre científico de una especie nativa y de una especie exótica:\nRoble pellín\n, el nombre científico es: Nothofagus obliqua. Donde Nothofagus corresponde al género que agrupa a varias especies de Nothofagus, valga la redundancia, este nombre está en idioma latín y está formado por dos vocablos Notho (falso) y Fagus (haya) y quiere decir “falsa haya”, esto es debido a sus semejanzas con las Hayas (género Fagus); mientras que obliqua se refiere a la base de la hoja tiene forma asimétrica y oblicua.\nFresno blanco\n, el nombre científico es: Fraxinus americana. En este caso el nombre del género Fraxinus, es el nombre en latín del fresno; en tanto que el epíteto específico americana está referido a su lugar de origen que es Estados Unidos y Canadá."
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "image",
+            "file": "latifoliada_perenne.gif",
+            "alt": "Latifoliada perenne magnitud 2"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Latifoliada perenne"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "latifoliada_caduca.gif",
+            "alt": ""
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Latifoliada caduca"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "conifera_perenne.gif",
+            "alt": ""
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Conífera perenne"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "image",
+            "file": "conifera_caduca.gif",
+            "alt": ""
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Conífera caduca"
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "type": "text",
+            "paragraphs": [
+              "MAGNITUD\n: Cuando nos referimos a la magnitud, tiene que ver la altura que alcanza la especie cuando entra en la madurez. Cabe aclarar que se menciona el tamaño que alcanzan en los lugares relevados, mientras que en la descripción se mencionan el tamaño que adquiere en su ambiente natural, no siempre coinciden, ya que existen especies que en su área de distribución natural llegan a un tamaño y cuando se las implanta en lugares más favorables lo superan o, si es un sitio desfavorable no lo alcanzan. Ésta categorización, un tanto relativa, se divide en tres categorías: las especies de Tercera magnitud, alcanzan como máximo los 10 metros de altura, las especies de Segunda magnitud, tiene alturas de entre 10 y 20 metros de altura y los ejemplares de Primera magnitud superan largamente los 20 metros de altura."
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

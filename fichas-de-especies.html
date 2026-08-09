@@ -1,0 +1,1745 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fichas de especies · Arboles Urbanos</title>
+<meta name="description" content="Buscador de fichas de especies del arbolado urbano de Norpatagonia.">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="au-header">
+  <nav class="navbar navbar-expand-lg au-navbar">
+    <div class="container">
+      <a class="navbar-brand au-brand" href="index.html">
+        <img src="assets/img/au_logo_horizontal_verde.png" alt="Arboles Urbanos">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#auNavMenu" aria-controls="auNavMenu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="auNavMenu">
+        <ul class="navbar-nav ms-auto au-nav align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link " href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Acerca de esta página
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="acerca-de-arboles-urbanos.html">¿Por qué esta página?</a></li>
+              <li><a class="dropdown-item" href="asociacion-civil-propatagonia.html">Asociación Civil Propatagonia</a></li>
+              <li><a class="dropdown-item" href="catedra-arbolado-urbano.html">Cátedra Arbolado Urbano</a></li>
+              <li><a class="dropdown-item ps-4" href="practicas-laborales-alumnos.html">↳ Prácticas Laborales Alumnos</a></li>
+              <li><a class="dropdown-item" href="licencia-de-uso.html">Licencia de uso</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="referencias.html">Referencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="fichas-de-especies.html">Especies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contacto.html">Contáctenos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<div class="au-page-header">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Especies</li>
+      </ol>
+    </nav>
+    <h1>Fichas de especies</h1>
+    <p class="mb-0" style="max-width:640px; color: rgba(255,255,255,0.8);">Explorá las 123 especies arbóreas relevadas en el corredor de los lagos. Buscá por nombre común, científico o familia botánica.</p>
+  </div>
+</div>
+
+<div class="au-section pt-4">
+  <div class="container">
+    <div class="row mb-4 g-3 align-items-center">
+      <div class="col-lg-6">
+        <input type="search" id="auSpeciesSearch" class="au-search-bar" placeholder="Buscar por nombre, especie o familia…" aria-label="Buscar por texto en contenido de fichas">
+      </div>
+      <div class="col-lg-6">
+        <div class="d-flex flex-wrap gap-2">
+          <button type="button" class="au-filter-chip" data-cat-chip="latifoliada-perenne">
+            <span class="dot au-cat-latifoliada-perenne"></span>Latifoliada perenne
+          </button>
+          <button type="button" class="au-filter-chip" data-cat-chip="latifoliada-caduca">
+            <span class="dot au-cat-latifoliada-caduca"></span>Latifoliada caduca
+          </button>
+          <button type="button" class="au-filter-chip" data-cat-chip="conifera-perenne">
+            <span class="dot au-cat-conifera-perenne"></span>Conífera perenne
+          </button>
+          <button type="button" class="au-filter-chip" data-cat-chip="conifera-caduca">
+            <span class="dot au-cat-conifera-caduca"></span>Conífera caduca
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-muted mb-4"><span id="auResultsCount">123</span> especies encontradas</p>
+
+    <div class="row g-4" id="auSpeciesGrid">
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="abies alba (abeto blanco) abies alba abeto blanco pinaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/ABIES-ALBA-ADN.png" alt="Abies alba (Abeto blanco)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Abies alba</p>            <h3>Abeto blanco</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/abies-alba-abeto-blanco.html" aria-label="Ver ficha de Abies alba (Abeto blanco)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="abies grandis (abeto de vancouver) abies grandis abeto de vancouver pinaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/ABIES-GRANDIS-ADN.png" alt="Abies grandis (Abeto de Vancouver)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Abies grandis</p>            <h3>Abeto de Vancouver</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/abies-grandis-abeto-de-vancouver.html" aria-label="Ver ficha de Abies grandis (Abeto de Vancouver)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="abies procera (abeto noble) abies procera abeto noble pinaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/ABIES-PROCERA-EJEMPLAR-ADULTO.jpg" alt="Abies procera (Abeto noble)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Abies procera</p>            <h3>Abeto noble</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/abies-porcera-abeto-noble.html" aria-label="Ver ficha de Abies procera (Abeto noble)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="acacia dealbata (aromo australiano) acacia dealbata aromo australiano, aromo frances, aromo del pais fabaceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/ACACIA-DEALBATA-ADN.png" alt="Acacia dealbata (Aromo australiano)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Acacia dealbata</p>            <h3>Aromo australiano, Aromo francés, aromo del país</h3>
+<p class="text-muted small mb-0">Fabáceas</p>          </div>
+          <a class="card-link" href="especies/acacia-dealbata-romo-australiano.html" aria-label="Ver ficha de Acacia dealbata (Aromo australiano)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="acer campestris (arce menor) acer campestris arce campestre, arce menor aceraceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ACER-CAMPESTRIS-AS-FOLIAR-1.jpg" alt="Acer campestris (Arce menor)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Acer campestris</p>            <h3>Arce campestre, Arce menor</h3>
+<p class="text-muted small mb-0">Aceráceas</p>          </div>
+          <a class="card-link" href="especies/acer-campestris-arce-menor.html" aria-label="Ver ficha de Acer campestris (Arce menor)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="acer negundo (arce negundo) acer negundo arce negundo, arce de hojas de fresno aceraceas."
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ACER-NEGUNDO-AS-FOLIAR.jpg" alt="Acer negundo (Arce negundo)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Acer negundo</p>            <h3>Arce Negundo, Arce de hojas de fresno</h3>
+<p class="text-muted small mb-0">Aceráceas.</p>          </div>
+          <a class="card-link" href="especies/acer-negundo-arce-negundo.html" aria-label="Ver ficha de Acer negundo (Arce negundo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="acer palmatum (arce japones) acer palmatum arce japones, arce enano aceraceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ACER-PALMATUM-AS-FOLIAR.jpg" alt="Acer palmatum (Arce japonés)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Acer palmatum</p>            <h3>Arce japonés, Arce enano</h3>
+<p class="text-muted small mb-0">Aceráceas</p>          </div>
+          <a class="card-link" href="especies/acer-palmatum-arce-japones.html" aria-label="Ver ficha de Acer palmatum (Arce japonés)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="acer platanoides (arce real) acer platanoides arce real, aciron, arce de noruega aceraceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ACER-PLATANOIDES-DETALLE-DE-DISAMARA.jpg" alt="Acer platanoides (Arce real)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Acer platanoides</p>            <h3>Arce Real, Acirón, Arce de Noruega</h3>
+<p class="text-muted small mb-0">Aceráceas</p>          </div>
+          <a class="card-link" href="especies/acer-platanoides-arce-real.html" aria-label="Ver ficha de Acer platanoides (Arce real)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="acer pseudoplatanus (arce blanco) acer pseudoplatanus arce blanco, sicomoro, falso platano. aceraceas."
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/Arce-blanco-aspecto-primaveral-300x248.jpg" alt="Acer pseudoplatanus (Arce blanco)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Acer pseudoplatanus</p>            <h3>Arce blanco, Sicomoro, Falso plátano.</h3>
+<p class="text-muted small mb-0">Aceráceas.</p>          </div>
+          <a class="card-link" href="especies/acer-pseudoplatanus-arce-blanco.html" aria-label="Ver ficha de Acer pseudoplatanus (Arce blanco)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="acer rubrum (arce rojo) acer rubrum arce rojo aceraceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ACER-RUBRUM-ADN.png" alt="Acer rubrum (Arce rojo)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Acer rubrum</p>            <h3>Arce rojo</h3>
+<p class="text-muted small mb-0">Aceráceas</p>          </div>
+          <a class="card-link" href="especies/acer-rubrum-arce-rojo.html" aria-label="Ver ficha de Acer rubrum (Arce rojo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="acer saccharinum (arce plateado) acer saccharinum (arce plateado)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ACER-SACCHARINUM-ADN.png" alt="Acer saccharinum (Arce plateado)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Acer saccharinum (Arce plateado)</h3>
+          </div>
+          <a class="card-link" href="especies/acer-saccharicum-arce-de-azucar.html" aria-label="Ver ficha de Acer saccharinum (Arce plateado)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="aesculus hippocastanum (castano de las indias) aesculus hippocastanum (castano de las indias)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/AESCULUS-HIPPOCASTANUM-HOJA-OTONAL.jpg" alt="Aesculus hippocastanum (Castaño de las Indias)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Aesculus hippocastanum (Castaño de las Indias)</h3>
+          </div>
+          <a class="card-link" href="especies/aesculus-hippocastanum-castano-de-las-indias.html" aria-label="Ver ficha de Aesculus hippocastanum (Castaño de las Indias)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="alnus glutinosa (aliso) alnus glutinosa aliso comun betulaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ALNUS-GLUTINOSA-FRUTOS-INMADUROS.jpg" alt="Alnus glutinosa (Aliso)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Alnus glutinosa</p>            <h3>Aliso común</h3>
+<p class="text-muted small mb-0">Betuláceas</p>          </div>
+          <a class="card-link" href="especies/alnus-glutinosa-aliso.html" aria-label="Ver ficha de Alnus glutinosa (Aliso)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="araucaria angustifolia (pino parana) araucaria angustifolia  araucariaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/ARAUCARIA-ANGUSTIFOLIA-ADN.png" alt="Araucaria angustifolia (Pino Paraná)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Araucaria Angustifolia</h3>
+<p class="text-muted small mb-0">Araucariáceas</p>          </div>
+          <a class="card-link" href="especies/araucaria-angustifolia-pino-parana.html" aria-label="Ver ficha de Araucaria angustifolia (Pino Paraná)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="araucaria araucana (pehuen) araucaria araucana pehuen, araucaria araucariaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Araucaria-ejemplar-hembra-adulto.jpg" alt="Araucaria araucana (Pehuén)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Araucaria araucana</p>            <h3>Pehuén, Araucaria</h3>
+<p class="text-muted small mb-0">Araucariáceas</p>          </div>
+          <a class="card-link" href="especies/araucaria-araucana-pehuen.html" aria-label="Ver ficha de Araucaria araucana (Pehuén)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="aristotelia chilensis (maqui) aristotelia chilensis maqui, queldron eleocarpaceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb no-img">
+🌳          </div>
+          <div class="body">
+<p class="sci-name mb-1">Aristotelia chilensis</p>            <h3>Maqui, Queldrón</h3>
+<p class="text-muted small mb-0">Eleocarpáceas</p>          </div>
+          <a class="card-link" href="especies/aristotelia-chilensis-maqui.html" aria-label="Ver ficha de Aristotelia chilensis (Maqui)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="austrocedrus chilensis (cipres de la cordillera) austrocedrus chilensis (cipres de la cordillera) cipres de la cordillera "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/AUSTROCEDRUS-CHILENSIS-CORTEZA-84x300.jpg" alt="Austrocedrus chilensis (Ciprés de la cordillera)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Austrocedrus chilensis (Ciprés de la cordillera)</p>            <h3>Ciprés de la cordillera</h3>
+          </div>
+          <a class="card-link" href="especies/austrocedrus-chilensis-cipres-de-la-cordillera.html" aria-label="Ver ficha de Austrocedrus chilensis (Ciprés de la cordillera)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="azara microphilla (chin chin) azara microphilla chin chin flacourtiaceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Chin-chin-ejemplar-en-su-entorno-natural.jpg" alt="Azara microphilla (Chin chin)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Azara Microphilla</p>            <h3>Chin Chin</h3>
+<p class="text-muted small mb-0">Flacourtiáceas</p>          </div>
+          <a class="card-link" href="especies/azara-microphilla-chin-chin.html" aria-label="Ver ficha de Azara microphilla (Chin chin)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="betula papyrifera (abedul de papel) betula papyrifera abedul de papel, abedul de las canoas betulaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/BETULA-PAPYRIFERA-EJEMPLAR-.jpg" alt="Betula papyrifera (Abedul de papel)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Betula papyrifera</p>            <h3>Abedul de papel, Abedul de las canoas</h3>
+<p class="text-muted small mb-0">Betuláceas</p>          </div>
+          <a class="card-link" href="especies/betula-papyrifera-abedul-de-papel.html" aria-label="Ver ficha de Betula papyrifera (Abedul de papel)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="betula pendula (abedul) betula pendula abedul comun betulaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/Abedul-hojas.jpg" alt="Betula pendula (Abedul)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Betula pendula</p>            <h3>Abedul común</h3>
+<p class="text-muted small mb-0">Betuláceas</p>          </div>
+          <a class="card-link" href="especies/betula-pendula-abedul.html" aria-label="Ver ficha de Betula pendula (Abedul)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="budleja globosa (panil) budleja globosa panil, matico. loganiaceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/budleja-globosa-morosini-2.jpg" alt="Budleja globosa (Pañil)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Budleja globosa</p>            <h3>Pañíl, Matico.</h3>
+<p class="text-muted small mb-0">Loganiáceas</p>          </div>
+          <a class="card-link" href="especies/budleja-globosa-panil.html" aria-label="Ver ficha de Budleja globosa (Pañil)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="calocedrus decurrens (cedro de incienso) calocedrus decurrens cedro de incienso cupresaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Cedro-de-incienso-ejemplar-adulto-203x300.jpg" alt="Calocedrus decurrens (Cedro de incienso)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Calocedrus decurrens</p>            <h3>Cedro de incienso</h3>
+<p class="text-muted small mb-0">Cupresáceas</p>          </div>
+          <a class="card-link" href="especies/calocedrus-decurrens-cedro-de-incienso.html" aria-label="Ver ficha de Calocedrus decurrens (Cedro de incienso)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="castanea sativa (castano) castanea sativa castano fagaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/CASTANEA-SATIVA-INFLORECENCIAS.jpg" alt="Castanea sativa (Castaño)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Castanea sativa</p>            <h3>Castaño</h3>
+<p class="text-muted small mb-0">Fagáceas</p>          </div>
+          <a class="card-link" href="especies/castanea-sativa-castano.html" aria-label="Ver ficha de Castanea sativa (Castaño)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="catalpa bigninoides (catalpa) catalpa bignonioides catalpa, catalpa americana, judia india bignoniaceas."
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/Catalpa-aspecto-primaveral.jpg" alt="Catalpa bigninoides (Catalpa)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Catalpa bignonioides</p>            <h3>Catalpa, Catalpa americana, Judía india</h3>
+<p class="text-muted small mb-0">Bignoniáceas.</p>          </div>
+          <a class="card-link" href="especies/catalpa-bigninoides-catalpa.html" aria-label="Ver ficha de Catalpa bigninoides (Catalpa)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cedrus atlantica var. glauca (cedro plateado) cedrus atlantica var. “glauca”  pinaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/CEDRUS-ATLANTICA-EJEMPLAR.jpg" alt="Cedrus atlantica var. glauca (Cedro plateado)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Cedrus atlantica Var. “Glauca”</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/cedrus-atlantica-var-glauca-cedro-plateado.html" aria-label="Ver ficha de Cedrus atlantica var. glauca (Cedro plateado)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cedrus deodara (cedro del himalaya) cedrus deodara  pinaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/CEDRUS-DEODARA-EJEMPLAR-JOVEN.jpg" alt="Cedrus deodara (Cedro del Himalaya)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Cedrus deodara</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/cedrus-deodara-cedro-del-himalaya.html" aria-label="Ver ficha de Cedrus deodara (Cedro del Himalaya)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cedrus libanii (cedro del libano) cedrus libanii cedro del libano pinaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/CEDRUS-LIBANII-EJEMPLAR-MADURO.jpg" alt="Cedrus libanii (Cedro del Líbano)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Cedrus libanii</p>            <h3>Cedro del Líbano</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/cedrus-libanii-cedro-del-libano.html" aria-label="Ver ficha de Cedrus libanii (Cedro del Líbano)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cercis siliquastrum (arbol de judas) cercis siliquastrum arbol del amor, arbol de judas, arbol de judea. fabaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/CERCIS-SILIQUASTRUM-TRONCO-CON-FLORES.jpg" alt="Cercis siliquastrum (Arbol de judas)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Cercis siliquastrum</p>            <h3>Árbol del amor, árbol de judas, árbol de Judea.</h3>
+<p class="text-muted small mb-0">Fabáceas</p>          </div>
+          <a class="card-link" href="especies/cercis-siliquastrum-arbol-de-judas.html" aria-label="Ver ficha de Cercis siliquastrum (Arbol de judas)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="chamaecyparis lawsoniana (cedro blanco) chamaecyparis lawsoniana cedro blanco, cipres de lawson cupresaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Cedro-blanco-ejemplar-adulto-199x300.jpg" alt="Chamaecyparis lawsoniana (Cedro blanco)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Chamaecyparis lawsoniana</p>            <h3>Cedro blanco, ciprés de Lawson</h3>
+<p class="text-muted small mb-0">Cupresáceas</p>          </div>
+          <a class="card-link" href="especies/chamaecyparis-lawsoniana-cedro-blanco.html" aria-label="Ver ficha de Chamaecyparis lawsoniana (Cedro blanco)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cordyline australis (dracena arborea) cordyline australis (dracena arborea) dracena, palma de lirios, arbol de la col "
+             data-cats="latifoliada-perenne">
+          <div class="thumb no-img">
+🌳          </div>
+          <div class="body">
+<p class="sci-name mb-1">Cordyline australis (Dracena arbórea)</p>            <h3>Dracena, Palma de lirios, Árbol de la col</h3>
+          </div>
+          <a class="card-link" href="especies/cordyline-australis-dracena-arborea.html" aria-label="Ver ficha de Cordyline australis (Dracena arbórea)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cornus mas (cornejo macho) cornus mas cornejo macho, cornejo cerezo, cornalina "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/CORNUS-MAS-FLORES-300x250.jpg" alt="Cornus mas (Cornejo macho)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Cornus mas</p>            <h3>Cornejo Macho, Cornejo Cerezo, Cornalina</h3>
+          </div>
+          <a class="card-link" href="especies/cornus-mas-cornejo-macho.html" aria-label="Ver ficha de Cornus mas (Cornejo macho)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cornus walterii (cornejo chino) cornus walterii cornejo de la china cornaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/CORNUS-WALTERI-FLORES-300x237.jpg" alt="Cornus walterii (Cornejo chino)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Cornus walterii</p>            <h3>Cornejo de la china</h3>
+<p class="text-muted small mb-0">Cornáceas</p>          </div>
+          <a class="card-link" href="especies/cornus-walterii-cornejo-walterii.html" aria-label="Ver ficha de Cornus walterii (Cornejo chino)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="crataegus crus galli (espino espolon de gallo) crataegus crus galli (espino espolon de gallo)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb no-img">
+🌳          </div>
+          <div class="body">
+            <h3>Crataegus crus galli (Espino espolón de gallo)</h3>
+          </div>
+          <a class="card-link" href="especies/cataegus-cruz-galli-espino-espolon-de-gallo.html" aria-label="Ver ficha de Crataegus crus galli (Espino espolón de gallo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="crataegus laevigata var. paul scarlet (espino de mayo) crataegus laevigata variedad paul’s scarlet  rosaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/CRATAEGUS-LAEVIGATA-VAR-PAUL-SCARLET-EJEMPLAR-EN-UNA-PLAZA-225x300.jpg" alt="Crataegus laevigata var. Paul Scarlet (Espino de mayo)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Crataegus laevigata variedad Paul’s Scarlet</h3>
+<p class="text-muted small mb-0">Rosáceas</p>          </div>
+          <a class="card-link" href="especies/crataegus-laevigata-var-paul-scarlet-espino-de-mayo.html" aria-label="Ver ficha de Crataegus laevigata var. Paul Scarlet (Espino de mayo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="crataegus  monogyna (espino albar) crataegus monogyna crataegus, espino albar, majuelo rosaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/CRATAEGUS-MONOGYNA-AS-FOLIAR-267x300.jpg" alt="Crataegus  monogyna (Espino albar)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Crataegus monogyna</p>            <h3>Crataegus, espino albar, majuelo</h3>
+<p class="text-muted small mb-0">Rosáceas</p>          </div>
+          <a class="card-link" href="especies/crataegus-monogyna-espino-albar.html" aria-label="Ver ficha de Crataegus  monogyna (Espino albar)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="crataegus  phaenopyrum (espino de washington) crataegus phaenopyrum espino de washington rosaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/CRATAEGUS-PHAENPYTUM-DETALLE-DE-FRUTOS.jpg" alt="Crataegus  phaenopyrum (Espino de Washington)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Crataegus phaenopyrum</p>            <h3>Espino de Washington</h3>
+<p class="text-muted small mb-0">Rosáceas</p>          </div>
+          <a class="card-link" href="especies/crataegus-phaenopyrum-espino-de-whashington.html" aria-label="Ver ficha de Crataegus  phaenopyrum (Espino de Washington)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cryptomeria japonica (criptomeria) cryptomeria japonica (criptomeria)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/CRIPTOMERIA-JAPONICA-RAMITA-CON-PINAS.jpg" alt="Cryptomeria japonica (Criptomeria)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Cryptomeria japonica (Criptomeria)</h3>
+          </div>
+          <a class="card-link" href="especies/cryptomeria-japonica-criptomeria.html" aria-label="Ver ficha de Cryptomeria japonica (Criptomeria)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cupressocyparis leylandii (cipres de leyland) cupressocyparis leylandii (cipres de leyland)  "
+             data-cats="conifera-perenne">
+          <div class="thumb no-img">
+🌳          </div>
+          <div class="body">
+            <h3>Cupressocyparis leylandii (Ciprés de Leyland)</h3>
+          </div>
+          <a class="card-link" href="especies/cupressocyparis-leylandii-cipres-de-leyland.html" aria-label="Ver ficha de Cupressocyparis leylandii (Ciprés de Leyland)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cupressus arizonica (cipres de arizona) cupressus arizonica cipres de arizona cupresaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/CUPRESSUS-ARIZONICA-CORTEZA-JOVEN-117x300.jpg" alt="Cupressus arizonica (Ciprés de Arizona)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Cupressus arizonica</p>            <h3>Ciprés de Arizona</h3>
+<p class="text-muted small mb-0">Cupresáceas</p>          </div>
+          <a class="card-link" href="especies/cupressus-arizonica-cipres-de-arizona.html" aria-label="Ver ficha de Cupressus arizonica (Ciprés de Arizona)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cupressus macrocarpa (cipres de monterrey) cupressus macrocarpa cipres de monterrey, cipres de california, macrocarpa cupresaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/CUPRESSUS-MACROCARPA-EJEMPLAR-ADULTO-258x300.jpg" alt="Cupressus macrocarpa (Ciprés de Monterrey)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Cupressus macrocarpa</p>            <h3>Ciprés de Monterrey, Ciprés de California, Macrocarpa</h3>
+<p class="text-muted small mb-0">Cupresáceas</p>          </div>
+          <a class="card-link" href="especies/cupressus-macrocarpa-cipres-de-monterrey.html" aria-label="Ver ficha de Cupressus macrocarpa (Ciprés de Monterrey)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cupressus sempervirens (cipres del mediterraneo) cupressus sempervirens (cipres del mediterraneo) c ipres del mediterraneo, cipres italiano, cipres columnar "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/CUPRESSUS-SEMPERVIRENS-VARIEDAD-COLUMNAR.jpg" alt="Cupressus sempervirens (Ciprés del Mediterraneo)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Cupressus sempervirens (Ciprés del Mediterraneo)</p>            <h3>C iprés del mediterráneo, ciprés italiano, ciprés columnar</h3>
+          </div>
+          <a class="card-link" href="especies/cupressus-sempervirens-cipres-del-mediterraneo.html" aria-label="Ver ficha de Cupressus sempervirens (Ciprés del Mediterraneo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="cydonia oblonga (membrillero) cydonia oblonga (membrillero)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb no-img">
+🌳          </div>
+          <div class="body">
+            <h3>Cydonia oblonga (Membrillero)</h3>
+          </div>
+          <a class="card-link" href="especies/cydonia-oblonga-membrillero.html" aria-label="Ver ficha de Cydonia oblonga (Membrillero)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="dasyphillum diacanthoides (palo santo) dasyphyllum diacanthoides palo santo, trevo, tayu asteraceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/DASYPHYLLUM-DIACANTHOIDES-EJEMPLAR.jpg" alt="Dasyphillum diacanthoides (Palo santo)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Dasyphyllum diacanthoides</p>            <h3>Palo santo, Trevo, Tayu</h3>
+<p class="text-muted small mb-0">Asteráceas</p>          </div>
+          <a class="card-link" href="especies/dasyphyllum-diacanthoides-palo-santo.html" aria-label="Ver ficha de Dasyphillum diacanthoides (Palo santo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="discaria chacaya (chacay) discaria chacaya chacay ramnaceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb no-img">
+🌳          </div>
+          <div class="body">
+<p class="sci-name mb-1">Discaria chacaya</p>            <h3>Chacay</h3>
+<p class="text-muted small mb-0">Ramnáceas</p>          </div>
+          <a class="card-link" href="especies/discaria-chacaya-chacay.html" aria-label="Ver ficha de Discaria chacaya (Chacay)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="embothrium coccineum (notro) embotrhium coccineum notro proteacea"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Notro-adulto-florecido.jpg" alt="Embothrium coccineum (Notro)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Embotrhium coccineum</p>            <h3>Notro</h3>
+<p class="text-muted small mb-0">Proteácea</p>          </div>
+          <a class="card-link" href="especies/embothrium-coccineum-notro.html" aria-label="Ver ficha de Embothrium coccineum (Notro)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="eucalyptus globulus (eucalipto blanco) eucalyptus globulus (eucalipto blanco)  "
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/EUCALYPTUS-GLOBULUS-ADN.png" alt="Eucalyptus globulus (Eucalipto blanco)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Eucalyptus globulus (Eucalipto blanco)</h3>
+          </div>
+          <a class="card-link" href="especies/eucaliptus-globulus-eucalipto-blanco.html" aria-label="Ver ficha de Eucalyptus globulus (Eucalipto blanco)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="fagus sylvatica (haya europea) fagus sylvatica (haya europea)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/FAGUS-SYLVATICA-ADN.png" alt="Fagus sylvatica (Haya europea)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Fagus sylvatica (Haya europea)</h3>
+          </div>
+          <a class="card-link" href="especies/fagus-sylvatica-haya-europea.html" aria-label="Ver ficha de Fagus sylvatica (Haya europea)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="fitzroya cupressoides (alerce patagonico) fitzroya cupressoides (alerce patagonico)  "
+             data-cats="conifera-perenne">
+          <div class="thumb no-img">
+🌳          </div>
+          <div class="body">
+            <h3>Fitzroya cupressoides (Alerce patagónico)</h3>
+          </div>
+          <a class="card-link" href="especies/fitzroya-cupressoides-alerce-patagonico.html" aria-label="Ver ficha de Fitzroya cupressoides (Alerce patagónico)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="fraxinus americana (fresno blanco) fraxinus americana  oleaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/FRAXINUS-AMERICANA-AS-FOLIAR.jpg" alt="Fraxinus americana (Fresno blanco)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Fraxinus americana</h3>
+<p class="text-muted small mb-0">Oleáceas</p>          </div>
+          <a class="card-link" href="especies/fraxinus-americana-fresno-blanco.html" aria-label="Ver ficha de Fraxinus americana (Fresno blanco)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="fraxinus excelsior (fresno europeo) fraxinus excelsior  oleaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/FRAXINUS-EXCELSIOR-AS-FOLIAR.jpg" alt="Fraxinus excelsior (Fresno europeo)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Fraxinus excelsior</h3>
+<p class="text-muted small mb-0">Oleáceas</p>          </div>
+          <a class="card-link" href="especies/fraxinus-excelsior-fresno-europeo.html" aria-label="Ver ficha de Fraxinus excelsior (Fresno europeo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="gleditsia triacanthos (acacia de tres espinas) gleditsia triacanthos (acacia de tres espinas)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/Acacia-de-tres-espinas-haz-de-la-hoja-1.jpg" alt="Gleditsia triacanthos (Acacia de tres espinas)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Gleditsia triacanthos (Acacia de tres espinas)</h3>
+          </div>
+          <a class="card-link" href="especies/gladitsia-triacanthos-acacia-de-tres-espinas.html" aria-label="Ver ficha de Gleditsia triacanthos (Acacia de tres espinas)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="ilex aquifolium (acebo comun) ilex aquifolium  aquifoliaceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Acebo-hoja-variegada-239x300.jpg" alt="Ilex aquifolium (Acebo común)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Ilex aquifolium</h3>
+<p class="text-muted small mb-0">Aquifoliáceas</p>          </div>
+          <a class="card-link" href="especies/ilex-aquifolium-acebo-comun.html" aria-label="Ver ficha de Ilex aquifolium (Acebo común)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="ilex opaca (acebo americano) ilex opaca  aquifoliaceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/ILEX-OPACA-AS-FOLIAR-150x300.jpg" alt="Ilex opaca (Acebo americano)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Ilex opaca</h3>
+<p class="text-muted small mb-0">Aquifoliáceas</p>          </div>
+          <a class="card-link" href="especies/ilex-opaca-acebo-americano.html" aria-label="Ver ficha de Ilex opaca (Acebo americano)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="junglans regia (nogal) junglans regia (nogal)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/JUNGLANS-REGIA-NUEZ-SIN-PERICARPIO.jpg" alt="Junglans regia (Nogal)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Junglans regia (Nogal)</h3>
+          </div>
+          <a class="card-link" href="especies/junglans-regia-nogal.html" aria-label="Ver ficha de Junglans regia (Nogal)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="juniperus communis (enebro comun) juniperus communis (enebro comun) enebro, sabina, ginebro "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/JUNIPERUS-COMMUNIS-EJEMPLAR-ADULTO.jpg" alt="Juniperus communis (Enebro común)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Juniperus communis (Enebro común)</p>            <h3>Enebro, sabina, ginebro</h3>
+          </div>
+          <a class="card-link" href="especies/juniperus-communis-enebro-comun.html" aria-label="Ver ficha de Juniperus communis (Enebro común)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="laburnum anagyroides (lluvia de oro) laburnum anagyroides (lluvia de oro) lluvia de oro, codeso, falso ebano "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/LABURNUM-ANAGIROYDES-EJEMPLAR-FLORECIDO.jpg" alt="Laburnum anagyroides (Lluvia de oro)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Laburnum anagyroides (Lluvia de oro)</p>            <h3>Lluvia de oro, codeso, falso ébano</h3>
+          </div>
+          <a class="card-link" href="especies/laburnum-anagyroides-lluvia-de-oro.html" aria-label="Ver ficha de Laburnum anagyroides (Lluvia de oro)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="larix decidua (alerce europeo) larix decidua alerce europeo, alerce comun, alerce de los alpes pinaceas"
+             data-cats="conifera-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/Alerce-europeo-aspacto-primaveral-156x300.jpg" alt="Larix decidua (Alerce europeo)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Larix decidua</p>            <h3>Alerce europeo, Alerce común, Alerce de los Alpes</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/larix-decidua-alerce-europeo.html" aria-label="Ver ficha de Larix decidua (Alerce europeo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="larix kaempferi (alerce japones) larix kaempferi  pinaceas"
+             data-cats="conifera-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/LARIX-KAEMFERI-DETALLE-DE-BRAQUIBLASTO-300x204.jpg" alt="Larix kaempferi (Alerce japonés)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Larix kaempferi</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/larix-kaempferi-larix-japones.html" aria-label="Ver ficha de Larix kaempferi (Alerce japonés)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="larix laricina (tamarack) larix laricina  pinaceas"
+             data-cats="conifera-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/LARIX-LARICINA-CORTEZA-ADULTA-65x300.jpg" alt="Larix laricina (Tamarack)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Larix laricina</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/larix-laricina-tamarack.html" aria-label="Ver ficha de Larix laricina (Tamarack)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="laurus nobilis (laurel) laurus nobilis (laurel)  "
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/LAURUS-NOBILIS-ADN.png" alt="Laurus nobilis (Laurel)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Laurus nobilis (Laurel)</h3>
+          </div>
+          <a class="card-link" href="especies/laurus-nobilis-laurel.html" aria-label="Ver ficha de Laurus nobilis (Laurel)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="liquidambar stracyflua (liquidambar) liquidambar styraciflua liquidambar hamameliaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/LIQUIDAMBAR-STYRACIFLUA-AS-FOLIAR-209x300.jpg" alt="Liquidambar stracyflua (Liquidambar)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Liquidambar styraciflua</p>            <h3>Liquidambar</h3>
+<p class="text-muted small mb-0">Hamameliáceas</p>          </div>
+          <a class="card-link" href="especies/liquidambar-stracyflua-liquidambar.html" aria-label="Ver ficha de Liquidambar stracyflua (Liquidambar)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="liriodendron tulipifera (tulipanero) liriodendron tulipifera tulipanero americano, tulipanero de virginia magnoliaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/LIRIODENDRON-TULIPIFERA-FOLLAJE-225x300.jpg" alt="Liriodendron tulipifera (Tulipanero)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Liriodendron tulipifera</p>            <h3>Tulipanero americano, Tulipanero de Virginia</h3>
+<p class="text-muted small mb-0">Magnoliáceas</p>          </div>
+          <a class="card-link" href="especies/liriodendron-tulipifera-tulipanero.html" aria-label="Ver ficha de Liriodendron tulipifera (Tulipanero)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="lomatia hirsuta (radal) lomatia hirsuta (radal)  "
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/LOMATIA-HIRSUTA-EJEMPLAR-MADURO.jpg" alt="Lomatia hirsuta (Radal)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Lomatia hirsuta (Radal)</h3>
+          </div>
+          <a class="card-link" href="especies/lomatia-hirsuta-radal.html" aria-label="Ver ficha de Lomatia hirsuta (Radal)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="luma apiculata (arrayan) luma apiculata arrayan, quetri, palo colorado myrtaceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Arrayan-detalle-de-las-rama-300x192.jpg" alt="Luma apiculata (Arrayán)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Luma apiculata</p>            <h3>Arrayán, Quetri, palo colorado</h3>
+<p class="text-muted small mb-0">Myrtáceas</p>          </div>
+          <a class="card-link" href="especies/luma-apiculata-arrayan.html" aria-label="Ver ficha de Luma apiculata (Arrayán)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="magnolia grandiflora (magnolia) magnolia grandiflora magnolia magnoliaceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/MAGNOLIA-GRANDIFLORA-ADN.png" alt="Magnolia grandiflora (Magnolia)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Magnolia grandiflora</p>            <h3>Magnolia</h3>
+<p class="text-muted small mb-0">Magnoliáceas</p>          </div>
+          <a class="card-link" href="especies/magnolia-grandiflora-magnolia.html" aria-label="Ver ficha de Magnolia grandiflora (Magnolia)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="malus floribunda (manzano de flor) malus floribunda manzano de flor, manzano japones rosaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/MALUS-FLORIBUNDA-CORTEZA-ADULTA.jpg" alt="Malus floribunda (Manzano de flor)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Malus floribunda</p>            <h3>Manzano de flor, manzano japonés</h3>
+<p class="text-muted small mb-0">Rosáceas</p>          </div>
+          <a class="card-link" href="especies/malus-floribunda-manzano-de-flor.html" aria-label="Ver ficha de Malus floribunda (Manzano de flor)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="malus sylvestris (manzano silvestre) malus sylvestris (manzano silvestre)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/MALUS-SYLVESTRIS-CORTEZA.jpg" alt="Malus sylvestris (manzano silvestre)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Malus sylvestris (manzano silvestre)</h3>
+          </div>
+          <a class="card-link" href="especies/malus-sylvestris-manzano-silvestre.html" aria-label="Ver ficha de Malus sylvestris (manzano silvestre)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="maytenus boaria (maiten) maytenus boaria maiten celastraceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/maiten-10.jpg" alt="Maytenus boaria (Maitén)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Maytenus boaria</p>            <h3>Maitén</h3>
+<p class="text-muted small mb-0">Celastráceas</p>          </div>
+          <a class="card-link" href="especies/maytenus-boaria-maiten.html" aria-label="Ver ficha de Maytenus boaria (Maitén)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="nothofagus alpina (rauli) nothofagus alpina rauli nothofagaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/NOTHOFAGUS-ALPINA-ADN.png" alt="Nothofagus alpina (Raulí)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Nothofagus alpina</p>            <h3>Raulí</h3>
+<p class="text-muted small mb-0">Nothofagáceas</p>          </div>
+          <a class="card-link" href="especies/nothofagus-alpina-rauli.html" aria-label="Ver ficha de Nothofagus alpina (Raulí)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="nothofagus antarctica (nire) nothofagus antarctica nire nothofagaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/NOTHOFAGUS-ANTARCTICA-ADN.png" alt="Nothofagus antarctica (Ñire)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Nothofagus antarctica</p>            <h3>Ñire</h3>
+<p class="text-muted small mb-0">Nothofagáceas</p>          </div>
+          <a class="card-link" href="especies/nothofagus-antartica-nire.html" aria-label="Ver ficha de Nothofagus antarctica (Ñire)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="nothofagus dombeyi (coihue) nothofagus dombeyi coihue fagaceas"
+             data-cats="latifoliada-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/1Coihue-joven-en-plaza.jpg" alt="Nothofagus dombeyi (Coihue)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Nothofagus dombeyi</p>            <h3>Coihue</h3>
+<p class="text-muted small mb-0">Fagáceas</p>          </div>
+          <a class="card-link" href="especies/nothofagus-dombeyi-coihue.html" aria-label="Ver ficha de Nothofagus dombeyi (Coihue)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="nothofagus obliqua (roble pellin) nothofagus obliqua roble pellin nothofagaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/NOTHOFAGUS-OBLIQUA-ADN.png" alt="Nothofagus obliqua (Roble pellín)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Nothofagus obliqua</p>            <h3>Roble pellín</h3>
+<p class="text-muted small mb-0">Nothofagáceas</p>          </div>
+          <a class="card-link" href="especies/nothofagus-obliqua-roble-pellin.html" aria-label="Ver ficha de Nothofagus obliqua (Roble pellín)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="nothofagus pumilio (lenga) nothofagus pumilio (lenga)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/NOTHOFAGUS-PUMILIO-BOSQUE-EN-INVIERNO.jpg" alt="Nothofagus pumilio (lenga)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Nothofagus pumilio (lenga)</h3>
+          </div>
+          <a class="card-link" href="especies/nothofagus-pumilio-lenga.html" aria-label="Ver ficha de Nothofagus pumilio (lenga)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="picea abies (picea comun) picea abies (picea comun)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Picea-noruega-corteza-adulta.jpg" alt="Picea abies (Picea común)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Picea abies (Picea común)</h3>
+          </div>
+          <a class="card-link" href="especies/picea-abies-picea-comun.html" aria-label="Ver ficha de Picea abies (Picea común)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="picea omorika (picea de serbia) picea omorika picea de serbia pinaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PICEA-OMORICA-DETALLE-DE-RAMA.jpg" alt="Picea omorika (Picea de Serbia)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Picea omorika</p>            <h3>Picea de Serbia</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/picea-omorika-picea-de-serbia.html" aria-label="Ver ficha de Picea omorika (Picea de Serbia)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="picea orientalis (picea del caucaso) picea orientalis (picea del caucaso)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PICEA-ORIENTALIS-DETALLE-DE-RAMA.jpg" alt="Picea orientalis (Picea del Cáucaso)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Picea orientalis (Picea del Cáucaso)</h3>
+          </div>
+          <a class="card-link" href="especies/picea-orientalis-picea-del-caucaso.html" aria-label="Ver ficha de Picea orientalis (Picea del Cáucaso)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="picea pungens (picea del colorado) picea pungens (picea del colorado)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/14-12-08-PICEA-PUNGENS-GLAUCA-EJEMPLAR-EN-PLAZA141.jpg" alt="Picea pungens (Picea del Colorado)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Picea pungens (Picea del Colorado)</h3>
+          </div>
+          <a class="card-link" href="especies/picea-pungens-picea-del-colorado.html" aria-label="Ver ficha de Picea pungens (Picea del Colorado)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="picea sitchensis (picea de sitka) picea sitchensis (picea de sitka)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PICEA-SITCHENSIS-EJEMPLAR-ADULTO.jpeg" alt="Picea sitchensis (Picea de Sitka)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Picea sitchensis (Picea de Sitka)</h3>
+          </div>
+          <a class="card-link" href="especies/picea-sitchensis-picea-de-sitka.html" aria-label="Ver ficha de Picea sitchensis (Picea de Sitka)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pinus banksiana (pino cola de raton) pinus banksiana (pino cola de raton)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PINUS-BANKSIANA-PINA-INMADURA.jpg" alt="Pinus banksiana (Pino cola de ratón)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Pinus banksiana (Pino cola de ratón)</h3>
+          </div>
+          <a class="card-link" href="especies/pinus-banksiana-pino-cola-de-ratono.html" aria-label="Ver ficha de Pinus banksiana (Pino cola de ratón)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pinus contorta var. latifolia (pino contorta) pinus contorta var. latifolia  pinaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PINUS-CONTORTA-EJEMPLAR-MADURO.jpg" alt="Pinus contorta var. latifolia (Pino contorta)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Pinus contorta var. latifolia</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/pinus-contorta-var-latifolia-pino-contorta.html" aria-label="Ver ficha de Pinus contorta var. latifolia (Pino contorta)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pinus jeffreyi (pino de jeffrey) pinus jeffreyi (pino de jeffrey) nombre cientifico "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PINUS-JEFFREYI-EJEMPLAR-ADULTO.jpg" alt="Pinus jeffreyi (Pino de Jeffrey)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Pinus jeffreyi (Pino de Jeffrey)</p>            <h3>Nombre científico</h3>
+          </div>
+          <a class="card-link" href="especies/pinus-jeffreyi-pino-de-jeffrey.html" aria-label="Ver ficha de Pinus jeffreyi (Pino de Jeffrey)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pinus monticola (pino blanco del oeste) pinus monticola (pino blanco del oeste)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PINUS-MONTICOLA-CORTEZA-ADULTA.jpg" alt="Pinus monticola (Pino blanco del oeste)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Pinus monticola (Pino blanco del oeste)</h3>
+          </div>
+          <a class="card-link" href="especies/pinus-monticola-pino-blanco-del-oeste.html" aria-label="Ver ficha de Pinus monticola (Pino blanco del oeste)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pinus nigra (pino negral) pinus nigra (pino negral)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Pino-negral-corteza-adulta.jpg" alt="Pinus nigra (Pino negral)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Pinus nigra (Pino negral)</h3>
+          </div>
+          <a class="card-link" href="especies/pinus-nigra-pino-negral.html" aria-label="Ver ficha de Pinus nigra (Pino negral)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pinus ponderosa (pino ponderosa) pinus ponderosa pino amarillo occidental, pino ponderosa pinaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Pino-ponderosa-corteza-adulta.jpg" alt="Pinus ponderosa (Pino ponderosa)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Pinus ponderosa</p>            <h3>Pino amarillo occidental, Pino Ponderosa</h3>
+<p class="text-muted small mb-0">Pináceas</p>          </div>
+          <a class="card-link" href="especies/pinus-ponderosa-pino-ponderosa.html" aria-label="Ver ficha de Pinus ponderosa (Pino ponderosa)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pinus radiata (pino de monterrey) pinus radiata (pino de monterrey)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PINUS-RADIATA-ESTROBILOS-MASCULINOS.jpg" alt="Pinus radiata (Pino de Monterrey)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Pinus radiata (Pino de Monterrey)</h3>
+          </div>
+          <a class="card-link" href="especies/pinus-radiata-pino-de-monterrey.html" aria-label="Ver ficha de Pinus radiata (Pino de Monterrey)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pinus strobus (pino blanco del este) pinus strobus (pino blanco del este) nombre cientifico "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PINUS-STROBUS-PINA.jpg" alt="Pinus strobus (Pino blanco del este)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Pinus strobus (Pino blanco del este)</p>            <h3>Nombre científico</h3>
+          </div>
+          <a class="card-link" href="especies/pinus-strobus-pino-blanco-del-este.html" aria-label="Ver ficha de Pinus strobus (Pino blanco del este)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pinus sylvestris (pino silvestre) pinus sylvestris (pino silvestre) pino silvestre, pino albar, pino escoces "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PINUS-SYLVESTRIS-RAMILLA.jpg" alt="Pinus sylvestris (Pino silvestre)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Pinus sylvestris (Pino silvestre)</p>            <h3>Pino silvestre, Pino albar, Pino escocés</h3>
+          </div>
+          <a class="card-link" href="especies/pinus-sylvestris-pino-silvestre.html" aria-label="Ver ficha de Pinus sylvestris (Pino silvestre)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pinus wallichiana (pino azul del himalaya) pinus wallichiana (pino azul del himalaya)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PINUS-WALLICHIANA-EJEMPLAR-ADULTO.jpg" alt="Pinus wallichiana (Pino azul del Himalaya)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Pinus wallichiana (Pino azul del Himalaya)</h3>
+          </div>
+          <a class="card-link" href="especies/pinus-wallichiana-pino-azul-del-himalaya.html" aria-label="Ver ficha de Pinus wallichiana (Pino azul del Himalaya)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="platycladus orientalis (tuya oriental) platycladus orientalis (tuya oriental)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PLATYCLADUS-ORIENTALIS-DETALLE-DE-PINA-Y-SEMILLAS.jpg" alt="Platycladus orientalis (Tuya oriental)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Platycladus orientalis (Tuya oriental)</h3>
+          </div>
+          <a class="card-link" href="especies/platycladus-orientalis-tuya-oriental.html" aria-label="Ver ficha de Platycladus orientalis (Tuya oriental)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="populus alba (alamo blanco) populus alba  salicaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/POPULUS-ALBA-AS-FOLIAR.jpg" alt="Populus alba (Alamo blanco)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Populus alba</h3>
+<p class="text-muted small mb-0">Salicáceas</p>          </div>
+          <a class="card-link" href="especies/populus-alba-alamo-blanco.html" aria-label="Ver ficha de Populus alba (Alamo blanco)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="populus deltoides (alamo carolino) populus deltoides alamo carolino salicaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/POPULUS-DELTOIDES-ADN.png" alt="Populus deltoides (Álamo carolino)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Populus deltoides</p>            <h3>Alamo carolino</h3>
+<p class="text-muted small mb-0">Salicáceas</p>          </div>
+          <a class="card-link" href="especies/populus-deltoides-alamo-carolino.html" aria-label="Ver ficha de Populus deltoides (Álamo carolino)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="populus nigra (alamo criollo) populus nigra  salicaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/POPULUS-NIGRA-DENTRO-DE-UN-PATIO.jpg" alt="Populus nigra (Alamo criollo)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Populus nigra</h3>
+<p class="text-muted small mb-0">Salicáceas</p>          </div>
+          <a class="card-link" href="especies/populus-nigra-alamo-criollo.html" aria-label="Ver ficha de Populus nigra (Alamo criollo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="populus trichocarpa (alamo balsamico) populus trichocarpa  salicaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/POPULUS-TRICHOCAROA-EJEMPLAR-ASPECTO-ESTIVAL.jpg" alt="Populus trichocarpa (alamo balsamico)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Populus trichocarpa</h3>
+<p class="text-muted small mb-0">Salicáceas</p>          </div>
+          <a class="card-link" href="especies/alamo-balsamico-populus-trichocarpa.html" aria-label="Ver ficha de Populus trichocarpa (alamo balsamico)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="prunus avium (cerezo) prunus avium cerezo rosaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/PRUNUS-AVIUM-CORTEZA-ADULTA.jpg" alt="Prunus avium (Cerezo)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Prunus avium</p>            <h3>Cerezo</h3>
+<p class="text-muted small mb-0">Rosáceas</p>          </div>
+          <a class="card-link" href="especies/prunus-avium-cerezo.html" aria-label="Ver ficha de Prunus avium (Cerezo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="prunus cerassifera (ciruelo de flor) prunus cerasifera var. pissardii ciruelo de flor, ciruelo japones, cerezo de pissard, cerezo mirobalan rosaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ciruelo-de-flor-8.jpg" alt="Prunus cerassifera (Ciruelo de flor)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Prunus cerasifera Var. Pissardii</p>            <h3>Ciruelo de flor, Ciruelo japonés, Cerezo de Pissard, Cerezo mirobalán</h3>
+<p class="text-muted small mb-0">Rosáceas</p>          </div>
+          <a class="card-link" href="especies/prunus-cerasifera-ciruelo-de-flor.html" aria-label="Ver ficha de Prunus cerassifera (Ciruelo de flor)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="prunus domestica (ciruelo comun) prunus domestica ciruelo comun rosaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/PRUNUS-DOMESTICA-FRUTOS.jpg" alt="Prunus domestica (Ciruelo común)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Prunus domestica</p>            <h3>Ciruelo común</h3>
+<p class="text-muted small mb-0">Rosáceas</p>          </div>
+          <a class="card-link" href="especies/prunus-domestica-ciruelo-comun.html" aria-label="Ver ficha de Prunus domestica (Ciruelo común)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="prunus dulcis (almendro) prunus dulcis (almendro)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/PRUNUS-DULCIS-FRUTOS-INMADUROS.jpeg" alt="Prunus dulcis (Almendro)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Prunus dulcis (Almendro)</h3>
+          </div>
+          <a class="card-link" href="especies/prunus-dulcis-almendro.html" aria-label="Ver ficha de Prunus dulcis (Almendro)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="prunus lauroceresus (laurel cerezo) prunus lauroceresus (laurel cerezo) laurel cerezo, laurel real "
+             data-cats="latifoliada-perenne">
+          <div class="thumb no-img">
+🌳          </div>
+          <div class="body">
+<p class="sci-name mb-1">Prunus lauroceresus (Laurel cerezo)</p>            <h3>Laurel cerezo, laurel real</h3>
+          </div>
+          <a class="card-link" href="especies/prunus-lauroceresus-laurel-cerezo.html" aria-label="Ver ficha de Prunus lauroceresus (Laurel cerezo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="prunus mahaleb (cerezo de santa lucia) prunus mahaleb cerezo de santa lucia rosaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb no-img">
+🌳          </div>
+          <div class="body">
+<p class="sci-name mb-1">Prunus mahaleb</p>            <h3>Cerezo de Santa Lucia</h3>
+<p class="text-muted small mb-0">Rosáceas</p>          </div>
+          <a class="card-link" href="especies/prunus-mahaleb-cerezo-de-santa-lucia.html" aria-label="Ver ficha de Prunus mahaleb (Cerezo de Santa Lucia)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="prunus persica (duraznero) prunus persica (duraznero)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/PRUNUS-PERSICA-ADN.png" alt="Prunus persica (Duraznero)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Prunus persica (Duraznero)</h3>
+          </div>
+          <a class="card-link" href="especies/prunus-persica-duraznero.html" aria-label="Ver ficha de Prunus persica (Duraznero)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pseudotsuga menziesii (pino oregon) pseudotsuga menziesii (pino oregon)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/PSEUDOTSUGA-MENZIESII-ADN-294x300.png" alt="Pseudotsuga menziesii (Pino oregón)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Pseudotsuga menziesii (Pino oregón)</h3>
+          </div>
+          <a class="card-link" href="especies/pseudotsuga-menziesii-pino-oregon.html" aria-label="Ver ficha de Pseudotsuga menziesii (Pino oregón)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="pyrus communis (peral) pyrus communis (peral)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/PYRUS-COMMUNIS-EJEMPLAR-FLORECIDO.jpeg" alt="Pyrus communis (Peral)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Pyrus communis (Peral)</h3>
+          </div>
+          <a class="card-link" href="especies/pyrus-communis-peral.html" aria-label="Ver ficha de Pyrus communis (Peral)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="quercus alba (roble blanco) quercus alba roble blanco fagaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/QUERCUS-ALBA-ADN.png" alt="Quercus alba (Roble blanco)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Quercus alba</p>            <h3>Roble blanco</h3>
+<p class="text-muted small mb-0">Fagáceas</p>          </div>
+          <a class="card-link" href="especies/quercus-alba-roble-blanco.html" aria-label="Ver ficha de Quercus alba (Roble blanco)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="quercus palustris (roble de los pantanos) quercus palustris  fagaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/QUERCUS-PALUSTRIS-AS-FOLIAR.jpg" alt="Quercus palustris (Roble de los pantanos)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Quercus palustris</h3>
+<p class="text-muted small mb-0">Fagáceas</p>          </div>
+          <a class="card-link" href="especies/quercus-palustris-roble-de-los-pantanos.html" aria-label="Ver ficha de Quercus palustris (Roble de los pantanos)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="quercus robur (roble europeo) quercus robur roble europeo fagaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/Roble-europeo-ejemplar-en-plaza-Sarmiento.jpg" alt="Quercus robur (Roble europeo)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Quercus Robur</p>            <h3>Roble europeo</h3>
+<p class="text-muted small mb-0">Fagáceas</p>          </div>
+          <a class="card-link" href="especies/quercus-robur-roble-europeo.html" aria-label="Ver ficha de Quercus robur (Roble europeo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="quercus rubra (roble rojo del norte) quercus rubra  fagaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/QUERCUS-RUBRA-AS-FOLIAR.jpg" alt="Quercus rubra (Roble rojo del norte)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Quercus rubra</h3>
+<p class="text-muted small mb-0">Fagáceas</p>          </div>
+          <a class="card-link" href="especies/quercus-rubra-roble-rojo-del-norte.html" aria-label="Ver ficha de Quercus rubra (Roble rojo del norte)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="rhus typhina (zumaque de virginia) rhus typhina (zumaque de virginia) zumaque de virginia "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/RHUS-TYPHINA-EJEMPLAR-JOVEN.jpeg" alt="Rhus typhina (Zumaque de Virginia)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Rhus typhina (Zumaque de Virginia)</p>            <h3>Zumaque de Virginia</h3>
+          </div>
+          <a class="card-link" href="especies/rhus-typhina-zumaque-de-virginia.html" aria-label="Ver ficha de Rhus typhina (Zumaque de Virginia)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="robinia pseudoacacia (acacia blanca) robinia pseudoacacia acacia blanca, robinia fabaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/Acacia-blanca-corteza-adulta.jpg" alt="Robinia pseudoacacia (Acacia blanca)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Robinia pseudoacacia</p>            <h3>Acacia blanca, Robinia</h3>
+<p class="text-muted small mb-0">Fabáceas</p>          </div>
+          <a class="card-link" href="especies/robinia-pseudoacacia-acacia-blanca.html" aria-label="Ver ficha de Robinia pseudoacacia (Acacia blanca)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="salix alba (sauce blanco) salix alba (sauce blanco)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/SALIX-ALBA-ADN.png" alt="Salix alba (Sauce blanco)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Salix alba (Sauce blanco)</h3>
+          </div>
+          <a class="card-link" href="especies/salix-alba-sauce-blanco.html" aria-label="Ver ficha de Salix alba (Sauce blanco)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="salix babilonica (sauce lloron) salix babilonica (sauce lloron) sauce lloron "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/SALIX-BABILONICA-EJEMPLAR-ADULTO.jpg" alt="Salix babilonica (Sauce llorón)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Salix babilonica (Sauce llorón)</p>            <h3>Sauce llorón</h3>
+          </div>
+          <a class="card-link" href="especies/salix-babilonica-sauce-lloron.html" aria-label="Ver ficha de Salix babilonica (Sauce llorón)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="salix erythroflexuosa (sauce electrico) salix matsudana sauce electrico, sauce tortuoso, sauce chino salicaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/SALIX-MATSUDANA-CORTEZA-ADULTA.jpeg" alt="Salix erythroflexuosa (Sauce eléctrico)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Salix matsudana</p>            <h3>Sauce eléctrico, sauce tortuoso, sauce chino</h3>
+<p class="text-muted small mb-0">Salicáceas</p>          </div>
+          <a class="card-link" href="especies/salix-erythroflexuosa-sauce-electrico.html" aria-label="Ver ficha de Salix erythroflexuosa (Sauce eléctrico)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="sambucus nigra (sauco) sambucus nigra sauco caprifoliaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/SAMBUCUS-NIGRA-EJEMPLAR-FLORECIDO.jpg" alt="Sambucus nigra (Sauco)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Sambucus nigra</p>            <h3>Sáuco</h3>
+<p class="text-muted small mb-0">Caprifoliáceas</p>          </div>
+          <a class="card-link" href="especies/sambucus-nigra-sauco.html" aria-label="Ver ficha de Sambucus nigra (Sauco)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="sequoyadendron giganteum (secuoya gigante) sequoiadendron giganteum sequoya gigante, wellintonia, gran arbol de california taxodiaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Secuoya-gigante-grupo-de-ejemplares-adultos.jpg" alt="Sequoyadendron giganteum (Secuoya gigante)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Sequoiadendron giganteum</p>            <h3>Sequoya gigante, Wellintonia, Gran árbol de California</h3>
+<p class="text-muted small mb-0">Taxodiáceas</p>          </div>
+          <a class="card-link" href="especies/sequoyadendron-giganteum-secuoya-gigante.html" aria-label="Ver ficha de Sequoyadendron giganteum (Secuoya gigante)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="sequoya sempervirens (secuoya roja) sequoya sempervirens sequoya roja, secuoya de la costa, secuoya de california taxodiaceas"
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/Secuoya-roja-corteza-adulta.jpg" alt="Sequoya sempervirens (Secuoya roja)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Sequoya sempervirens</p>            <h3>Sequoya roja, Secuoya de la costa, Secuoya de California</h3>
+<p class="text-muted small mb-0">Taxodiáceas</p>          </div>
+          <a class="card-link" href="especies/sequoya-sempervirens-secuoya-roja.html" aria-label="Ver ficha de Sequoya sempervirens (Secuoya roja)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="sorbus aria (mostajo) sorbus aria (mostajo) mostajo "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ADN-SORBUS-ARIA.png" alt="Sorbus aria (Mostajo)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Sorbus aria (Mostajo)</p>            <h3>Mostajo</h3>
+          </div>
+          <a class="card-link" href="especies/sorbus-aria-mostajo.html" aria-label="Ver ficha de Sorbus aria (Mostajo)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="sorbus aucuparia (serbal del cazador) sorbus aucuparia serbal del cazador, serbal silvestre, pajarero rosaceas"
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/Serbal-del-caszador-flor.jpg" alt="Sorbus aucuparia (Serbal del cazador)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Sorbus aucuparia</p>            <h3>Serbal del cazador, Serbal silvestre, Pajarero</h3>
+<p class="text-muted small mb-0">Rosáceas</p>          </div>
+          <a class="card-link" href="especies/sorbus-aucuparia-serbal-del-cazador.html" aria-label="Ver ficha de Sorbus aucuparia (Serbal del cazador)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="sorbus torminalis (serbal silvestre) sorbus torminalis (serbal silvestre)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ADN-SORBUS-TORMINALIS.png" alt="Sorbus torminalis (Serbal silvestre)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Sorbus torminalis (Serbal silvestre)</h3>
+          </div>
+          <a class="card-link" href="especies/sorbus-torminalis-serbal-silvestre.html" aria-label="Ver ficha de Sorbus torminalis (Serbal silvestre)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="taxus baccata (tejo comun) taxus baccata (tejo comun)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/taxus3.jpeg" alt="Taxus baccata (Tejo común)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Taxus baccata (Tejo común)</h3>
+          </div>
+          <a class="card-link" href="especies/taxus-baccata-tejo-comun.html" aria-label="Ver ficha de Taxus baccata (Tejo común)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="thuja occidentalis (tuya occidental) thuja occidentalis (tuya occidental)  "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/THUJA-OCCIDENTALIS-EJEMPLAR-JOVEN.jpg" alt="Thuja occidentalis (Tuya occidental)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Thuja occidentalis (Tuya occidental)</h3>
+          </div>
+          <a class="card-link" href="especies/thuja-occidentalis-tuya-occidental.html" aria-label="Ver ficha de Thuja occidentalis (Tuya occidental)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="thuja plicata (tuya gigante) thuja plicata tuya gigante, cedro rojo del pacifico "
+             data-cats="conifera-perenne">
+          <div class="thumb ">
+            <img src="assets/img/especies/THUJA-PLICATA-EJEMPLARES-DE-MEDIANA-EDAD.jpg" alt="Thuja plicata (Tuya gigante)" loading="lazy">
+          </div>
+          <div class="body">
+<p class="sci-name mb-1">Thuja plicata</p>            <h3>Tuya gigante, Cedro rojo del Pacífico</h3>
+          </div>
+          <a class="card-link" href="especies/thuja-plicata-tuya-gigante.html" aria-label="Ver ficha de Thuja plicata (Tuya gigante)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="tilia cordata (tilo comun) tilia cordata (tilo comun)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/TILIA-SP-FRUTO.jpg" alt="Tilia cordata (Tilo común)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Tilia cordata (Tilo común)</h3>
+          </div>
+          <a class="card-link" href="especies/tilia-cordata-tilo-comun.html" aria-label="Ver ficha de Tilia cordata (Tilo común)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="ulmus glabra (olmo de montana) ulmus glabra (olmo de montana)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ULMUS-GLABRA-AS-FOLIAR.jpg" alt="Ulmus glabra (Olmo de montaña)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Ulmus glabra (Olmo de montaña)</h3>
+          </div>
+          <a class="card-link" href="especies/ulmus-glabra-olmo-de-montana.html" aria-label="Ver ficha de Ulmus glabra (Olmo de montaña)"></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="ulmus pumila (olmo siberiano) ulmus pumila (olmo siberiano)  "
+             data-cats="latifoliada-caduca">
+          <div class="thumb ">
+            <img src="assets/img/especies/ULMUS-PUMILA-AS-FOLIAR.jpg" alt="Ulmus pumila (Olmo siberiano)" loading="lazy">
+          </div>
+          <div class="body">
+            <h3>Ulmus pumila (Olmo siberiano)</h3>
+          </div>
+          <a class="card-link" href="especies/ulmus-pumila-olmo-siberiano.html" aria-label="Ver ficha de Ulmus pumila (Olmo siberiano)"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="au-empty-state" id="auEmptyState" style="display:none;">
+      <p class="fs-4 mb-1">🔍</p>
+      <p>No encontramos especies que coincidan con tu búsqueda.</p>
+    </div>
+  </div>
+</div>
+
+<footer class="au-footer">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <a class="au-brand au-link-plain" href="index.html">
+          <img src="assets/img/au_logo_horizontal_blanco.png" alt="Arboles Urbanos">
+        </a>
+        <p class="mt-3 mb-0" style="max-width:320px;">Mapas y fichas del arbolado urbano de localidades de la zona cordillerana de Norpatagonia.</p>
+      </div>
+      <div class="col-lg-3">
+        <h6>Navegación</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="index.html">Inicio</a></li>
+          <li class="mb-2"><a href="referencias.html">Referencias</a></li>
+          <li class="mb-2"><a href="fichas-de-especies.html">Especies</a></li>
+          <li class="mb-2"><a href="contacto.html">Contáctenos</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2">
+        <h6>Acerca de</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="acerca-de-arboles-urbanos.html">¿Por qué esta página?</a></li>
+          <li class="mb-2"><a href="asociacion-civil-propatagonia.html">Propatagonia</a></li>
+          <li class="mb-2"><a href="catedra-arbolado-urbano.html">Cátedra Arbolado Urbano</a></li>
+          <li class="mb-2"><a href="licencia-de-uso.html">Licencia de uso</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6>Contacto</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a class="au-social-link" href="mailto:mapaarbolesurbanos@gmail.com">✉ mapaarbolesurbanos@gmail.com</a></li>
+          <li class="mb-2"><a class="au-social-link" href="https://www.instagram.com/mapa.arboles.urbanos" target="_blank" rel="noopener">📷 @mapa.arboles.urbanos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="au-footer-bottom d-flex flex-wrap justify-content-between gap-2">
+      <span>© 2026 Realizado por Adriano Arach y <a href="https://www.linkedin.com/in/francisco-morosini" target="_blank" rel="noopener">Francisco Morosini</a></span>
+      <span>Esta obra está bajo una <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/species-search.js"></script>
+</body>
+</html>

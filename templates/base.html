@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }} · Arboles Urbanos</title>
+<meta name="description" content="{{ page_description or 'Mapas y fichas del arbolado urbano de localidades de la zona cordillerana de Norpatagonia.' }}">
+
+<link rel="icon" type="image/png" sizes="32x32" href="{{ base }}assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ base }}assets/img/favicon-16.png">
+<link rel="apple-touch-icon" href="{{ base }}assets/img/apple-touch-icon.png">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ base }}assets/css/style.css">
+{% block head_extra %}{% endblock %}
+</head>
+<body>
+
+<header class="au-header">
+  <nav class="navbar navbar-expand-lg au-navbar">
+    <div class="container">
+      <a class="navbar-brand au-brand" href="{{ base }}index.html">
+        <img src="{{ base }}assets/img/au_logo_horizontal_verde.png" alt="Arboles Urbanos">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#auNavMenu" aria-controls="auNavMenu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="auNavMenu">
+        <ul class="navbar-nav ms-auto au-nav align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link {{ 'active' if active=='inicio' else '' }}" href="{{ base }}index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle {{ 'active' if active=='acerca' else '' }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Acerca de esta página
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="{{ base }}acerca-de-arboles-urbanos.html">¿Por qué esta página?</a></li>
+              <li><a class="dropdown-item" href="{{ base }}asociacion-civil-propatagonia.html">Asociación Civil Propatagonia</a></li>
+              <li><a class="dropdown-item" href="{{ base }}catedra-arbolado-urbano.html">Cátedra Arbolado Urbano</a></li>
+              <li><a class="dropdown-item ps-4" href="{{ base }}practicas-laborales-alumnos.html">↳ Prácticas Laborales Alumnos</a></li>
+              <li><a class="dropdown-item" href="{{ base }}licencia-de-uso.html">Licencia de uso</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ 'active' if active=='referencias' else '' }}" href="{{ base }}referencias.html">Referencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ 'active' if active=='especies' else '' }}" href="{{ base }}fichas-de-especies.html">Especies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ 'active' if active=='contacto' else '' }}" href="{{ base }}contacto.html">Contáctenos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+{% block content %}{% endblock %}
+
+<footer class="au-footer">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <a class="au-brand au-link-plain" href="{{ base }}index.html">
+          <img src="{{ base }}assets/img/au_logo_horizontal_blanco.png" alt="Arboles Urbanos">
+        </a>
+        <p class="mt-3 mb-0" style="max-width:320px;">Mapas y fichas del arbolado urbano de localidades de la zona cordillerana de Norpatagonia.</p>
+      </div>
+      <div class="col-lg-3">
+        <h6>Navegación</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="{{ base }}index.html">Inicio</a></li>
+          <li class="mb-2"><a href="{{ base }}referencias.html">Referencias</a></li>
+          <li class="mb-2"><a href="{{ base }}fichas-de-especies.html">Especies</a></li>
+          <li class="mb-2"><a href="{{ base }}contacto.html">Contáctenos</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2">
+        <h6>Acerca de</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="{{ base }}acerca-de-arboles-urbanos.html">¿Por qué esta página?</a></li>
+          <li class="mb-2"><a href="{{ base }}asociacion-civil-propatagonia.html">Propatagonia</a></li>
+          <li class="mb-2"><a href="{{ base }}catedra-arbolado-urbano.html">Cátedra Arbolado Urbano</a></li>
+          <li class="mb-2"><a href="{{ base }}licencia-de-uso.html">Licencia de uso</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6>Contacto</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a class="au-social-link" href="mailto:mapaarbolesurbanos@gmail.com">✉ mapaarbolesurbanos@gmail.com</a></li>
+          <li class="mb-2"><a class="au-social-link" href="https://www.instagram.com/mapa.arboles.urbanos" target="_blank" rel="noopener">📷 @mapa.arboles.urbanos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="au-footer-bottom d-flex flex-wrap justify-content-between gap-2">
+      <span>© 2026 Realizado por Adriano Arach y <a href="https://www.linkedin.com/in/francisco-morosini" target="_blank" rel="noopener">Francisco Morosini</a></span>
+      <span>Esta obra está bajo una <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ base }}assets/js/main.js"></script>
+{% block scripts_extra %}{% endblock %}
+</body>
+</html>

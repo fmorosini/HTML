@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="au-page-header">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ base }}index.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Especies</li>
+      </ol>
+    </nav>
+    <h1>Fichas de especies</h1>
+    <p class="mb-0" style="max-width:640px; color: rgba(255,255,255,0.8);">Explorá las {{ species|length }} especies arbóreas relevadas en el corredor de los lagos. Buscá por nombre común, científico o familia botánica.</p>
+  </div>
+</div>
+
+<div class="au-section pt-4">
+  <div class="container">
+    <div class="row mb-4 g-3 align-items-center">
+      <div class="col-lg-6">
+        <input type="search" id="auSpeciesSearch" class="au-search-bar" placeholder="Buscar por nombre, especie o familia…" aria-label="Buscar por texto en contenido de fichas">
+      </div>
+      <div class="col-lg-6">
+        <div class="d-flex flex-wrap gap-2">
+          {% for cat in categories %}
+          <button type="button" class="au-filter-chip" data-cat-chip="{{ cat.slug }}">
+            <span class="dot au-cat-{{ cat.slug }}"></span>{{ cat.label }}
+          </button>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <p class="text-muted mb-4"><span id="auResultsCount">{{ species|length }}</span> especies encontradas</p>
+
+    <div class="row g-4" id="auSpeciesGrid">
+      {% for sp in species %}
+      <div class="col-sm-6 col-lg-4 col-xl-3" data-species-col>
+        <div class="au-species-card" data-species-card
+             data-search="{{ sp.search_text }}"
+             data-cats="{{ sp.cats_csv }}">
+          <div class="thumb {{ '' if sp.thumb else 'no-img' }}">
+            {% if sp.thumb %}
+            <img src="{{ base }}assets/img/especies/{{ sp.thumb }}" alt="{{ sp.title }}" loading="lazy">
+            {% else %}🌳{% endif %}
+          </div>
+          <div class="body">
+            {% if sp.common_name %}<p class="sci-name mb-1">{{ sp.sci_name }}</p>{% endif %}
+            <h3>{{ sp.common_name or sp.sci_name }}</h3>
+            {% if sp.family %}<p class="text-muted small mb-0">{{ sp.family }}</p>{% endif %}
+          </div>
+          <a class="card-link" href="{{ base }}especies/{{ sp.slug }}.html" aria-label="Ver ficha de {{ sp.title }}"></a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="au-empty-state" id="auEmptyState" style="display:none;">
+      <p class="fs-4 mb-1">🔍</p>
+      <p>No encontramos especies que coincidan con tu búsqueda.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts_extra %}
+<script src="{{ base }}assets/js/species-search.js"></script>
+{% endblock %}
