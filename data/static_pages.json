@@ -18,7 +18,9 @@
           {
             "type": "image",
             "file": "foto2.jpeg",
-            "alt": ""
+            "alt": "",
+            "width": 1000,
+            "height": 953
           }
         ]
       ],
@@ -27,7 +29,9 @@
           {
             "type": "image",
             "file": "foto5.jpeg",
-            "alt": ""
+            "alt": "",
+            "width": 750,
+            "height": 1000
           }
         ],
         [
@@ -58,7 +62,9 @@
           {
             "type": "image",
             "file": "foto1.jpeg",
-            "alt": ""
+            "alt": "",
+            "width": 991,
+            "height": 1000
           }
         ]
       ],
@@ -67,7 +73,9 @@
           {
             "type": "image",
             "file": "foto7.jpeg",
-            "alt": ""
+            "alt": "",
+            "width": 1000,
+            "height": 735
           }
         ],
         [
@@ -127,12 +135,16 @@
           {
             "type": "image",
             "file": "Captura-de-pantalla-2020-08-17-20-43-12.png",
-            "alt": "Educación Ambiental"
+            "alt": "Educación Ambiental",
+            "width": 1000,
+            "height": 751
           },
           {
             "type": "image",
             "file": "Captura-de-pantalla-2020-08-17-20-45-18.png",
-            "alt": "Trabajo con Comunidades Mapuche"
+            "alt": "Trabajo con Comunidades Mapuche",
+            "width": 1000,
+            "height": 754
           }
         ]
       ],
@@ -155,7 +167,9 @@
           {
             "type": "image",
             "file": "Captura-de-pantalla-2020-08-17-20-46-01.png",
-            "alt": "Trabajo con comunidades mapuche"
+            "alt": "Trabajo con comunidades mapuche",
+            "width": 830,
+            "height": 630
           }
         ]
       ],
@@ -164,14 +178,18 @@
           {
             "type": "image",
             "file": "Captura-de-pantalla-2020-08-25-00-39-55.png",
-            "alt": "Ubicación Parque Nacional Lanín"
+            "alt": "Ubicación Parque Nacional Lanín",
+            "width": 594,
+            "height": 642
           }
         ],
         [
           {
             "type": "image",
             "file": "Captura-de-pantalla-2020-08-25-00-40-38.png",
-            "alt": "PN Lanín"
+            "alt": "PN Lanín",
+            "width": 555,
+            "height": 849
           }
         ]
       ],
@@ -180,7 +198,9 @@
           {
             "type": "image",
             "file": "Captura-de-pantalla-2020-08-17-20-44-32.png",
-            "alt": "Ferias de intercambio de semillas, plantines y saberes"
+            "alt": "Ferias de intercambio de semillas, plantines y saberes",
+            "width": 1000,
+            "height": 753
           }
         ]
       ]
@@ -269,7 +289,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -286,7 +308,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -303,7 +327,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -320,7 +346,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -337,7 +365,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -354,7 +384,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -371,7 +403,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -388,7 +422,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -405,7 +441,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -422,7 +460,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -439,7 +479,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -456,7 +498,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -473,7 +517,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ],
@@ -490,7 +536,9 @@
           {
             "type": "image",
             "file": "pdf.gif",
-            "alt": ""
+            "alt": "",
+            "width": 142,
+            "height": 150
           }
         ]
       ]
@@ -515,7 +563,9 @@
           {
             "type": "image",
             "file": "logocopyleft.png",
-            "alt": ""
+            "alt": "",
+            "width": 1124,
+            "height": 385
           }
         ]
       ],
@@ -610,7 +660,9 @@
           {
             "type": "image",
             "file": "latifoliada_perenne.gif",
-            "alt": "Latifoliada perenne magnitud 2"
+            "alt": "Latifoliada perenne magnitud 2",
+            "width": 64,
+            "height": 70
           },
           {
             "type": "text",
@@ -623,7 +675,9 @@
           {
             "type": "image",
             "file": "latifoliada_caduca.gif",
-            "alt": ""
+            "alt": "",
+            "width": 64,
+            "height": 70
           },
           {
             "type": "text",
@@ -636,7 +690,9 @@
           {
             "type": "image",
             "file": "conifera_perenne.gif",
-            "alt": ""
+            "alt": "",
+            "width": 70,
+            "height": 70
           },
           {
             "type": "text",
@@ -649,7 +705,9 @@
           {
             "type": "image",
             "file": "conifera_caduca.gif",
-            "alt": ""
+            "alt": "",
+            "width": 70,
+            "height": 70
           },
           {
             "type": "text",

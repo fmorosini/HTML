@@ -63,7 +63,15 @@ def process_image(img, dest_dir=IMG_DIR):
     fname = clean_filename(src)
     dest = os.path.join(dest_dir, fname)
     ok = download_image(src, dest)
-    return {"type": "image", "file": fname if ok else None, "alt": img.get("alt", "")}
+    width = img.get("width")
+    height = img.get("height")
+    return {
+        "type": "image",
+        "file": fname if ok else None,
+        "alt": img.get("alt", ""),
+        "width": int(width) if width and str(width).isdigit() else None,
+        "height": int(height) if height and str(height).isdigit() else None,
+    }
 
 def parse_cell(cell):
     blocks = []
