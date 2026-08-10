@@ -35,7 +35,7 @@
             <ul>{% for it in block['items'] %}<li>{{ it|safe }}</li>{% endfor %}</ul>
             {% endif %}
           {% elif block.type == 'image' and block.file %}
-            {% if block.width and block.height and block.width <= 100 and block.height <= 100 %}
+            {% if block.width and block.height and block.width <= 160 and block.height <= 160 %}
             <img src="{{ base }}assets/img/site/{{ block.file }}" alt="{{ block.alt }}" width="{{ block.width }}" height="{{ block.height }}" class="au-icon-img mb-2">
             {% else %}
             <img src="{{ base }}assets/img/site/{{ block.file }}" alt="{{ block.alt }}" class="img-fluid au-rounded au-shadow-sm mb-2" loading="lazy">
