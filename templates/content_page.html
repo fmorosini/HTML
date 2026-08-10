@@ -18,7 +18,7 @@
     {% for row in rows %}
     <div class="row au-content-row">
       {% for cell in row %}
-      <div class="col-md-{{ (12 // (row|length)) if row|length in [1,2,3] else 12 }} mb-3">
+      <div class="col-6 col-md-{{ (12 // (row|length)) if row|length in [1,2,3,4,6] else 12 }} mb-3">
         {% for block in cell %}
           {% if block.type == 'text' %}
             {% for p in block.paragraphs %}
