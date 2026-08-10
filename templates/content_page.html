@@ -35,10 +35,12 @@
             <ul>{% for it in block['items'] %}<li>{{ it|safe }}</li>{% endfor %}</ul>
             {% endif %}
           {% elif block.type == 'image' and block.file %}
-            {% if block.width and block.height and block.width <= 160 and block.height <= 160 %}
-            <img src="{{ base }}assets/img/site/{{ block.file }}" alt="{{ block.alt }}" width="{{ block.width }}" height="{{ block.height }}" class="au-icon-img mb-2">
+            {% set is_icon = block.width and block.height and block.width <= 160 and block.height <= 160 %}
+            {% set img_tag %}<img src="{{ base }}assets/img/site/{{ block.file }}" alt="{{ block.alt }}"{% if is_icon %} width="{{ block.width }}" height="{{ block.height }}" class="au-icon-img mb-2"{% else %} class="img-fluid au-rounded au-shadow-sm mb-2" loading="lazy"{% endif %}>{% endset %}
+            {% if block.link_pdf %}
+            <a href="{{ base }}assets/pdf/{{ block.link_pdf }}" target="_blank" rel="noopener">{{ img_tag|safe }}</a>
             {% else %}
-            <img src="{{ base }}assets/img/site/{{ block.file }}" alt="{{ block.alt }}" class="img-fluid au-rounded au-shadow-sm mb-2" loading="lazy">
+            {{ img_tag|safe }}
             {% endif %}
           {% endif %}
         {% endfor %}

@@ -20,7 +20,8 @@
             "file": "foto2.jpeg",
             "alt": "",
             "width": 1000,
-            "height": 953
+            "height": 953,
+            "link_pdf": null
           }
         ]
       ],
@@ -31,7 +32,8 @@
             "file": "foto5.jpeg",
             "alt": "",
             "width": 750,
-            "height": 1000
+            "height": 1000,
+            "link_pdf": null
           }
         ],
         [
@@ -64,7 +66,8 @@
             "file": "foto1.jpeg",
             "alt": "",
             "width": 991,
-            "height": 1000
+            "height": 1000,
+            "link_pdf": null
           }
         ]
       ],
@@ -75,7 +78,8 @@
             "file": "foto7.jpeg",
             "alt": "",
             "width": 1000,
-            "height": 735
+            "height": 735,
+            "link_pdf": null
           }
         ],
         [
@@ -137,14 +141,16 @@
             "file": "Captura-de-pantalla-2020-08-17-20-43-12.png",
             "alt": "Educación Ambiental",
             "width": 1000,
-            "height": 751
+            "height": 751,
+            "link_pdf": null
           },
           {
             "type": "image",
             "file": "Captura-de-pantalla-2020-08-17-20-45-18.png",
             "alt": "Trabajo con Comunidades Mapuche",
             "width": 1000,
-            "height": 754
+            "height": 754,
+            "link_pdf": null
           }
         ]
       ],
@@ -169,7 +175,8 @@
             "file": "Captura-de-pantalla-2020-08-17-20-46-01.png",
             "alt": "Trabajo con comunidades mapuche",
             "width": 830,
-            "height": 630
+            "height": 630,
+            "link_pdf": null
           }
         ]
       ],
@@ -180,7 +187,8 @@
             "file": "Captura-de-pantalla-2020-08-25-00-39-55.png",
             "alt": "Ubicación Parque Nacional Lanín",
             "width": 594,
-            "height": 642
+            "height": 642,
+            "link_pdf": null
           }
         ],
         [
@@ -189,7 +197,8 @@
             "file": "Captura-de-pantalla-2020-08-25-00-40-38.png",
             "alt": "PN Lanín",
             "width": 555,
-            "height": 849
+            "height": 849,
+            "link_pdf": null
           }
         ]
       ],
@@ -200,7 +209,8 @@
             "file": "Captura-de-pantalla-2020-08-17-20-44-32.png",
             "alt": "Ferias de intercambio de semillas, plantines y saberes",
             "width": 1000,
-            "height": 753
+            "height": 753,
+            "link_pdf": null
           }
         ]
       ]
@@ -291,7 +301,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "RELEVAMIENTO-Y-PROPUESTA-DE-DISENO-DE-SENDERO-EN-EL-BOSQUE-DE-COIHUES-SITUADO-EN-LA-PENINSULA-SOBRE-EL-LAGO-ALUMINE.pdf"
           }
         ]
       ],
@@ -310,7 +321,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "Relevamiento-y-analisis-del-arbolado-de-tres-espacios-verdes-de-la-Ciudad-de-Zapala.pdf"
           }
         ]
       ],
@@ -329,7 +341,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "RELEVAMIENTO-Y-DIAGNOSTICO-DEL-ARBOLADO-URBANO-DEL-BARRIO-PARQUE-LAGO-MORENO.pdf"
           }
         ]
       ],
@@ -348,7 +361,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "Arbolado_del_espacio_verde_de_Chacra_32_de_San_martin_de_los_andes.pdf"
           }
         ]
       ],
@@ -367,7 +381,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": null
           }
         ]
       ],
@@ -386,7 +401,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "evaluacion_arboles_valor_especial.pdf"
           }
         ]
       ],
@@ -405,7 +421,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "Propuesta_tecnica_de_intervencion_en_el_arbolado_de_lo_espacios_verdes_denominados_Rahuecito_y_Mirador_Dr._Raul_Ricardo_Alfonsin.pdf"
           }
         ]
       ],
@@ -424,7 +441,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "Relevamiento-y-diagnostico-del-Arbolado-de-Alineacion-del-Barrio-Vamep-480AViviendas-San-Martin-de-los-Andes.pdf"
           }
         ]
       ],
@@ -443,7 +461,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "Evaluacion-y-determinacion-de-riesgo-de-arboles_individuales-ubicados-en-la-plaza-San-Martin-de-Junin-de_los-Andes.pdf"
           }
         ]
       ],
@@ -462,7 +481,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "Intervencion-del-arbolado-en-un-sector-del-predio-del-Centro_de-Ecologia-Aplicada-del-Neuquen.pdf"
           }
         ]
       ],
@@ -481,7 +501,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "Propuesta-de-especies-para-utilizar-en-el-arbolado-de_alineacion-para-el-sector-de-ingreso-del-Loteo-Social-Nehuen-Che-de-la_Ciudad-de-Junin-de-los-Andes.pdf"
           }
         ]
       ],
@@ -500,7 +521,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "EVALUACION-DE-ESPECIES-DEL-ARBOLADO-DE-ALINEACION-DE-PARTE-DEL-CASCO-HISTORICO-DE-SAN-MARTIN-DE-LOS-ANDES.pdf"
           }
         ]
       ],
@@ -519,7 +541,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "APLICACION-DE-PROPUESTA-DE-CATALOGACION-EN-ARBOLES-SIGNIFICATIVOS-DEL-CASCO-CENTRICO-DE-SAN-MARTIN-DE-LOS-ANDES.pdf"
           }
         ]
       ],
@@ -538,7 +561,8 @@
             "file": "pdf.gif",
             "alt": "",
             "width": 142,
-            "height": 150
+            "height": 150,
+            "link_pdf": "ANALISIS-Y-PROPUESTA-DE-INTERVENSION-EN-UN-LOTE-EN-LA-COSTANERA-DEL-LAGO-LACAR.pdf"
           }
         ]
       ]
@@ -565,7 +589,8 @@
             "file": "logocopyleft.png",
             "alt": "",
             "width": 1124,
-            "height": 385
+            "height": 385,
+            "link_pdf": null
           }
         ]
       ],
@@ -662,7 +687,8 @@
             "file": "latifoliada_perenne.gif",
             "alt": "Latifoliada perenne magnitud 2",
             "width": 64,
-            "height": 70
+            "height": 70,
+            "link_pdf": null
           },
           {
             "type": "text",
@@ -677,7 +703,8 @@
             "file": "latifoliada_caduca.gif",
             "alt": "",
             "width": 64,
-            "height": 70
+            "height": 70,
+            "link_pdf": null
           },
           {
             "type": "text",
@@ -692,7 +719,8 @@
             "file": "conifera_perenne.gif",
             "alt": "",
             "width": 70,
-            "height": 70
+            "height": 70,
+            "link_pdf": null
           },
           {
             "type": "text",
@@ -707,7 +735,8 @@
             "file": "conifera_caduca.gif",
             "alt": "",
             "width": 70,
-            "height": 70
+            "height": 70,
+            "link_pdf": null
           },
           {
             "type": "text",

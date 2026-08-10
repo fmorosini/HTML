@@ -6,7 +6,9 @@ from urllib.parse import urlparse, unquote
 BASE = "https://arbolesurbanos.com.ar"
 H = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 IMG_DIR = "assets/img/site"
+PDF_DIR = "assets/pdf"
 os.makedirs(IMG_DIR, exist_ok=True)
+os.makedirs(PDF_DIR, exist_ok=True)
 
 PAGES = [
     "acerca-de-arboles-urbanos",
@@ -33,6 +35,19 @@ def download_image(url, dest_path):
         return True
     except Exception as e:
         print("  IMG FAIL", url, e)
+        return False
+
+def download_pdf(url, dest_path):
+    if os.path.exists(dest_path):
+        return True
+    try:
+        r = requests.get(url, headers=H, timeout=60)
+        r.raise_for_status()
+        with open(dest_path, "wb") as f:
+            f.write(r.content)
+        return True
+    except Exception as e:
+        print("  PDF FAIL", url, e)
         return False
 
 def inner_html(tag):
@@ -65,12 +80,23 @@ def process_image(img, dest_dir=IMG_DIR):
     ok = download_image(src, dest)
     width = img.get("width")
     height = img.get("height")
+
+    link_file = None
+    parent_a = img.find_parent("a")
+    if parent_a and parent_a.get("href", "").lower().endswith(".pdf"):
+        pdf_url = parent_a["href"]
+        pdf_fname = clean_filename(pdf_url)
+        pdf_dest = os.path.join(PDF_DIR, pdf_fname)
+        if download_pdf(pdf_url, pdf_dest):
+            link_file = pdf_fname
+
     return {
         "type": "image",
         "file": fname if ok else None,
         "alt": img.get("alt", ""),
         "width": int(width) if width and str(width).isdigit() else None,
         "height": int(height) if height and str(height).isdigit() else None,
+        "link_pdf": link_file,
     }
 
 def parse_cell(cell):
