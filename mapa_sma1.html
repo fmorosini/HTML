@@ -95,7 +95,7 @@ function cargarDatosEnMapa(){
 			
 		}).addTo(mymap);
 
-			
+
 	var rootUrl = './json/SMA1.geojson';
 	
 	console.log("pasa por acá")
@@ -125,6 +125,12 @@ function cargarDatosEnMapa(){
 	
 
 
+
+function urlFichaLocal(urlFicha){
+	if(!urlFicha){ return null; }
+	var m = urlFicha.match(/arbolesurbanos\.com\.ar\/([^\/]+)\/?$/);
+	return m ? 'especies/' + m[1] + '.html' : urlFicha;
+}
 
 function despliegaDatos(data,cluster)
 {
@@ -184,9 +190,11 @@ function despliegaDatos(data,cluster)
 			var html_popup = "<div class='card'>";
 			
 
-			if(data.features[i].properties.url_ficha !== "" ){
+			var fichaLocal = urlFichaLocal(data.features[i].properties.url_ficha);
 
-				html_popup += " <div class='card-header'><center><a href=" + data.features[i].properties.url_ficha + " target='_top'><img class='img-fluid' style='max-width: 80%' src=" + encodeURI("https://www.arbolesurbanos.com.ar/" + data.features[i].properties.thumbnail) + " /></a></center></div>";
+			if(fichaLocal){
+
+				html_popup += " <div class='card-header'><center><a href='" + fichaLocal + "' target='_top'><img class='img-fluid' style='max-width: 80%' src=" + encodeURI("https://www.arbolesurbanos.com.ar/" + data.features[i].properties.thumbnail) + " /></a></center></div>";
 
 			}
 			else{
