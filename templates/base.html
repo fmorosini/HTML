@@ -4,7 +4,58 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page_title }} · Arboles Urbanos</title>
-<meta name="description" content="{{ page_description or 'Mapas y fichas del arbolado urbano de localidades de la zona cordillerana de Norpatagonia.' }}">
+{% set meta_description = page_description or 'Mapas y fichas del arbolado urbano de localidades de la zona cordillerana de Norpatagonia.' %}
+<meta name="description" content="{{ meta_description }}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{{ canonical_url }}">
+
+<meta property="og:type" content="{{ og_type or 'website' }}">
+<meta property="og:site_name" content="Arboles Urbanos">
+<meta property="og:locale" content="es_AR">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:title" content="{{ page_title }} · Arboles Urbanos">
+<meta property="og:description" content="{{ meta_description }}">
+<meta property="og:image" content="{{ og_image or (site_url ~ '/assets/img/au_logo_horizontal_verde.png') }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title }} · Arboles Urbanos">
+<meta name="twitter:description" content="{{ meta_description }}">
+<meta name="twitter:image" content="{{ og_image or (site_url ~ '/assets/img/au_logo_horizontal_verde.png') }}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site_url }}/#organization",
+      "name": "Arboles Urbanos",
+      "url": "{{ site_url }}/",
+      "logo": "{{ site_url }}/assets/img/au_logo_horizontal_verde.png",
+      "email": "mapaarbolesurbanos@gmail.com",
+      "sameAs": ["https://www.instagram.com/mapa.arboles.urbanos"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site_url }}/#website",
+      "url": "{{ site_url }}/",
+      "name": "Arboles Urbanos",
+      "description": "Mapas y fichas del arbolado urbano de localidades de la zona cordillerana de Norpatagonia.",
+      "publisher": {"@id": "{{ site_url }}/#organization"},
+      "inLanguage": "es-AR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ site_url }}/fichas-de-especies.html?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>
+{% block jsonld_extra %}{% endblock %}
 
 <script id="google_gtagjs-js" src="https://www.googletagmanager.com/gtag/js?id=GT-57Z75WJ" async></script>
 <script id="google_gtagjs-js-after">

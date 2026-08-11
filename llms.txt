@@ -1,0 +1,15 @@
+# Arboles Urbanos
+
+> Mapas y fichas del arbolado urbano de localidades de la zona cordillerana de Norpatagonia (Argentina). Proyecto de la Cátedra de Arbolado Urbano (Asentamiento Universitario San Martín de los Andes, Universidad Nacional del Comahue) y la Asociación Civil Propatagonia.
+
+## Contenido principal
+
+- [Mapa interactivo](https://arbolesurbanos.com.ar/index.html): ubicación geográfica de 123+ árboles relevados, con especie, tipo de follaje y magnitud.
+- [Fichas de especies](https://arbolesurbanos.com.ar/fichas-de-especies.html): buscador de 123 especies arbóreas, cada una con nombre científico, familia botánica, origen, descripción, usos, reproducción y fotografías.
+- [Referencias](https://arbolesurbanos.com.ar/referencias.html): glosario de términos usados en las fichas (nombre científico, magnitud, categorías de follaje).
+- [Acerca de esta página](https://arbolesurbanos.com.ar/acerca-de-arboles-urbanos.html), [Asociación Civil Propatagonia](https://arbolesurbanos.com.ar/asociacion-civil-propatagonia.html), [Cátedra Arbolado Urbano](https://arbolesurbanos.com.ar/catedra-arbolado-urbano.html): contexto institucional del proyecto.
+- [Licencia de uso](https://arbolesurbanos.com.ar/licencia-de-uso.html): contenido bajo licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional. Los datos de georreferenciación son abiertos.
+
+## Contacto
+
+Email: mapaarbolesurbanos@gmail.com · Instagram: @mapa.arboles.urbanos

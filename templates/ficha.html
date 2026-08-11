@@ -1,4 +1,8 @@
 {% extends "base.html" %}
+{% block jsonld_extra %}
+<script type="application/ld+json">{{ jsonld_taxon|safe }}</script>
+<script type="application/ld+json">{{ jsonld_breadcrumb|safe }}</script>
+{% endblock %}
 {% block content %}
 
 <div class="au-ficha-header">
