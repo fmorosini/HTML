@@ -6,7 +6,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "ABIES-ALBA-ADN.png"
   },
   {
     "slug": "abies-grandis-abeto-de-vancouver",
@@ -15,7 +16,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "ABIES-GRANDIS-ADN.png"
   },
   {
     "slug": "abies-porcera-abeto-noble",
@@ -24,7 +26,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "ABIES-PROCERA-EJEMPLAR-ADULTO.jpg"
   },
   {
     "slug": "acacia-dealbata-romo-australiano",
@@ -33,7 +36,8 @@
     "family": "Fabáceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "ACACIA-DEALBATA-ADN.png"
   },
   {
     "slug": "acer-campestris-arce-menor",
@@ -42,7 +46,8 @@
     "family": "Aceráceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ACER-CAMPESTRIS-AS-FOLIAR-1.jpg"
   },
   {
     "slug": "acer-negundo-arce-negundo",
@@ -51,7 +56,8 @@
     "family": "Aceráceas.",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ACER-NEGUNDO-AS-FOLIAR.jpg"
   },
   {
     "slug": "acer-palmatum-arce-japones",
@@ -60,7 +66,8 @@
     "family": "Aceráceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ACER-PALMATUM-AS-FOLIAR.jpg"
   },
   {
     "slug": "acer-platanoides-arce-real",
@@ -69,7 +76,8 @@
     "family": "Aceráceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ACER-PLATANOIDES-DETALLE-DE-DISAMARA.jpg"
   },
   {
     "slug": "acer-pseudoplatanus-arce-blanco",
@@ -78,7 +86,8 @@
     "family": "Aceráceas.",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "Arce-blanco-aspecto-primaveral-300x248.jpg"
   },
   {
     "slug": "acer-rubrum-arce-rojo",
@@ -87,7 +96,8 @@
     "family": "Aceráceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ACER-RUBRUM-ADN.png"
   },
   {
     "slug": "acer-saccharicum-arce-de-azucar",
@@ -96,7 +106,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ACER-SACCHARINUM-ADN.png"
   },
   {
     "slug": "aesculus-hippocastanum-castano-de-las-indias",
@@ -105,7 +116,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "AESCULUS-HIPPOCASTANUM-HOJA-OTONAL.jpg"
   },
   {
     "slug": "alnus-glutinosa-aliso",
@@ -114,7 +126,8 @@
     "family": "Betuláceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ALNUS-GLUTINOSA-FRUTOS-INMADUROS.jpg"
   },
   {
     "slug": "araucaria-angustifolia-pino-parana",
@@ -123,7 +136,8 @@
     "family": "Araucariáceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "ARAUCARIA-ANGUSTIFOLIA-ADN.png"
   },
   {
     "slug": "araucaria-araucana-pehuen",
@@ -132,7 +146,8 @@
     "family": "Araucariáceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "Araucaria-ejemplar-hembra-adulto.jpg"
   },
   {
     "slug": "aristotelia-chilensis-maqui",
@@ -141,7 +156,8 @@
     "family": "Eleocarpáceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": null
   },
   {
     "slug": "austrocedrus-chilensis-cipres-de-la-cordillera",
@@ -150,7 +166,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "AUSTROCEDRUS-CHILENSIS-CORTEZA-84x300.jpg"
   },
   {
     "slug": "azara-microphilla-chin-chin",
@@ -159,7 +176,8 @@
     "family": "Flacourtiáceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "Chin-chin-ejemplar-en-su-entorno-natural.jpg"
   },
   {
     "slug": "betula-papyrifera-abedul-de-papel",
@@ -168,7 +186,8 @@
     "family": "Betuláceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "BETULA-PAPYRIFERA-EJEMPLAR-.jpg"
   },
   {
     "slug": "betula-pendula-abedul",
@@ -177,7 +196,8 @@
     "family": "Betuláceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "Abedul-hojas.jpg"
   },
   {
     "slug": "budleja-globosa-panil",
@@ -186,7 +206,8 @@
     "family": "Loganiáceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "budleja-globosa-morosini-2.jpg"
   },
   {
     "slug": "calocedrus-decurrens-cedro-de-incienso",
@@ -195,7 +216,8 @@
     "family": "Cupresáceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "Cedro-de-incienso-ejemplar-adulto-203x300.jpg"
   },
   {
     "slug": "castanea-sativa-castano",
@@ -204,7 +226,8 @@
     "family": "Fagáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "CASTANEA-SATIVA-INFLORECENCIAS.jpg"
   },
   {
     "slug": "catalpa-bigninoides-catalpa",
@@ -213,7 +236,8 @@
     "family": "Bignoniáceas.",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "Catalpa-aspecto-primaveral.jpg"
   },
   {
     "slug": "cedrus-atlantica-var-glauca-cedro-plateado",
@@ -222,7 +246,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "CEDRUS-ATLANTICA-EJEMPLAR.jpg"
   },
   {
     "slug": "cedrus-deodara-cedro-del-himalaya",
@@ -231,7 +256,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "CEDRUS-DEODARA-EJEMPLAR-JOVEN.jpg"
   },
   {
     "slug": "cedrus-libanii-cedro-del-libano",
@@ -240,7 +266,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "CEDRUS-LIBANII-EJEMPLAR-MADURO.jpg"
   },
   {
     "slug": "cercis-siliquastrum-arbol-de-judas",
@@ -249,7 +276,8 @@
     "family": "Fabáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "CERCIS-SILIQUASTRUM-TRONCO-CON-FLORES.jpg"
   },
   {
     "slug": "chamaecyparis-lawsoniana-cedro-blanco",
@@ -258,7 +286,8 @@
     "family": "Cupresáceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "Cedro-blanco-ejemplar-adulto-199x300.jpg"
   },
   {
     "slug": "cordyline-australis-dracena-arborea",
@@ -267,7 +296,8 @@
     "family": "",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": null
   },
   {
     "slug": "cornus-mas-cornejo-macho",
@@ -276,7 +306,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "CORNUS-MAS-FLORES-300x250.jpg"
   },
   {
     "slug": "cornus-walterii-cornejo-walterii",
@@ -285,7 +316,8 @@
     "family": "Cornáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "CORNUS-WALTERI-FLORES-300x237.jpg"
   },
   {
     "slug": "cataegus-cruz-galli-espino-espolon-de-gallo",
@@ -294,7 +326,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": null
   },
   {
     "slug": "crataegus-laevigata-var-paul-scarlet-espino-de-mayo",
@@ -303,7 +336,8 @@
     "family": "Rosáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "CRATAEGUS-LAEVIGATA-VAR-PAUL-SCARLET-EJEMPLAR-EN-UNA-PLAZA-225x300.jpg"
   },
   {
     "slug": "crataegus-monogyna-espino-albar",
@@ -312,7 +346,8 @@
     "family": "Rosáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "CRATAEGUS-MONOGYNA-AS-FOLIAR-267x300.jpg"
   },
   {
     "slug": "crataegus-phaenopyrum-espino-de-whashington",
@@ -321,7 +356,8 @@
     "family": "Rosáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "CRATAEGUS-PHAENPYTUM-DETALLE-DE-FRUTOS.jpg"
   },
   {
     "slug": "cryptomeria-japonica-criptomeria",
@@ -330,7 +366,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "CRIPTOMERIA-JAPONICA-RAMITA-CON-PINAS.jpg"
   },
   {
     "slug": "cupressocyparis-leylandii-cipres-de-leyland",
@@ -339,7 +376,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": null
   },
   {
     "slug": "cupressus-arizonica-cipres-de-arizona",
@@ -348,7 +386,8 @@
     "family": "Cupresáceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "CUPRESSUS-ARIZONICA-CORTEZA-JOVEN-117x300.jpg"
   },
   {
     "slug": "cupressus-macrocarpa-cipres-de-monterrey",
@@ -357,7 +396,8 @@
     "family": "Cupresáceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "CUPRESSUS-MACROCARPA-EJEMPLAR-ADULTO-258x300.jpg"
   },
   {
     "slug": "cupressus-sempervirens-cipres-del-mediterraneo",
@@ -366,7 +406,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "CUPRESSUS-SEMPERVIRENS-VARIEDAD-COLUMNAR.jpg"
   },
   {
     "slug": "cydonia-oblonga-membrillero",
@@ -375,7 +416,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": null
   },
   {
     "slug": "dasyphyllum-diacanthoides-palo-santo",
@@ -384,7 +426,8 @@
     "family": "Asteráceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "DASYPHYLLUM-DIACANTHOIDES-EJEMPLAR.jpg"
   },
   {
     "slug": "discaria-chacaya-chacay",
@@ -393,7 +436,8 @@
     "family": "Ramnáceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": null
   },
   {
     "slug": "embothrium-coccineum-notro",
@@ -402,7 +446,8 @@
     "family": "Proteácea",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "Notro-adulto-florecido.jpg"
   },
   {
     "slug": "eucaliptus-globulus-eucalipto-blanco",
@@ -411,7 +456,8 @@
     "family": "",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "EUCALYPTUS-GLOBULUS-ADN.png"
   },
   {
     "slug": "fagus-sylvatica-haya-europea",
@@ -420,7 +466,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "FAGUS-SYLVATICA-ADN.png"
   },
   {
     "slug": "fitzroya-cupressoides-alerce-patagonico",
@@ -429,7 +476,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": null
   },
   {
     "slug": "fraxinus-americana-fresno-blanco",
@@ -438,7 +486,8 @@
     "family": "Oleáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "FRAXINUS-AMERICANA-AS-FOLIAR.jpg"
   },
   {
     "slug": "fraxinus-excelsior-fresno-europeo",
@@ -447,7 +496,8 @@
     "family": "Oleáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "FRAXINUS-EXCELSIOR-AS-FOLIAR.jpg"
   },
   {
     "slug": "gladitsia-triacanthos-acacia-de-tres-espinas",
@@ -456,7 +506,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "Acacia-de-tres-espinas-haz-de-la-hoja-1.jpg"
   },
   {
     "slug": "ilex-aquifolium-acebo-comun",
@@ -465,7 +516,8 @@
     "family": "Aquifoliáceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "Acebo-hoja-variegada-239x300.jpg"
   },
   {
     "slug": "ilex-opaca-acebo-americano",
@@ -474,7 +526,8 @@
     "family": "Aquifoliáceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "ILEX-OPACA-AS-FOLIAR-150x300.jpg"
   },
   {
     "slug": "junglans-regia-nogal",
@@ -483,7 +536,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "JUNGLANS-REGIA-NUEZ-SIN-PERICARPIO.jpg"
   },
   {
     "slug": "juniperus-communis-enebro-comun",
@@ -492,7 +546,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "JUNIPERUS-COMMUNIS-EJEMPLAR-ADULTO.jpg"
   },
   {
     "slug": "laburnum-anagyroides-lluvia-de-oro",
@@ -501,7 +556,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "LABURNUM-ANAGIROYDES-EJEMPLAR-FLORECIDO.jpg"
   },
   {
     "slug": "larix-decidua-alerce-europeo",
@@ -510,7 +566,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-caduca"
-    ]
+    ],
+    "thumb": "Alerce-europeo-aspacto-primaveral-156x300.jpg"
   },
   {
     "slug": "larix-kaempferi-larix-japones",
@@ -519,7 +576,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-caduca"
-    ]
+    ],
+    "thumb": "LARIX-KAEMFERI-DETALLE-DE-BRAQUIBLASTO-300x204.jpg"
   },
   {
     "slug": "larix-laricina-tamarack",
@@ -528,7 +586,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-caduca"
-    ]
+    ],
+    "thumb": "LARIX-LARICINA-CORTEZA-ADULTA-65x300.jpg"
   },
   {
     "slug": "laurus-nobilis-laurel",
@@ -537,7 +596,8 @@
     "family": "",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "LAURUS-NOBILIS-ADN.png"
   },
   {
     "slug": "liquidambar-stracyflua-liquidambar",
@@ -546,7 +606,8 @@
     "family": "Hamameliáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "LIQUIDAMBAR-STYRACIFLUA-AS-FOLIAR-209x300.jpg"
   },
   {
     "slug": "liriodendron-tulipifera-tulipanero",
@@ -555,7 +616,8 @@
     "family": "Magnoliáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "LIRIODENDRON-TULIPIFERA-FOLLAJE-225x300.jpg"
   },
   {
     "slug": "lomatia-hirsuta-radal",
@@ -564,7 +626,8 @@
     "family": "",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "LOMATIA-HIRSUTA-EJEMPLAR-MADURO.jpg"
   },
   {
     "slug": "luma-apiculata-arrayan",
@@ -573,7 +636,8 @@
     "family": "Myrtáceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "Arrayan-detalle-de-las-rama-300x192.jpg"
   },
   {
     "slug": "magnolia-grandiflora-magnolia",
@@ -582,7 +646,8 @@
     "family": "Magnoliáceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "MAGNOLIA-GRANDIFLORA-ADN.png"
   },
   {
     "slug": "malus-floribunda-manzano-de-flor",
@@ -591,7 +656,8 @@
     "family": "Rosáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "MALUS-FLORIBUNDA-CORTEZA-ADULTA.jpg"
   },
   {
     "slug": "malus-sylvestris-manzano-silvestre",
@@ -600,7 +666,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "MALUS-SYLVESTRIS-CORTEZA.jpg"
   },
   {
     "slug": "maytenus-boaria-maiten",
@@ -609,7 +676,8 @@
     "family": "Celastráceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "maiten-10.jpg"
   },
   {
     "slug": "nothofagus-alpina-rauli",
@@ -618,7 +686,8 @@
     "family": "Nothofagáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "NOTHOFAGUS-ALPINA-ADN.png"
   },
   {
     "slug": "nothofagus-antartica-nire",
@@ -627,7 +696,8 @@
     "family": "Nothofagáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "NOTHOFAGUS-ANTARCTICA-ADN.png"
   },
   {
     "slug": "nothofagus-dombeyi-coihue",
@@ -636,7 +706,8 @@
     "family": "Fagáceas",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": "1Coihue-joven-en-plaza.jpg"
   },
   {
     "slug": "nothofagus-obliqua-roble-pellin",
@@ -645,7 +716,8 @@
     "family": "Nothofagáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "NOTHOFAGUS-OBLIQUA-ADN.png"
   },
   {
     "slug": "nothofagus-pumilio-lenga",
@@ -654,7 +726,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "NOTHOFAGUS-PUMILIO-BOSQUE-EN-INVIERNO.jpg"
   },
   {
     "slug": "picea-abies-picea-comun",
@@ -663,7 +736,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "Picea-noruega-corteza-adulta.jpg"
   },
   {
     "slug": "picea-omorika-picea-de-serbia",
@@ -672,7 +746,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PICEA-OMORICA-DETALLE-DE-RAMA.jpg"
   },
   {
     "slug": "picea-orientalis-picea-del-caucaso",
@@ -681,7 +756,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PICEA-ORIENTALIS-DETALLE-DE-RAMA.jpg"
   },
   {
     "slug": "picea-pungens-picea-del-colorado",
@@ -690,7 +766,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "14-12-08-PICEA-PUNGENS-GLAUCA-EJEMPLAR-EN-PLAZA141.jpg"
   },
   {
     "slug": "picea-sitchensis-picea-de-sitka",
@@ -699,7 +776,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PICEA-SITCHENSIS-EJEMPLAR-ADULTO.jpeg"
   },
   {
     "slug": "pinus-banksiana-pino-cola-de-ratono",
@@ -708,7 +786,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PINUS-BANKSIANA-PINA-INMADURA.jpg"
   },
   {
     "slug": "pinus-contorta-var-latifolia-pino-contorta",
@@ -717,7 +796,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PINUS-CONTORTA-EJEMPLAR-MADURO.jpg"
   },
   {
     "slug": "pinus-jeffreyi-pino-de-jeffrey",
@@ -726,7 +806,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PINUS-JEFFREYI-EJEMPLAR-ADULTO.jpg"
   },
   {
     "slug": "pinus-monticola-pino-blanco-del-oeste",
@@ -735,7 +816,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PINUS-MONTICOLA-CORTEZA-ADULTA.jpg"
   },
   {
     "slug": "pinus-nigra-pino-negral",
@@ -744,7 +826,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "Pino-negral-corteza-adulta.jpg"
   },
   {
     "slug": "pinus-ponderosa-pino-ponderosa",
@@ -753,7 +836,8 @@
     "family": "Pináceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "Pino-ponderosa-corteza-adulta.jpg"
   },
   {
     "slug": "pinus-radiata-pino-de-monterrey",
@@ -762,7 +846,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PINUS-RADIATA-ESTROBILOS-MASCULINOS.jpg"
   },
   {
     "slug": "pinus-strobus-pino-blanco-del-este",
@@ -771,7 +856,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PINUS-STROBUS-PINA.jpg"
   },
   {
     "slug": "pinus-sylvestris-pino-silvestre",
@@ -780,7 +866,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PINUS-SYLVESTRIS-RAMILLA.jpg"
   },
   {
     "slug": "pinus-wallichiana-pino-azul-del-himalaya",
@@ -789,7 +876,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PINUS-WALLICHIANA-EJEMPLAR-ADULTO.jpg"
   },
   {
     "slug": "platycladus-orientalis-tuya-oriental",
@@ -798,7 +886,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PLATYCLADUS-ORIENTALIS-DETALLE-DE-PINA-Y-SEMILLAS.jpg"
   },
   {
     "slug": "populus-alba-alamo-blanco",
@@ -807,7 +896,8 @@
     "family": "Salicáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "POPULUS-ALBA-AS-FOLIAR.jpg"
   },
   {
     "slug": "populus-deltoides-alamo-carolino",
@@ -816,7 +906,8 @@
     "family": "Salicáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "POPULUS-DELTOIDES-ADN.png"
   },
   {
     "slug": "populus-nigra-alamo-criollo",
@@ -825,7 +916,8 @@
     "family": "Salicáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "POPULUS-NIGRA-DENTRO-DE-UN-PATIO.jpg"
   },
   {
     "slug": "alamo-balsamico-populus-trichocarpa",
@@ -834,7 +926,8 @@
     "family": "Salicáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "POPULUS-TRICHOCAROA-EJEMPLAR-ASPECTO-ESTIVAL.jpg"
   },
   {
     "slug": "prunus-avium-cerezo",
@@ -843,7 +936,8 @@
     "family": "Rosáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "PRUNUS-AVIUM-CORTEZA-ADULTA.jpg"
   },
   {
     "slug": "prunus-cerasifera-ciruelo-de-flor",
@@ -852,7 +946,8 @@
     "family": "Rosáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ciruelo-de-flor-8.jpg"
   },
   {
     "slug": "prunus-domestica-ciruelo-comun",
@@ -861,7 +956,8 @@
     "family": "Rosáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "PRUNUS-DOMESTICA-FRUTOS.jpg"
   },
   {
     "slug": "prunus-dulcis-almendro",
@@ -870,7 +966,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "PRUNUS-DULCIS-FRUTOS-INMADUROS.jpeg"
   },
   {
     "slug": "prunus-lauroceresus-laurel-cerezo",
@@ -879,7 +976,8 @@
     "family": "",
     "categories": [
       "latifoliada-perenne"
-    ]
+    ],
+    "thumb": null
   },
   {
     "slug": "prunus-mahaleb-cerezo-de-santa-lucia",
@@ -888,7 +986,8 @@
     "family": "Rosáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": null
   },
   {
     "slug": "prunus-persica-duraznero",
@@ -897,7 +996,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "PRUNUS-PERSICA-ADN.png"
   },
   {
     "slug": "pseudotsuga-menziesii-pino-oregon",
@@ -906,7 +1006,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "PSEUDOTSUGA-MENZIESII-ADN-294x300.png"
   },
   {
     "slug": "pyrus-communis-peral",
@@ -915,7 +1016,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "PYRUS-COMMUNIS-EJEMPLAR-FLORECIDO.jpeg"
   },
   {
     "slug": "quercus-alba-roble-blanco",
@@ -924,7 +1026,8 @@
     "family": "Fagáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "QUERCUS-ALBA-ADN.png"
   },
   {
     "slug": "quercus-palustris-roble-de-los-pantanos",
@@ -933,7 +1036,8 @@
     "family": "Fagáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "QUERCUS-PALUSTRIS-AS-FOLIAR.jpg"
   },
   {
     "slug": "quercus-robur-roble-europeo",
@@ -942,7 +1046,8 @@
     "family": "Fagáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "Roble-europeo-ejemplar-en-plaza-Sarmiento.jpg"
   },
   {
     "slug": "quercus-rubra-roble-rojo-del-norte",
@@ -951,7 +1056,8 @@
     "family": "Fagáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "QUERCUS-RUBRA-AS-FOLIAR.jpg"
   },
   {
     "slug": "rhus-typhina-zumaque-de-virginia",
@@ -960,7 +1066,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "RHUS-TYPHINA-EJEMPLAR-JOVEN.jpeg"
   },
   {
     "slug": "robinia-pseudoacacia-acacia-blanca",
@@ -969,7 +1076,8 @@
     "family": "Fabáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "Acacia-blanca-corteza-adulta.jpg"
   },
   {
     "slug": "salix-alba-sauce-blanco",
@@ -978,7 +1086,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "SALIX-ALBA-ADN.png"
   },
   {
     "slug": "salix-babilonica-sauce-lloron",
@@ -987,7 +1096,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "SALIX-BABILONICA-EJEMPLAR-ADULTO.jpg"
   },
   {
     "slug": "salix-erythroflexuosa-sauce-electrico",
@@ -996,7 +1106,8 @@
     "family": "Salicáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "SALIX-MATSUDANA-CORTEZA-ADULTA.jpeg"
   },
   {
     "slug": "sambucus-nigra-sauco",
@@ -1005,7 +1116,8 @@
     "family": "Caprifoliáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "SAMBUCUS-NIGRA-EJEMPLAR-FLORECIDO.jpg"
   },
   {
     "slug": "sequoyadendron-giganteum-secuoya-gigante",
@@ -1014,7 +1126,8 @@
     "family": "Taxodiáceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "Secuoya-gigante-grupo-de-ejemplares-adultos.jpg"
   },
   {
     "slug": "sequoya-sempervirens-secuoya-roja",
@@ -1023,7 +1136,8 @@
     "family": "Taxodiáceas",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "Secuoya-roja-corteza-adulta.jpg"
   },
   {
     "slug": "sorbus-aria-mostajo",
@@ -1032,7 +1146,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ADN-SORBUS-ARIA.png"
   },
   {
     "slug": "sorbus-aucuparia-serbal-del-cazador",
@@ -1041,7 +1156,8 @@
     "family": "Rosáceas",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "Serbal-del-caszador-flor.jpg"
   },
   {
     "slug": "sorbus-torminalis-serbal-silvestre",
@@ -1050,7 +1166,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ADN-SORBUS-TORMINALIS.png"
   },
   {
     "slug": "taxus-baccata-tejo-comun",
@@ -1059,7 +1176,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "taxus3.jpeg"
   },
   {
     "slug": "thuja-occidentalis-tuya-occidental",
@@ -1068,7 +1186,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "THUJA-OCCIDENTALIS-EJEMPLAR-JOVEN.jpg"
   },
   {
     "slug": "thuja-plicata-tuya-gigante",
@@ -1077,7 +1196,8 @@
     "family": "",
     "categories": [
       "conifera-perenne"
-    ]
+    ],
+    "thumb": "THUJA-PLICATA-EJEMPLARES-DE-MEDIANA-EDAD.jpg"
   },
   {
     "slug": "tilia-cordata-tilo-comun",
@@ -1086,7 +1206,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "TILIA-SP-FRUTO.jpg"
   },
   {
     "slug": "ulmus-glabra-olmo-de-montana",
@@ -1095,7 +1216,8 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ULMUS-GLABRA-AS-FOLIAR.jpg"
   },
   {
     "slug": "ulmus-pumila-olmo-siberiano",
@@ -1104,6 +1226,7 @@
     "family": "",
     "categories": [
       "latifoliada-caduca"
-    ]
+    ],
+    "thumb": "ULMUS-PUMILA-AS-FOLIAR.jpg"
   }
 ]
