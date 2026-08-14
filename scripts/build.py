@@ -312,8 +312,35 @@ print("Generado index.html")
 index_data = [{
     "slug": sp["slug"], "sci_name": sp["sci_name"], "common_name": sp["common_name"],
     "family": sp["family"], "categories": [c["slug"] for c in sp["categories"]],
+    "thumb": sp["thumb"],
 } for sp in species]
 write("data/species_index.json", json.dumps(index_data, ensure_ascii=False, indent=2))
+
+# ---------------------------------------------------------------
+# json/especies-lookup.json
+# Usado por los mapas cuyos GeoJSON sólo traen `nombrecientifico`
+# (junin, alumine) para poder enlazar al popup con la ficha estática.
+# Claves normalizadas: sin acentos, minúsculas, sólo letras y espacios.
+# Se indexa por nombre completo y por "género especie" (primeros 2 tokens),
+# para tolerar variedades/cultivares del dato de campo.
+# ---------------------------------------------------------------
+def norm_sci(s):
+    s = strip_accents(s or "").lower()
+    s = re.sub(r"[^a-z ]", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+lookup = {}
+for sp in species:
+    entry = {"slug": sp["slug"], "thumb": sp["thumb"], "nombre": sp["common_name"] or sp["sci_name"]}
+    key_full = norm_sci(sp["sci_name"])
+    if key_full:
+        lookup[key_full] = entry
+    toks = key_full.split()
+    if len(toks) >= 2:
+        lookup.setdefault(" ".join(toks[:2]), entry)
+
+write("json/especies-lookup.json", json.dumps(lookup, ensure_ascii=False, indent=1))
+print(f"Generado json/especies-lookup.json ({len(lookup)} claves)")
 
 # ---------------------------------------------------------------
 # sitemap.xml

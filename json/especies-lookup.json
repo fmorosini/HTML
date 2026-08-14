@@ -1,0 +1,877 @@
+{
+ "abies alba": {
+  "slug": "abies-alba-abeto-blanco",
+  "thumb": "ABIES-ALBA-ADN.png",
+  "nombre": "Abeto blanco"
+ },
+ "abies grandis": {
+  "slug": "abies-grandis-abeto-de-vancouver",
+  "thumb": "ABIES-GRANDIS-ADN.png",
+  "nombre": "Abeto de Vancouver"
+ },
+ "abies procera": {
+  "slug": "abies-porcera-abeto-noble",
+  "thumb": "ABIES-PROCERA-EJEMPLAR-ADULTO.jpg",
+  "nombre": "Abeto noble"
+ },
+ "acacia dealbata": {
+  "slug": "acacia-dealbata-romo-australiano",
+  "thumb": "ACACIA-DEALBATA-ADN.png",
+  "nombre": "Aromo australiano, Aromo francés, aromo del país"
+ },
+ "acer campestris": {
+  "slug": "acer-campestris-arce-menor",
+  "thumb": "ACER-CAMPESTRIS-AS-FOLIAR-1.jpg",
+  "nombre": "Arce campestre, Arce menor"
+ },
+ "acer negundo": {
+  "slug": "acer-negundo-arce-negundo",
+  "thumb": "ACER-NEGUNDO-AS-FOLIAR.jpg",
+  "nombre": "Arce Negundo, Arce de hojas de fresno"
+ },
+ "acer palmatum": {
+  "slug": "acer-palmatum-arce-japones",
+  "thumb": "ACER-PALMATUM-AS-FOLIAR.jpg",
+  "nombre": "Arce japonés, Arce enano"
+ },
+ "acer platanoides": {
+  "slug": "acer-platanoides-arce-real",
+  "thumb": "ACER-PLATANOIDES-DETALLE-DE-DISAMARA.jpg",
+  "nombre": "Arce Real, Acirón, Arce de Noruega"
+ },
+ "acer pseudoplatanus": {
+  "slug": "acer-pseudoplatanus-arce-blanco",
+  "thumb": "Arce-blanco-aspecto-primaveral-300x248.jpg",
+  "nombre": "Arce blanco, Sicomoro, Falso plátano."
+ },
+ "acer rubrum": {
+  "slug": "acer-rubrum-arce-rojo",
+  "thumb": "ACER-RUBRUM-ADN.png",
+  "nombre": "Arce rojo"
+ },
+ "acer saccharinum arce plateado": {
+  "slug": "acer-saccharicum-arce-de-azucar",
+  "thumb": "ACER-SACCHARINUM-ADN.png",
+  "nombre": "Acer saccharinum (Arce plateado)"
+ },
+ "acer saccharinum": {
+  "slug": "acer-saccharicum-arce-de-azucar",
+  "thumb": "ACER-SACCHARINUM-ADN.png",
+  "nombre": "Acer saccharinum (Arce plateado)"
+ },
+ "aesculus hippocastanum castano de las indias": {
+  "slug": "aesculus-hippocastanum-castano-de-las-indias",
+  "thumb": "AESCULUS-HIPPOCASTANUM-HOJA-OTONAL.jpg",
+  "nombre": "Aesculus hippocastanum (Castaño de las Indias)"
+ },
+ "aesculus hippocastanum": {
+  "slug": "aesculus-hippocastanum-castano-de-las-indias",
+  "thumb": "AESCULUS-HIPPOCASTANUM-HOJA-OTONAL.jpg",
+  "nombre": "Aesculus hippocastanum (Castaño de las Indias)"
+ },
+ "alnus glutinosa": {
+  "slug": "alnus-glutinosa-aliso",
+  "thumb": "ALNUS-GLUTINOSA-FRUTOS-INMADUROS.jpg",
+  "nombre": "Aliso común"
+ },
+ "araucaria angustifolia": {
+  "slug": "araucaria-angustifolia-pino-parana",
+  "thumb": "ARAUCARIA-ANGUSTIFOLIA-ADN.png",
+  "nombre": "Araucaria Angustifolia"
+ },
+ "araucaria araucana": {
+  "slug": "araucaria-araucana-pehuen",
+  "thumb": "Araucaria-ejemplar-hembra-adulto.jpg",
+  "nombre": "Pehuén, Araucaria"
+ },
+ "aristotelia chilensis": {
+  "slug": "aristotelia-chilensis-maqui",
+  "thumb": null,
+  "nombre": "Maqui, Queldrón"
+ },
+ "austrocedrus chilensis cipres de la cordillera": {
+  "slug": "austrocedrus-chilensis-cipres-de-la-cordillera",
+  "thumb": "AUSTROCEDRUS-CHILENSIS-CORTEZA-84x300.jpg",
+  "nombre": "Ciprés de la cordillera"
+ },
+ "austrocedrus chilensis": {
+  "slug": "austrocedrus-chilensis-cipres-de-la-cordillera",
+  "thumb": "AUSTROCEDRUS-CHILENSIS-CORTEZA-84x300.jpg",
+  "nombre": "Ciprés de la cordillera"
+ },
+ "azara microphilla": {
+  "slug": "azara-microphilla-chin-chin",
+  "thumb": "Chin-chin-ejemplar-en-su-entorno-natural.jpg",
+  "nombre": "Chin Chin"
+ },
+ "betula papyrifera": {
+  "slug": "betula-papyrifera-abedul-de-papel",
+  "thumb": "BETULA-PAPYRIFERA-EJEMPLAR-.jpg",
+  "nombre": "Abedul de papel, Abedul de las canoas"
+ },
+ "betula pendula": {
+  "slug": "betula-pendula-abedul",
+  "thumb": "Abedul-hojas.jpg",
+  "nombre": "Abedul común"
+ },
+ "budleja globosa": {
+  "slug": "budleja-globosa-panil",
+  "thumb": "budleja-globosa-morosini-2.jpg",
+  "nombre": "Pañíl, Matico."
+ },
+ "calocedrus decurrens": {
+  "slug": "calocedrus-decurrens-cedro-de-incienso",
+  "thumb": "Cedro-de-incienso-ejemplar-adulto-203x300.jpg",
+  "nombre": "Cedro de incienso"
+ },
+ "castanea sativa": {
+  "slug": "castanea-sativa-castano",
+  "thumb": "CASTANEA-SATIVA-INFLORECENCIAS.jpg",
+  "nombre": "Castaño"
+ },
+ "catalpa bignonioides": {
+  "slug": "catalpa-bigninoides-catalpa",
+  "thumb": "Catalpa-aspecto-primaveral.jpg",
+  "nombre": "Catalpa, Catalpa americana, Judía india"
+ },
+ "cedrus atlantica var glauca": {
+  "slug": "cedrus-atlantica-var-glauca-cedro-plateado",
+  "thumb": "CEDRUS-ATLANTICA-EJEMPLAR.jpg",
+  "nombre": "Cedrus atlantica Var. “Glauca”"
+ },
+ "cedrus atlantica": {
+  "slug": "cedrus-atlantica-var-glauca-cedro-plateado",
+  "thumb": "CEDRUS-ATLANTICA-EJEMPLAR.jpg",
+  "nombre": "Cedrus atlantica Var. “Glauca”"
+ },
+ "cedrus deodara": {
+  "slug": "cedrus-deodara-cedro-del-himalaya",
+  "thumb": "CEDRUS-DEODARA-EJEMPLAR-JOVEN.jpg",
+  "nombre": "Cedrus deodara"
+ },
+ "cedrus libanii": {
+  "slug": "cedrus-libanii-cedro-del-libano",
+  "thumb": "CEDRUS-LIBANII-EJEMPLAR-MADURO.jpg",
+  "nombre": "Cedro del Líbano"
+ },
+ "cercis siliquastrum": {
+  "slug": "cercis-siliquastrum-arbol-de-judas",
+  "thumb": "CERCIS-SILIQUASTRUM-TRONCO-CON-FLORES.jpg",
+  "nombre": "Árbol del amor, árbol de judas, árbol de Judea."
+ },
+ "chamaecyparis lawsoniana": {
+  "slug": "chamaecyparis-lawsoniana-cedro-blanco",
+  "thumb": "Cedro-blanco-ejemplar-adulto-199x300.jpg",
+  "nombre": "Cedro blanco, ciprés de Lawson"
+ },
+ "cordyline australis dracena arborea": {
+  "slug": "cordyline-australis-dracena-arborea",
+  "thumb": null,
+  "nombre": "Dracena, Palma de lirios, Árbol de la col"
+ },
+ "cordyline australis": {
+  "slug": "cordyline-australis-dracena-arborea",
+  "thumb": null,
+  "nombre": "Dracena, Palma de lirios, Árbol de la col"
+ },
+ "cornus mas": {
+  "slug": "cornus-mas-cornejo-macho",
+  "thumb": "CORNUS-MAS-FLORES-300x250.jpg",
+  "nombre": "Cornejo Macho, Cornejo Cerezo, Cornalina"
+ },
+ "cornus walterii": {
+  "slug": "cornus-walterii-cornejo-walterii",
+  "thumb": "CORNUS-WALTERI-FLORES-300x237.jpg",
+  "nombre": "Cornejo de la china"
+ },
+ "crataegus crus galli espino espolon de gallo": {
+  "slug": "cataegus-cruz-galli-espino-espolon-de-gallo",
+  "thumb": null,
+  "nombre": "Crataegus crus galli (Espino espolón de gallo)"
+ },
+ "crataegus crus": {
+  "slug": "cataegus-cruz-galli-espino-espolon-de-gallo",
+  "thumb": null,
+  "nombre": "Crataegus crus galli (Espino espolón de gallo)"
+ },
+ "crataegus laevigata variedad paul s scarlet": {
+  "slug": "crataegus-laevigata-var-paul-scarlet-espino-de-mayo",
+  "thumb": "CRATAEGUS-LAEVIGATA-VAR-PAUL-SCARLET-EJEMPLAR-EN-UNA-PLAZA-225x300.jpg",
+  "nombre": "Crataegus laevigata variedad Paul’s Scarlet"
+ },
+ "crataegus laevigata": {
+  "slug": "crataegus-laevigata-var-paul-scarlet-espino-de-mayo",
+  "thumb": "CRATAEGUS-LAEVIGATA-VAR-PAUL-SCARLET-EJEMPLAR-EN-UNA-PLAZA-225x300.jpg",
+  "nombre": "Crataegus laevigata variedad Paul’s Scarlet"
+ },
+ "crataegus monogyna": {
+  "slug": "crataegus-monogyna-espino-albar",
+  "thumb": "CRATAEGUS-MONOGYNA-AS-FOLIAR-267x300.jpg",
+  "nombre": "Crataegus, espino albar, majuelo"
+ },
+ "crataegus phaenopyrum": {
+  "slug": "crataegus-phaenopyrum-espino-de-whashington",
+  "thumb": "CRATAEGUS-PHAENPYTUM-DETALLE-DE-FRUTOS.jpg",
+  "nombre": "Espino de Washington"
+ },
+ "cryptomeria japonica criptomeria": {
+  "slug": "cryptomeria-japonica-criptomeria",
+  "thumb": "CRIPTOMERIA-JAPONICA-RAMITA-CON-PINAS.jpg",
+  "nombre": "Cryptomeria japonica (Criptomeria)"
+ },
+ "cryptomeria japonica": {
+  "slug": "cryptomeria-japonica-criptomeria",
+  "thumb": "CRIPTOMERIA-JAPONICA-RAMITA-CON-PINAS.jpg",
+  "nombre": "Cryptomeria japonica (Criptomeria)"
+ },
+ "cupressocyparis leylandii cipres de leyland": {
+  "slug": "cupressocyparis-leylandii-cipres-de-leyland",
+  "thumb": null,
+  "nombre": "Cupressocyparis leylandii (Ciprés de Leyland)"
+ },
+ "cupressocyparis leylandii": {
+  "slug": "cupressocyparis-leylandii-cipres-de-leyland",
+  "thumb": null,
+  "nombre": "Cupressocyparis leylandii (Ciprés de Leyland)"
+ },
+ "cupressus arizonica": {
+  "slug": "cupressus-arizonica-cipres-de-arizona",
+  "thumb": "CUPRESSUS-ARIZONICA-CORTEZA-JOVEN-117x300.jpg",
+  "nombre": "Ciprés de Arizona"
+ },
+ "cupressus macrocarpa": {
+  "slug": "cupressus-macrocarpa-cipres-de-monterrey",
+  "thumb": "CUPRESSUS-MACROCARPA-EJEMPLAR-ADULTO-258x300.jpg",
+  "nombre": "Ciprés de Monterrey, Ciprés de California, Macrocarpa"
+ },
+ "cupressus sempervirens cipres del mediterraneo": {
+  "slug": "cupressus-sempervirens-cipres-del-mediterraneo",
+  "thumb": "CUPRESSUS-SEMPERVIRENS-VARIEDAD-COLUMNAR.jpg",
+  "nombre": "C iprés del mediterráneo, ciprés italiano, ciprés columnar"
+ },
+ "cupressus sempervirens": {
+  "slug": "cupressus-sempervirens-cipres-del-mediterraneo",
+  "thumb": "CUPRESSUS-SEMPERVIRENS-VARIEDAD-COLUMNAR.jpg",
+  "nombre": "C iprés del mediterráneo, ciprés italiano, ciprés columnar"
+ },
+ "cydonia oblonga membrillero": {
+  "slug": "cydonia-oblonga-membrillero",
+  "thumb": null,
+  "nombre": "Cydonia oblonga (Membrillero)"
+ },
+ "cydonia oblonga": {
+  "slug": "cydonia-oblonga-membrillero",
+  "thumb": null,
+  "nombre": "Cydonia oblonga (Membrillero)"
+ },
+ "dasyphyllum diacanthoides": {
+  "slug": "dasyphyllum-diacanthoides-palo-santo",
+  "thumb": "DASYPHYLLUM-DIACANTHOIDES-EJEMPLAR.jpg",
+  "nombre": "Palo santo, Trevo, Tayu"
+ },
+ "discaria chacaya": {
+  "slug": "discaria-chacaya-chacay",
+  "thumb": null,
+  "nombre": "Chacay"
+ },
+ "embotrhium coccineum": {
+  "slug": "embothrium-coccineum-notro",
+  "thumb": "Notro-adulto-florecido.jpg",
+  "nombre": "Notro"
+ },
+ "eucalyptus globulus eucalipto blanco": {
+  "slug": "eucaliptus-globulus-eucalipto-blanco",
+  "thumb": "EUCALYPTUS-GLOBULUS-ADN.png",
+  "nombre": "Eucalyptus globulus (Eucalipto blanco)"
+ },
+ "eucalyptus globulus": {
+  "slug": "eucaliptus-globulus-eucalipto-blanco",
+  "thumb": "EUCALYPTUS-GLOBULUS-ADN.png",
+  "nombre": "Eucalyptus globulus (Eucalipto blanco)"
+ },
+ "fagus sylvatica haya europea": {
+  "slug": "fagus-sylvatica-haya-europea",
+  "thumb": "FAGUS-SYLVATICA-ADN.png",
+  "nombre": "Fagus sylvatica (Haya europea)"
+ },
+ "fagus sylvatica": {
+  "slug": "fagus-sylvatica-haya-europea",
+  "thumb": "FAGUS-SYLVATICA-ADN.png",
+  "nombre": "Fagus sylvatica (Haya europea)"
+ },
+ "fitzroya cupressoides alerce patagonico": {
+  "slug": "fitzroya-cupressoides-alerce-patagonico",
+  "thumb": null,
+  "nombre": "Fitzroya cupressoides (Alerce patagónico)"
+ },
+ "fitzroya cupressoides": {
+  "slug": "fitzroya-cupressoides-alerce-patagonico",
+  "thumb": null,
+  "nombre": "Fitzroya cupressoides (Alerce patagónico)"
+ },
+ "fraxinus americana": {
+  "slug": "fraxinus-americana-fresno-blanco",
+  "thumb": "FRAXINUS-AMERICANA-AS-FOLIAR.jpg",
+  "nombre": "Fraxinus americana"
+ },
+ "fraxinus excelsior": {
+  "slug": "fraxinus-excelsior-fresno-europeo",
+  "thumb": "FRAXINUS-EXCELSIOR-AS-FOLIAR.jpg",
+  "nombre": "Fraxinus excelsior"
+ },
+ "gleditsia triacanthos acacia de tres espinas": {
+  "slug": "gladitsia-triacanthos-acacia-de-tres-espinas",
+  "thumb": "Acacia-de-tres-espinas-haz-de-la-hoja-1.jpg",
+  "nombre": "Gleditsia triacanthos (Acacia de tres espinas)"
+ },
+ "gleditsia triacanthos": {
+  "slug": "gladitsia-triacanthos-acacia-de-tres-espinas",
+  "thumb": "Acacia-de-tres-espinas-haz-de-la-hoja-1.jpg",
+  "nombre": "Gleditsia triacanthos (Acacia de tres espinas)"
+ },
+ "ilex aquifolium": {
+  "slug": "ilex-aquifolium-acebo-comun",
+  "thumb": "Acebo-hoja-variegada-239x300.jpg",
+  "nombre": "Ilex aquifolium"
+ },
+ "ilex opaca": {
+  "slug": "ilex-opaca-acebo-americano",
+  "thumb": "ILEX-OPACA-AS-FOLIAR-150x300.jpg",
+  "nombre": "Ilex opaca"
+ },
+ "junglans regia nogal": {
+  "slug": "junglans-regia-nogal",
+  "thumb": "JUNGLANS-REGIA-NUEZ-SIN-PERICARPIO.jpg",
+  "nombre": "Junglans regia (Nogal)"
+ },
+ "junglans regia": {
+  "slug": "junglans-regia-nogal",
+  "thumb": "JUNGLANS-REGIA-NUEZ-SIN-PERICARPIO.jpg",
+  "nombre": "Junglans regia (Nogal)"
+ },
+ "juniperus communis enebro comun": {
+  "slug": "juniperus-communis-enebro-comun",
+  "thumb": "JUNIPERUS-COMMUNIS-EJEMPLAR-ADULTO.jpg",
+  "nombre": "Enebro, sabina, ginebro"
+ },
+ "juniperus communis": {
+  "slug": "juniperus-communis-enebro-comun",
+  "thumb": "JUNIPERUS-COMMUNIS-EJEMPLAR-ADULTO.jpg",
+  "nombre": "Enebro, sabina, ginebro"
+ },
+ "laburnum anagyroides lluvia de oro": {
+  "slug": "laburnum-anagyroides-lluvia-de-oro",
+  "thumb": "LABURNUM-ANAGIROYDES-EJEMPLAR-FLORECIDO.jpg",
+  "nombre": "Lluvia de oro, codeso, falso ébano"
+ },
+ "laburnum anagyroides": {
+  "slug": "laburnum-anagyroides-lluvia-de-oro",
+  "thumb": "LABURNUM-ANAGIROYDES-EJEMPLAR-FLORECIDO.jpg",
+  "nombre": "Lluvia de oro, codeso, falso ébano"
+ },
+ "larix decidua": {
+  "slug": "larix-decidua-alerce-europeo",
+  "thumb": "Alerce-europeo-aspacto-primaveral-156x300.jpg",
+  "nombre": "Alerce europeo, Alerce común, Alerce de los Alpes"
+ },
+ "larix kaempferi": {
+  "slug": "larix-kaempferi-larix-japones",
+  "thumb": "LARIX-KAEMFERI-DETALLE-DE-BRAQUIBLASTO-300x204.jpg",
+  "nombre": "Larix kaempferi"
+ },
+ "larix laricina": {
+  "slug": "larix-laricina-tamarack",
+  "thumb": "LARIX-LARICINA-CORTEZA-ADULTA-65x300.jpg",
+  "nombre": "Larix laricina"
+ },
+ "laurus nobilis laurel": {
+  "slug": "laurus-nobilis-laurel",
+  "thumb": "LAURUS-NOBILIS-ADN.png",
+  "nombre": "Laurus nobilis (Laurel)"
+ },
+ "laurus nobilis": {
+  "slug": "laurus-nobilis-laurel",
+  "thumb": "LAURUS-NOBILIS-ADN.png",
+  "nombre": "Laurus nobilis (Laurel)"
+ },
+ "liquidambar styraciflua": {
+  "slug": "liquidambar-stracyflua-liquidambar",
+  "thumb": "LIQUIDAMBAR-STYRACIFLUA-AS-FOLIAR-209x300.jpg",
+  "nombre": "Liquidambar"
+ },
+ "liriodendron tulipifera": {
+  "slug": "liriodendron-tulipifera-tulipanero",
+  "thumb": "LIRIODENDRON-TULIPIFERA-FOLLAJE-225x300.jpg",
+  "nombre": "Tulipanero americano, Tulipanero de Virginia"
+ },
+ "lomatia hirsuta radal": {
+  "slug": "lomatia-hirsuta-radal",
+  "thumb": "LOMATIA-HIRSUTA-EJEMPLAR-MADURO.jpg",
+  "nombre": "Lomatia hirsuta (Radal)"
+ },
+ "lomatia hirsuta": {
+  "slug": "lomatia-hirsuta-radal",
+  "thumb": "LOMATIA-HIRSUTA-EJEMPLAR-MADURO.jpg",
+  "nombre": "Lomatia hirsuta (Radal)"
+ },
+ "luma apiculata": {
+  "slug": "luma-apiculata-arrayan",
+  "thumb": "Arrayan-detalle-de-las-rama-300x192.jpg",
+  "nombre": "Arrayán, Quetri, palo colorado"
+ },
+ "magnolia grandiflora": {
+  "slug": "magnolia-grandiflora-magnolia",
+  "thumb": "MAGNOLIA-GRANDIFLORA-ADN.png",
+  "nombre": "Magnolia"
+ },
+ "malus floribunda": {
+  "slug": "malus-floribunda-manzano-de-flor",
+  "thumb": "MALUS-FLORIBUNDA-CORTEZA-ADULTA.jpg",
+  "nombre": "Manzano de flor, manzano japonés"
+ },
+ "malus sylvestris manzano silvestre": {
+  "slug": "malus-sylvestris-manzano-silvestre",
+  "thumb": "MALUS-SYLVESTRIS-CORTEZA.jpg",
+  "nombre": "Malus sylvestris (manzano silvestre)"
+ },
+ "malus sylvestris": {
+  "slug": "malus-sylvestris-manzano-silvestre",
+  "thumb": "MALUS-SYLVESTRIS-CORTEZA.jpg",
+  "nombre": "Malus sylvestris (manzano silvestre)"
+ },
+ "maytenus boaria": {
+  "slug": "maytenus-boaria-maiten",
+  "thumb": "maiten-10.jpg",
+  "nombre": "Maitén"
+ },
+ "nothofagus alpina": {
+  "slug": "nothofagus-alpina-rauli",
+  "thumb": "NOTHOFAGUS-ALPINA-ADN.png",
+  "nombre": "Raulí"
+ },
+ "nothofagus antarctica": {
+  "slug": "nothofagus-antartica-nire",
+  "thumb": "NOTHOFAGUS-ANTARCTICA-ADN.png",
+  "nombre": "Ñire"
+ },
+ "nothofagus dombeyi": {
+  "slug": "nothofagus-dombeyi-coihue",
+  "thumb": "1Coihue-joven-en-plaza.jpg",
+  "nombre": "Coihue"
+ },
+ "nothofagus obliqua": {
+  "slug": "nothofagus-obliqua-roble-pellin",
+  "thumb": "NOTHOFAGUS-OBLIQUA-ADN.png",
+  "nombre": "Roble pellín"
+ },
+ "nothofagus pumilio lenga": {
+  "slug": "nothofagus-pumilio-lenga",
+  "thumb": "NOTHOFAGUS-PUMILIO-BOSQUE-EN-INVIERNO.jpg",
+  "nombre": "Nothofagus pumilio (lenga)"
+ },
+ "nothofagus pumilio": {
+  "slug": "nothofagus-pumilio-lenga",
+  "thumb": "NOTHOFAGUS-PUMILIO-BOSQUE-EN-INVIERNO.jpg",
+  "nombre": "Nothofagus pumilio (lenga)"
+ },
+ "picea abies picea comun": {
+  "slug": "picea-abies-picea-comun",
+  "thumb": "Picea-noruega-corteza-adulta.jpg",
+  "nombre": "Picea abies (Picea común)"
+ },
+ "picea abies": {
+  "slug": "picea-abies-picea-comun",
+  "thumb": "Picea-noruega-corteza-adulta.jpg",
+  "nombre": "Picea abies (Picea común)"
+ },
+ "picea omorika": {
+  "slug": "picea-omorika-picea-de-serbia",
+  "thumb": "PICEA-OMORICA-DETALLE-DE-RAMA.jpg",
+  "nombre": "Picea de Serbia"
+ },
+ "picea orientalis picea del caucaso": {
+  "slug": "picea-orientalis-picea-del-caucaso",
+  "thumb": "PICEA-ORIENTALIS-DETALLE-DE-RAMA.jpg",
+  "nombre": "Picea orientalis (Picea del Cáucaso)"
+ },
+ "picea orientalis": {
+  "slug": "picea-orientalis-picea-del-caucaso",
+  "thumb": "PICEA-ORIENTALIS-DETALLE-DE-RAMA.jpg",
+  "nombre": "Picea orientalis (Picea del Cáucaso)"
+ },
+ "picea pungens picea del colorado": {
+  "slug": "picea-pungens-picea-del-colorado",
+  "thumb": "14-12-08-PICEA-PUNGENS-GLAUCA-EJEMPLAR-EN-PLAZA141.jpg",
+  "nombre": "Picea pungens (Picea del Colorado)"
+ },
+ "picea pungens": {
+  "slug": "picea-pungens-picea-del-colorado",
+  "thumb": "14-12-08-PICEA-PUNGENS-GLAUCA-EJEMPLAR-EN-PLAZA141.jpg",
+  "nombre": "Picea pungens (Picea del Colorado)"
+ },
+ "picea sitchensis picea de sitka": {
+  "slug": "picea-sitchensis-picea-de-sitka",
+  "thumb": "PICEA-SITCHENSIS-EJEMPLAR-ADULTO.jpeg",
+  "nombre": "Picea sitchensis (Picea de Sitka)"
+ },
+ "picea sitchensis": {
+  "slug": "picea-sitchensis-picea-de-sitka",
+  "thumb": "PICEA-SITCHENSIS-EJEMPLAR-ADULTO.jpeg",
+  "nombre": "Picea sitchensis (Picea de Sitka)"
+ },
+ "pinus banksiana pino cola de raton": {
+  "slug": "pinus-banksiana-pino-cola-de-ratono",
+  "thumb": "PINUS-BANKSIANA-PINA-INMADURA.jpg",
+  "nombre": "Pinus banksiana (Pino cola de ratón)"
+ },
+ "pinus banksiana": {
+  "slug": "pinus-banksiana-pino-cola-de-ratono",
+  "thumb": "PINUS-BANKSIANA-PINA-INMADURA.jpg",
+  "nombre": "Pinus banksiana (Pino cola de ratón)"
+ },
+ "pinus contorta var latifolia": {
+  "slug": "pinus-contorta-var-latifolia-pino-contorta",
+  "thumb": "PINUS-CONTORTA-EJEMPLAR-MADURO.jpg",
+  "nombre": "Pinus contorta var. latifolia"
+ },
+ "pinus contorta": {
+  "slug": "pinus-contorta-var-latifolia-pino-contorta",
+  "thumb": "PINUS-CONTORTA-EJEMPLAR-MADURO.jpg",
+  "nombre": "Pinus contorta var. latifolia"
+ },
+ "pinus jeffreyi pino de jeffrey": {
+  "slug": "pinus-jeffreyi-pino-de-jeffrey",
+  "thumb": "PINUS-JEFFREYI-EJEMPLAR-ADULTO.jpg",
+  "nombre": "Nombre científico"
+ },
+ "pinus jeffreyi": {
+  "slug": "pinus-jeffreyi-pino-de-jeffrey",
+  "thumb": "PINUS-JEFFREYI-EJEMPLAR-ADULTO.jpg",
+  "nombre": "Nombre científico"
+ },
+ "pinus monticola pino blanco del oeste": {
+  "slug": "pinus-monticola-pino-blanco-del-oeste",
+  "thumb": "PINUS-MONTICOLA-CORTEZA-ADULTA.jpg",
+  "nombre": "Pinus monticola (Pino blanco del oeste)"
+ },
+ "pinus monticola": {
+  "slug": "pinus-monticola-pino-blanco-del-oeste",
+  "thumb": "PINUS-MONTICOLA-CORTEZA-ADULTA.jpg",
+  "nombre": "Pinus monticola (Pino blanco del oeste)"
+ },
+ "pinus nigra pino negral": {
+  "slug": "pinus-nigra-pino-negral",
+  "thumb": "Pino-negral-corteza-adulta.jpg",
+  "nombre": "Pinus nigra (Pino negral)"
+ },
+ "pinus nigra": {
+  "slug": "pinus-nigra-pino-negral",
+  "thumb": "Pino-negral-corteza-adulta.jpg",
+  "nombre": "Pinus nigra (Pino negral)"
+ },
+ "pinus ponderosa": {
+  "slug": "pinus-ponderosa-pino-ponderosa",
+  "thumb": "Pino-ponderosa-corteza-adulta.jpg",
+  "nombre": "Pino amarillo occidental, Pino Ponderosa"
+ },
+ "pinus radiata pino de monterrey": {
+  "slug": "pinus-radiata-pino-de-monterrey",
+  "thumb": "PINUS-RADIATA-ESTROBILOS-MASCULINOS.jpg",
+  "nombre": "Pinus radiata (Pino de Monterrey)"
+ },
+ "pinus radiata": {
+  "slug": "pinus-radiata-pino-de-monterrey",
+  "thumb": "PINUS-RADIATA-ESTROBILOS-MASCULINOS.jpg",
+  "nombre": "Pinus radiata (Pino de Monterrey)"
+ },
+ "pinus strobus pino blanco del este": {
+  "slug": "pinus-strobus-pino-blanco-del-este",
+  "thumb": "PINUS-STROBUS-PINA.jpg",
+  "nombre": "Nombre científico"
+ },
+ "pinus strobus": {
+  "slug": "pinus-strobus-pino-blanco-del-este",
+  "thumb": "PINUS-STROBUS-PINA.jpg",
+  "nombre": "Nombre científico"
+ },
+ "pinus sylvestris pino silvestre": {
+  "slug": "pinus-sylvestris-pino-silvestre",
+  "thumb": "PINUS-SYLVESTRIS-RAMILLA.jpg",
+  "nombre": "Pino silvestre, Pino albar, Pino escocés"
+ },
+ "pinus sylvestris": {
+  "slug": "pinus-sylvestris-pino-silvestre",
+  "thumb": "PINUS-SYLVESTRIS-RAMILLA.jpg",
+  "nombre": "Pino silvestre, Pino albar, Pino escocés"
+ },
+ "pinus wallichiana pino azul del himalaya": {
+  "slug": "pinus-wallichiana-pino-azul-del-himalaya",
+  "thumb": "PINUS-WALLICHIANA-EJEMPLAR-ADULTO.jpg",
+  "nombre": "Pinus wallichiana (Pino azul del Himalaya)"
+ },
+ "pinus wallichiana": {
+  "slug": "pinus-wallichiana-pino-azul-del-himalaya",
+  "thumb": "PINUS-WALLICHIANA-EJEMPLAR-ADULTO.jpg",
+  "nombre": "Pinus wallichiana (Pino azul del Himalaya)"
+ },
+ "platycladus orientalis tuya oriental": {
+  "slug": "platycladus-orientalis-tuya-oriental",
+  "thumb": "PLATYCLADUS-ORIENTALIS-DETALLE-DE-PINA-Y-SEMILLAS.jpg",
+  "nombre": "Platycladus orientalis (Tuya oriental)"
+ },
+ "platycladus orientalis": {
+  "slug": "platycladus-orientalis-tuya-oriental",
+  "thumb": "PLATYCLADUS-ORIENTALIS-DETALLE-DE-PINA-Y-SEMILLAS.jpg",
+  "nombre": "Platycladus orientalis (Tuya oriental)"
+ },
+ "populus alba": {
+  "slug": "populus-alba-alamo-blanco",
+  "thumb": "POPULUS-ALBA-AS-FOLIAR.jpg",
+  "nombre": "Populus alba"
+ },
+ "populus deltoides": {
+  "slug": "populus-deltoides-alamo-carolino",
+  "thumb": "POPULUS-DELTOIDES-ADN.png",
+  "nombre": "Alamo carolino"
+ },
+ "populus nigra": {
+  "slug": "populus-nigra-alamo-criollo",
+  "thumb": "POPULUS-NIGRA-DENTRO-DE-UN-PATIO.jpg",
+  "nombre": "Populus nigra"
+ },
+ "populus trichocarpa": {
+  "slug": "alamo-balsamico-populus-trichocarpa",
+  "thumb": "POPULUS-TRICHOCAROA-EJEMPLAR-ASPECTO-ESTIVAL.jpg",
+  "nombre": "Populus trichocarpa"
+ },
+ "prunus avium": {
+  "slug": "prunus-avium-cerezo",
+  "thumb": "PRUNUS-AVIUM-CORTEZA-ADULTA.jpg",
+  "nombre": "Cerezo"
+ },
+ "prunus cerasifera var pissardii": {
+  "slug": "prunus-cerasifera-ciruelo-de-flor",
+  "thumb": "ciruelo-de-flor-8.jpg",
+  "nombre": "Ciruelo de flor, Ciruelo japonés, Cerezo de Pissard, Cerezo mirobalán"
+ },
+ "prunus cerasifera": {
+  "slug": "prunus-cerasifera-ciruelo-de-flor",
+  "thumb": "ciruelo-de-flor-8.jpg",
+  "nombre": "Ciruelo de flor, Ciruelo japonés, Cerezo de Pissard, Cerezo mirobalán"
+ },
+ "prunus domestica": {
+  "slug": "prunus-domestica-ciruelo-comun",
+  "thumb": "PRUNUS-DOMESTICA-FRUTOS.jpg",
+  "nombre": "Ciruelo común"
+ },
+ "prunus dulcis almendro": {
+  "slug": "prunus-dulcis-almendro",
+  "thumb": "PRUNUS-DULCIS-FRUTOS-INMADUROS.jpeg",
+  "nombre": "Prunus dulcis (Almendro)"
+ },
+ "prunus dulcis": {
+  "slug": "prunus-dulcis-almendro",
+  "thumb": "PRUNUS-DULCIS-FRUTOS-INMADUROS.jpeg",
+  "nombre": "Prunus dulcis (Almendro)"
+ },
+ "prunus lauroceresus laurel cerezo": {
+  "slug": "prunus-lauroceresus-laurel-cerezo",
+  "thumb": null,
+  "nombre": "Laurel cerezo, laurel real"
+ },
+ "prunus lauroceresus": {
+  "slug": "prunus-lauroceresus-laurel-cerezo",
+  "thumb": null,
+  "nombre": "Laurel cerezo, laurel real"
+ },
+ "prunus mahaleb": {
+  "slug": "prunus-mahaleb-cerezo-de-santa-lucia",
+  "thumb": null,
+  "nombre": "Cerezo de Santa Lucia"
+ },
+ "prunus persica duraznero": {
+  "slug": "prunus-persica-duraznero",
+  "thumb": "PRUNUS-PERSICA-ADN.png",
+  "nombre": "Prunus persica (Duraznero)"
+ },
+ "prunus persica": {
+  "slug": "prunus-persica-duraznero",
+  "thumb": "PRUNUS-PERSICA-ADN.png",
+  "nombre": "Prunus persica (Duraznero)"
+ },
+ "pseudotsuga menziesii pino oregon": {
+  "slug": "pseudotsuga-menziesii-pino-oregon",
+  "thumb": "PSEUDOTSUGA-MENZIESII-ADN-294x300.png",
+  "nombre": "Pseudotsuga menziesii (Pino oregón)"
+ },
+ "pseudotsuga menziesii": {
+  "slug": "pseudotsuga-menziesii-pino-oregon",
+  "thumb": "PSEUDOTSUGA-MENZIESII-ADN-294x300.png",
+  "nombre": "Pseudotsuga menziesii (Pino oregón)"
+ },
+ "pyrus communis peral": {
+  "slug": "pyrus-communis-peral",
+  "thumb": "PYRUS-COMMUNIS-EJEMPLAR-FLORECIDO.jpeg",
+  "nombre": "Pyrus communis (Peral)"
+ },
+ "pyrus communis": {
+  "slug": "pyrus-communis-peral",
+  "thumb": "PYRUS-COMMUNIS-EJEMPLAR-FLORECIDO.jpeg",
+  "nombre": "Pyrus communis (Peral)"
+ },
+ "quercus alba": {
+  "slug": "quercus-alba-roble-blanco",
+  "thumb": "QUERCUS-ALBA-ADN.png",
+  "nombre": "Roble blanco"
+ },
+ "quercus palustris": {
+  "slug": "quercus-palustris-roble-de-los-pantanos",
+  "thumb": "QUERCUS-PALUSTRIS-AS-FOLIAR.jpg",
+  "nombre": "Quercus palustris"
+ },
+ "quercus robur": {
+  "slug": "quercus-robur-roble-europeo",
+  "thumb": "Roble-europeo-ejemplar-en-plaza-Sarmiento.jpg",
+  "nombre": "Roble europeo"
+ },
+ "quercus rubra": {
+  "slug": "quercus-rubra-roble-rojo-del-norte",
+  "thumb": "QUERCUS-RUBRA-AS-FOLIAR.jpg",
+  "nombre": "Quercus rubra"
+ },
+ "rhus typhina zumaque de virginia": {
+  "slug": "rhus-typhina-zumaque-de-virginia",
+  "thumb": "RHUS-TYPHINA-EJEMPLAR-JOVEN.jpeg",
+  "nombre": "Zumaque de Virginia"
+ },
+ "rhus typhina": {
+  "slug": "rhus-typhina-zumaque-de-virginia",
+  "thumb": "RHUS-TYPHINA-EJEMPLAR-JOVEN.jpeg",
+  "nombre": "Zumaque de Virginia"
+ },
+ "robinia pseudoacacia": {
+  "slug": "robinia-pseudoacacia-acacia-blanca",
+  "thumb": "Acacia-blanca-corteza-adulta.jpg",
+  "nombre": "Acacia blanca, Robinia"
+ },
+ "salix alba sauce blanco": {
+  "slug": "salix-alba-sauce-blanco",
+  "thumb": "SALIX-ALBA-ADN.png",
+  "nombre": "Salix alba (Sauce blanco)"
+ },
+ "salix alba": {
+  "slug": "salix-alba-sauce-blanco",
+  "thumb": "SALIX-ALBA-ADN.png",
+  "nombre": "Salix alba (Sauce blanco)"
+ },
+ "salix babilonica sauce lloron": {
+  "slug": "salix-babilonica-sauce-lloron",
+  "thumb": "SALIX-BABILONICA-EJEMPLAR-ADULTO.jpg",
+  "nombre": "Sauce llorón"
+ },
+ "salix babilonica": {
+  "slug": "salix-babilonica-sauce-lloron",
+  "thumb": "SALIX-BABILONICA-EJEMPLAR-ADULTO.jpg",
+  "nombre": "Sauce llorón"
+ },
+ "salix matsudana": {
+  "slug": "salix-erythroflexuosa-sauce-electrico",
+  "thumb": "SALIX-MATSUDANA-CORTEZA-ADULTA.jpeg",
+  "nombre": "Sauce eléctrico, sauce tortuoso, sauce chino"
+ },
+ "sambucus nigra": {
+  "slug": "sambucus-nigra-sauco",
+  "thumb": "SAMBUCUS-NIGRA-EJEMPLAR-FLORECIDO.jpg",
+  "nombre": "Sáuco"
+ },
+ "sequoiadendron giganteum": {
+  "slug": "sequoyadendron-giganteum-secuoya-gigante",
+  "thumb": "Secuoya-gigante-grupo-de-ejemplares-adultos.jpg",
+  "nombre": "Sequoya gigante, Wellintonia, Gran árbol de California"
+ },
+ "sequoya sempervirens": {
+  "slug": "sequoya-sempervirens-secuoya-roja",
+  "thumb": "Secuoya-roja-corteza-adulta.jpg",
+  "nombre": "Sequoya roja, Secuoya de la costa, Secuoya de California"
+ },
+ "sorbus aria mostajo": {
+  "slug": "sorbus-aria-mostajo",
+  "thumb": "ADN-SORBUS-ARIA.png",
+  "nombre": "Mostajo"
+ },
+ "sorbus aria": {
+  "slug": "sorbus-aria-mostajo",
+  "thumb": "ADN-SORBUS-ARIA.png",
+  "nombre": "Mostajo"
+ },
+ "sorbus aucuparia": {
+  "slug": "sorbus-aucuparia-serbal-del-cazador",
+  "thumb": "Serbal-del-caszador-flor.jpg",
+  "nombre": "Serbal del cazador, Serbal silvestre, Pajarero"
+ },
+ "sorbus torminalis serbal silvestre": {
+  "slug": "sorbus-torminalis-serbal-silvestre",
+  "thumb": "ADN-SORBUS-TORMINALIS.png",
+  "nombre": "Sorbus torminalis (Serbal silvestre)"
+ },
+ "sorbus torminalis": {
+  "slug": "sorbus-torminalis-serbal-silvestre",
+  "thumb": "ADN-SORBUS-TORMINALIS.png",
+  "nombre": "Sorbus torminalis (Serbal silvestre)"
+ },
+ "taxus baccata tejo comun": {
+  "slug": "taxus-baccata-tejo-comun",
+  "thumb": "taxus3.jpeg",
+  "nombre": "Taxus baccata (Tejo común)"
+ },
+ "taxus baccata": {
+  "slug": "taxus-baccata-tejo-comun",
+  "thumb": "taxus3.jpeg",
+  "nombre": "Taxus baccata (Tejo común)"
+ },
+ "thuja occidentalis tuya occidental": {
+  "slug": "thuja-occidentalis-tuya-occidental",
+  "thumb": "THUJA-OCCIDENTALIS-EJEMPLAR-JOVEN.jpg",
+  "nombre": "Thuja occidentalis (Tuya occidental)"
+ },
+ "thuja occidentalis": {
+  "slug": "thuja-occidentalis-tuya-occidental",
+  "thumb": "THUJA-OCCIDENTALIS-EJEMPLAR-JOVEN.jpg",
+  "nombre": "Thuja occidentalis (Tuya occidental)"
+ },
+ "thuja plicata": {
+  "slug": "thuja-plicata-tuya-gigante",
+  "thumb": "THUJA-PLICATA-EJEMPLARES-DE-MEDIANA-EDAD.jpg",
+  "nombre": "Tuya gigante, Cedro rojo del Pacífico"
+ },
+ "tilia cordata tilo comun": {
+  "slug": "tilia-cordata-tilo-comun",
+  "thumb": "TILIA-SP-FRUTO.jpg",
+  "nombre": "Tilia cordata (Tilo común)"
+ },
+ "tilia cordata": {
+  "slug": "tilia-cordata-tilo-comun",
+  "thumb": "TILIA-SP-FRUTO.jpg",
+  "nombre": "Tilia cordata (Tilo común)"
+ },
+ "ulmus glabra olmo de montana": {
+  "slug": "ulmus-glabra-olmo-de-montana",
+  "thumb": "ULMUS-GLABRA-AS-FOLIAR.jpg",
+  "nombre": "Ulmus glabra (Olmo de montaña)"
+ },
+ "ulmus glabra": {
+  "slug": "ulmus-glabra-olmo-de-montana",
+  "thumb": "ULMUS-GLABRA-AS-FOLIAR.jpg",
+  "nombre": "Ulmus glabra (Olmo de montaña)"
+ },
+ "ulmus pumila olmo siberiano": {
+  "slug": "ulmus-pumila-olmo-siberiano",
+  "thumb": "ULMUS-PUMILA-AS-FOLIAR.jpg",
+  "nombre": "Ulmus pumila (Olmo siberiano)"
+ },
+ "ulmus pumila": {
+  "slug": "ulmus-pumila-olmo-siberiano",
+  "thumb": "ULMUS-PUMILA-AS-FOLIAR.jpg",
+  "nombre": "Ulmus pumila (Olmo siberiano)"
+ }
+}
