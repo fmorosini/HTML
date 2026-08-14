@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mapa</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="js/leaflet.css" />
+    <style>
+        html,body {
+              padding: 0;
+            margin: 0;
+        }
+        #mapid {
+            height: 100vh;
+          
+        }
+        .buscador {
+            z-index: 401;
+            position: fixed;
+            top: 10px;
+            margin-left: 33%;
+            margin-right: 33%;
+			width: 100%;	
+			display: inline-block;					
+        }		
+		#txtBuscar {
+			width: 100%;
+		}
+		#formulario{
+			padding-top: 0;
+			width: 33%;
+		}
+		.suggest-element{
+			color: rgb(60, 60, 60, 1);				
+		}
+		.centrado{
+			text-align: center;
+		}
+        </style>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="js/leaflet.markercluster.js"></script>
+<link rel="stylesheet" href="js/MarkerCluster.css" />
+<link rel="stylesheet" href="js/MarkerCluster.Default.css" />
+<script src="https://unpkg.com/leaflet-responsive-popup@0.6.4/leaflet.responsive.popup.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet-responsive-popup@0.6.4/leaflet.responsive.popup.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-responsive-popup@0.6.4/leaflet.responsive.popup.rtl.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/leaflet-tilelayer-wmts.js"></script>
+<link rel='stylesheet' href="js/leaflet-compass.min.css" />
+<script src="js/leaflet-compass.min.js"></script>
+<script src="js/Leaflet.Control.Custom.js"></script>
+<script type="application/javascript">
+
+{
+
+	var mymap;
+
+}
+
+function invertir(arreglo){
+	var arreglo_invertido = [];
+	arreglo_invertido[1] = arreglo[0];
+	arreglo_invertido[0] = arreglo[1];
+
+	return arreglo_invertido;
+}
+
+
+
+
+function cargarDatosEnMapa(){
+
+	console.log("carga datos")
+
+	mymap.eachLayer(function(l){if(l.options.layer != 'capabaseargenmap') mymap.removeLayer(l)}) //Borra todas las capas y marcadores menos la capa base
+	
+	var cluster = L.markerClusterGroup({disableClusteringAtZoom: 18});
+
+	var data;
+	
+	mymap.addLayer(cluster);
+		
+		L.control.locate({
+			locateOptions: {
+				showCompass: true,
+				drawCircle: true,
+				drawMarker: true,
+				enableHighAccuracy: true
+			},
+			strings: {
+				title: "Usted está aquí!"}
+			
+		}).addTo(mymap);
+
+			
+	var rootUrl = './json/alumine.geojson';
+	
+	console.log("pasa por acá")
+
+	var data
+
+	$.ajax({
+		url: rootUrl,
+		success: function(data){
+			despliegaDatos(data,cluster)
+		},
+		dataType: 'json'
+	});
+
+	/*
+	$.get(rootUrl, function(datosJSON) {
+
+			despliegaDatos(datosJSON,cluster)
+
+		}, dataType="json");
+
+	}
+*/}
+	
+		
+
+		
+	
+
+
+
+function despliegaDatos(data,cluster)
+{
+	console.log(data)
+
+	for(var i = 0; i < data.features.length; i++){
+		
+			
+
+			var icono_arbol_1 = L.icon({
+			iconUrl: 'https://www.arbolesurbanos.com.ar/iconos/1/' + data.features[i].properties.imagen,
+
+			//iconSize:     [80, 80], // size of the icon
+			//shadowSize:   [50, 64], // size of the shadow
+			iconAnchor:   [40, 0] // point of the icon which will correspond to marker's location
+			//shadowAnchor: [4, 62],  // the same for the shadow
+			//popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+			});
+
+			var icono_arbol_2 = L.icon({
+			iconUrl: 'https://www.arbolesurbanos.com.ar/iconos/2/' + data.features[i].properties.imagen,
+
+			//iconSize:     [60, 60], // size of the icon
+			//shadowSize:   [50, 64], // size of the shadow
+			iconAnchor:   [30, 0] // point of the icon which will correspond to marker's location
+			//shadowAnchor: [4, 62],  // the same for the shadow
+			//popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+			});
+
+			var icono_arbol_3 = L.icon({
+			iconUrl: 'https://www.arbolesurbanos.com.ar/iconos/3/' + data.features[i].properties.imagen,
+
+			//iconSize:     [40, 40], // size of the icon
+			//shadowSize:   [50, 64], // size of the shadow
+			iconAnchor:   [20, 0] // point of the icon which will correspond to marker's location
+			//shadowAnchor: [4, 62],  // the same for the shadow
+			//popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+			});
+
+			var icono_arbol; //alert(feature.properties.magnitud);
+
+			if(data.features[i].properties.magnitud == 1)
+			{
+				icono_arbol = icono_arbol_1;
+			}
+			else if(data.features[i].properties.magnitud == 2)
+			{
+				icono_arbol = icono_arbol_2;
+			}
+			else if(data.features[i].properties.magnitud == 3)
+			{
+				icono_arbol = icono_arbol_3;
+			}
+
+			var m = new L.marker(invertir(data.features[i].geometry.coordinates), {icon: icono_arbol, title: data.features[i].properties.nombrevulgar});
+
+			var html_popup = "<div class='card'>";
+			
+
+			if(data.features[i].properties.url_ficha !== "" ){
+
+				html_popup += " <div class='card-header'><center><a href=" + data.features[i].properties.url_ficha + " target='_top'><img class='img-fluid' style='max-width: 80%' src=" + encodeURI("https://www.arbolesurbanos.com.ar/" + data.features[i].properties.thumbnail) + " /></a></center></div>";
+
+			}
+			else{
+
+				html_popup += " <div class='card-header'><center><img class='img-fluid' style='max-width: 250px;' src=" + encodeURI("https://www.arbolesurbanos.com.ar/" + data.features[i].properties.thumbnail) + " /></center></div>";
+
+			}
+			
+			
+			
+			
+			html_popup += " <div class='card-body'>";
+			html_popup += "       <p><h5><center><strong>" + data.features[i].properties.nombrevulgar + "</strong></center></h5>";
+			html_popup += "         <hr />";
+			html_popup += "         <h5><strong>Nombre científico:</strong> " + data.features[i].properties.nombrecientifico + "</h5>";
+			html_popup += "         <h5><strong>Tipo:</strong> " + data.features[i].properties.tipo + "</h5>";
+			html_popup += "         <h5><strong>Follaje:</strong> " + data.features[i].properties.follaje + "</h5>";
+			html_popup += "		  <h5><strong>Magnitud:</strong> " + data.features[i].properties.magnitud + "</h5>";
+			html_popup += "     </p>";
+			html_popup += "  </div>";
+			
+			html_popup += "</div>";
+
+			var popup = L.responsivePopup({ autoPanPadding: [10,10] }).setContent(html_popup);
+
+			m.bindPopup(popup);
+			m.addTo(cluster)
+
+			
+
+		}
+}
+
+
+
+function inicio(){
+
+	
+		
+	var container = L.DomUtil.get('mapid');
+	if(container != null){
+	container._leaflet_id = null;
+	}		
+
+	mymap = L.map('mapid', {
+		center: [-39.235952, -70.920004],
+		zoom: 10
+		});
+
+	
+
+	
+		
+	var base = new L.TileLayer.WMTS( "https://wms.ign.gob.ar/geoserver/capabaseargenmap/gwc/service/wmts" ,
+		{
+			layer: "capabaseargenmap",
+			style: "normal",
+			tilematrixSet: "EPSG:3857",
+			format: "image/png",
+			maxZoom: 21,
+			attribution: "<a href='https://wms.ign.gob.ar/geoserver/capabaseargenmap/gwc/service/wmts?REQUEST=GetCapabilities'>WMTS IGN</a>"
+		}
+	);						  
+			
+	
+
+	mymap.addLayer(base);
+
+	
+	console.log("antes de cargar data, en inicio")
+	cargarDatosEnMapa();
+	
+
+}	
+
+
+</script>
+</head>
+<body onload="inicio();">				
+       
+		
+		<div id="mapid"></div>
+
+</body>
+</html>
