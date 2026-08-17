@@ -36,14 +36,6 @@
 		.centrado{
 			text-align: center;
 		}
-		/* Marcador propio: el GeoJSON de Aluminé no trae el campo `imagen`
-		   que usan los mapas de SMA para el ícono remoto por especie. */
-		.au-marcador {
-			background: #06C569;
-			border: 2px solid #ffffff;
-			border-radius: 50%;
-			box-shadow: 0 1px 4px rgba(0,23,10,.45);
-		}
         </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -61,6 +53,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="js/leaflet-tilelayer-wmts.js"></script>
 <script type="application/javascript">
+
+/* ===========================================================
+   ARCHIVO GENERADO — no editar a mano.
+   Se genera desde templates/mapa.html con scripts/build.py.
+   Los 5 mapas comparten este mismo código; sólo cambian el
+   GeoJSON, el centro, el zoom y el título.
+   =========================================================== */
 
 {
 
@@ -107,8 +106,8 @@ function cargarDatosEnMapa(){
 
 	console.log("pasa por acá")
 
-	// alumine.geojson sólo trae nombre científico (sin url_ficha ni thumbnail),
-	// así que cargamos también el índice de especies para resolver la ficha.
+	// El índice de especies completa lo que al GeoJSON le falte (junin no trae
+	// `imagen` ni `thumbnail`) y corrige los slugs viejos del dato de campo.
 	$.when(
 		$.ajax({url: rootUrl, dataType: 'json'}),
 		$.ajax({url: lookupUrl, dataType: 'json'})
@@ -130,8 +129,8 @@ function normalizarNombre(nombre){
 		.trim();
 }
 
-// Busca la ficha por nombre científico completo y, si no aparece,
-// por "género especie" (para tolerar variedades y cultivares).
+// Busca por nombre científico completo y, si no aparece, por "género especie"
+// (para tolerar variedades y cultivares del dato de campo).
 function buscarFicha(nombreCientifico, lookup){
 	if(!lookup){ return null; }
 	var n = normalizarNombre(nombreCientifico);
@@ -144,12 +143,21 @@ function buscarFicha(nombreCientifico, lookup){
 	return null;
 }
 
-function iconoPorMagnitud(magnitud){
-	var tam = magnitud == 1 ? 24 : (magnitud == 2 ? 18 : 13);
-	return L.divIcon({
-		className: 'au-marcador',
-		iconSize: [tam, tam],
-		iconAnchor: [tam / 2, tam / 2]
+// El servidor de íconos distingue mayúsculas y el dato de campo trae un nombre
+// que no coincide con el archivo publicado. Corregir acá hasta que se arregle
+// en el origen (afecta a Cupressus sempervirens en todos los mapas).
+var CORRECCION_ICONO = {
+	"Cupressus sempervirens.gif": "CUPRESSUS SEMPERVIRENS.gif"
+};
+
+// Ícono por especie: los .gif viven en /iconos/<magnitud>/ en el sitio viejo.
+function iconoArbol(imagen, magnitud){
+	var anclas = {1: 40, 2: 30, 3: 20};
+	if(!imagen || !anclas[magnitud]){ return new L.Icon.Default(); }
+	var archivo = CORRECCION_ICONO[imagen] || imagen;
+	return L.icon({
+		iconUrl: encodeURI('https://www.arbolesurbanos.com.ar/iconos/' + magnitud + '/' + archivo),
+		iconAnchor: [anclas[magnitud], 0]
 	});
 }
 
@@ -160,16 +168,22 @@ function despliegaDatos(data, cluster, lookup)
 	for(var i = 0; i < data.features.length; i++){
 
 			var props = data.features[i].properties;
-
-			var m = new L.marker(invertir(data.features[i].geometry.coordinates), {icon: iconoPorMagnitud(props.magnitud), title: props.nombrevulgar});
-
 			var ficha = buscarFicha(props.nombrecientifico, lookup);
+
+			// Manda lo que traiga el GeoJSON; el índice sólo rellena huecos.
+			var imagen    = (props.imagen || (ficha && ficha.imagen) || "").trim();
+			var thumbnail = (props.thumbnail || (ficha && ficha.thumbnail) || "").trim();
+			var fichaUrl  = (ficha && ficha.slug) ? 'especies/' + ficha.slug + '.html' : null;
+
+			var m = new L.marker(invertir(data.features[i].geometry.coordinates), {icon: iconoArbol(imagen, props.magnitud), title: props.nombrevulgar});
 
 			var html_popup = "<div class='card'>";
 
-			if(ficha && ficha.thumb){
+			if(thumbnail){
 
-				html_popup += " <div class='card-header'><center><a href='especies/" + ficha.slug + ".html' target='_top'><img class='img-fluid' style='max-width: 80%' src='" + encodeURI("assets/img/especies/" + ficha.thumb) + "' /></a></center></div>";
+				var img = "<img class='img-fluid' style='max-width: " + (fichaUrl ? "80%" : "250px") + "' src='" + encodeURI("https://www.arbolesurbanos.com.ar/" + thumbnail.replace(/^\//, "")) + "' />";
+
+				html_popup += " <div class='card-header'><center>" + (fichaUrl ? "<a href='" + fichaUrl + "' target='_top'>" + img + "</a>" : img) + "</center></div>";
 
 			}
 
@@ -181,8 +195,8 @@ function despliegaDatos(data, cluster, lookup)
 			html_popup += "         <h5><strong>Follaje:</strong> " + props.follaje + "</h5>";
 			html_popup += "		  <h5><strong>Magnitud:</strong> " + props.magnitud + "</h5>";
 
-			if(ficha){
-				html_popup += "     <center><a href='especies/" + ficha.slug + ".html' target='_top'>Ver ficha de la especie</a></center>";
+			if(fichaUrl){
+				html_popup += "     <center><a href='" + fichaUrl + "' target='_top'>Ver ficha de la especie</a></center>";
 			}
 
 			html_popup += "     </p>";
@@ -212,8 +226,8 @@ function inicio(){
 	}
 
 	mymap = L.map('mapid', {
-		center: [-39.23846815223112, -70.91590727463205],
-		zoom: 19
+		center: [-39.237623291373026,-70.91886595476626],
+		zoom: 16
 		});
 
 

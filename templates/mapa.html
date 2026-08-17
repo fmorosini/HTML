@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mapa</title>
+	<title>{{ titulo }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" href="js/leaflet.css" />
@@ -101,7 +101,7 @@ function cargarDatosEnMapa(){
 		}).addTo(mymap);
 
 
-	var rootUrl = './json/SMA2.geojson';
+	var rootUrl = './json/{{ geojson }}';
 	var lookupUrl = './json/especies-lookup.json';
 
 	console.log("pasa por acá")
@@ -226,8 +226,8 @@ function inicio(){
 	}
 
 	mymap = L.map('mapid', {
-		center: [-40.157417863269345,-71.35222077369691],
-		zoom: 15
+		center: [{{ centro_lat }},{{ centro_lon }}],
+		zoom: {{ zoom }}
 		});
 
 
