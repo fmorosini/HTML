@@ -318,29 +318,131 @@ write("data/species_index.json", json.dumps(index_data, ensure_ascii=False, inde
 
 # ---------------------------------------------------------------
 # json/especies-lookup.json
-# Usado por los mapas cuyos GeoJSON sólo traen `nombrecientifico`
-# (junin, alumine) para poder enlazar al popup con la ficha estática.
-# Claves normalizadas: sin acentos, minúsculas, sólo letras y espacios.
-# Se indexa por nombre completo y por "género especie" (primeros 2 tokens),
-# para tolerar variedades/cultivares del dato de campo.
+#
+# Algunos GeoJSON del arbolado (junin) sólo traen `nombrecientifico` y les
+# faltan los campos que el código de los mapas necesita: `imagen` (ícono por
+# especie), `thumbnail` (foto del popup) y `url_ficha`. Este índice permite
+# completarlos por nombre científico, para que esos mapas se vean igual que
+# los de SMA sin tener que tocar su código de dibujado.
+#
+# Los valores se cosechan de los GeoJSON que SÍ traen esos campos. Si en algún
+# momento se regenera junin.geojson con el esquema completo, su mapa deja de
+# depender de este archivo.
+#
+# Claves normalizadas: sin acentos, minúsculas, sólo letras y espacios. Se
+# indexa por nombre completo y por "género especie" (primeros 2 tokens), para
+# tolerar variedades y cultivares del dato de campo.
 # ---------------------------------------------------------------
 def norm_sci(s):
     s = strip_accents(s or "").lower()
     s = re.sub(r"[^a-z ]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
-lookup = {}
-for sp in species:
-    entry = {"slug": sp["slug"], "thumb": sp["thumb"], "nombre": sp["common_name"] or sp["sci_name"]}
-    key_full = norm_sci(sp["sci_name"])
-    if key_full:
-        lookup[key_full] = entry
-    toks = key_full.split()
+def put(lookup, key, entry):
+    """Guarda por nombre completo y por género+especie, sin sobreescribir."""
+    if not key:
+        return
+    lookup.setdefault(key, entry)
+    toks = key.split()
     if len(toks) >= 2:
         lookup.setdefault(" ".join(toks[:2]), entry)
 
+FUENTES_GEOJSON = ["SMA1", "SMA2", "SMA3", "alumine", "junin"]
+
+# Slugs locales válidos, para no enlazar a fichas inexistentes: el dato de campo
+# arrastra slugs viejos de WordPress (ilex-aquifolium-acebo,
+# crateagus-monogyna-epino-albar, embotrium-coccineum-notro) que hoy no existen.
+slug_por_nombre = {}
+for sp in species:
+    slug_por_nombre.setdefault(norm_sci(sp["sci_name"]), sp["slug"])
+    toks = norm_sci(sp["sci_name"]).split()
+    if len(toks) >= 2:
+        slug_por_nombre.setdefault(" ".join(toks[:2]), sp["slug"])
+
+lookup = {}
+sin_ficha = set()
+for nombre_fuente in FUENTES_GEOJSON:
+    ruta = os.path.join(ROOT, "json", f"{nombre_fuente}.geojson")
+    if not os.path.exists(ruta):
+        continue
+    with open(ruta, encoding="utf-8") as f:
+        geo = json.load(f)
+    for feat in geo.get("features", []):
+        p = feat.get("properties", {})
+        clave = norm_sci(p.get("nombrecientifico"))
+        if not clave:
+            continue
+        toks = clave.split()
+        slug = slug_por_nombre.get(clave) or (
+            slug_por_nombre.get(" ".join(toks[:2])) if len(toks) >= 2 else None
+        )
+        if not slug:
+            sin_ficha.add(p.get("nombrecientifico"))
+        entrada = {}
+        if (p.get("imagen") or "").strip():
+            entrada["imagen"] = p["imagen"].strip()
+        if (p.get("thumbnail") or "").strip():
+            entrada["thumbnail"] = p["thumbnail"].strip()
+        if slug:
+            entrada["slug"] = slug
+        if entrada:
+            put(lookup, clave, entrada)
+
+# Especies con ficha propia que no aparecen en ningún GeoJSON: quedan sin ícono
+# ni miniatura, pero con link a la ficha.
+for sp in species:
+    put(lookup, norm_sci(sp["sci_name"]), {"slug": sp["slug"]})
+
 write("json/especies-lookup.json", json.dumps(lookup, ensure_ascii=False, indent=1))
-print(f"Generado json/especies-lookup.json ({len(lookup)} claves)")
+con_icono = sum(1 for v in lookup.values() if v.get("imagen"))
+print(f"Generado json/especies-lookup.json ({len(lookup)} claves, {con_icono} con ícono)")
+if sin_ficha:
+    print(f"  aviso: {len(sin_ficha)} especies del arbolado sin ficha propia: {', '.join(sorted(sin_ficha))}")
+
+# ---------------------------------------------------------------
+# Mapas Leaflet
+# Los 5 salen de la misma plantilla; sólo cambian GeoJSON, centro, zoom
+# y título, así no vuelven a divergir entre sí.
+# ---------------------------------------------------------------
+CENTRO_SMA = (-40.157417863269345, -71.35222077369691)
+
+MAPAS = [
+    {"salida": "mapa_sma1.html", "geojson": "SMA1.geojson", "titulo": "Mapa", "centro": CENTRO_SMA, "zoom": 15},
+    {"salida": "mapa_sma2.html", "geojson": "SMA2.geojson", "titulo": "Mapa", "centro": CENTRO_SMA, "zoom": 15},
+    {"salida": "mapa_sma3.html", "geojson": "SMA3.geojson", "titulo": "Mapa", "centro": CENTRO_SMA, "zoom": 15},
+    {"salida": "mapa-alumine.html", "geojson": "alumine.geojson", "titulo": "Mapa — Aluminé", "centro": None, "zoom": 16},
+    {"salida": "mapa-junin-de-los-andes.html", "geojson": "junin.geojson", "titulo": "Mapa — Junín de los Andes", "centro": None, "zoom": 18},
+]
+
+def centro_de(nombre_geojson):
+    """Centro del bounding box de los datos, para encuadrar el mapa."""
+    with open(os.path.join(ROOT, "json", nombre_geojson), encoding="utf-8") as f:
+        geo = json.load(f)
+    lats, lons = [], []
+    for feat in geo.get("features", []):
+        coords = (feat.get("geometry") or {}).get("coordinates")
+        if coords and len(coords) >= 2:
+            lons.append(coords[0])
+            lats.append(coords[1])
+    if not lats:
+        return None
+    return ((min(lats) + max(lats)) / 2, (min(lons) + max(lons)) / 2)
+
+tmpl_mapa = env.get_template("mapa.html")
+for cfg in MAPAS:
+    ruta_geo = os.path.join(ROOT, "json", cfg["geojson"])
+    if not os.path.exists(ruta_geo):
+        print(f"  aviso: falta json/{cfg['geojson']}, se omite {cfg['salida']}")
+        continue
+    centro = cfg["centro"] or centro_de(cfg["geojson"])
+    write(cfg["salida"], tmpl_mapa.render(
+        titulo=cfg["titulo"],
+        geojson=cfg["geojson"],
+        centro_lat=centro[0],
+        centro_lon=centro[1],
+        zoom=cfg["zoom"],
+    ))
+print(f"Generados {len(MAPAS)} mapas desde templates/mapa.html")
 
 # ---------------------------------------------------------------
 # sitemap.xml
