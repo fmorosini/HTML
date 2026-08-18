@@ -268,6 +268,95 @@ strong, b { font-weight: 600; }
 }
 
 /* =========================================================
+   Grilla de mapas (home)
+   Cuatro accesos, uno por localidad. En escritorio la sección
+   entra completa en una pantalla al saltar al anchor #mapa.
+   ========================================================= */
+.au-mapas {
+  /* el header es sticky: sin esto el anchor deja el título tapado */
+  scroll-margin-top: var(--au-header-h);
+}
+
+.au-mapas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.au-mapa-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: var(--au-radius);
+  background: var(--au-gray);
+  box-shadow: var(--au-shadow-sm);
+  aspect-ratio: 4 / 3;
+  text-decoration: none;
+  transition: box-shadow .18s ease, transform .18s ease;
+}
+.au-mapa-card:hover,
+.au-mapa-card:focus-visible {
+  box-shadow: var(--au-shadow);
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+.au-mapa-card:focus-visible {
+  outline: 3px solid var(--au-green);
+  outline-offset: 3px;
+}
+
+.au-mapa-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .3s ease;
+}
+.au-mapa-card:hover img { transform: scale(1.04); }
+
+/* Marcador de posición mientras no esté cargada la captura del mapa. */
+.au-mapa-card.sin-imagen {
+  background:
+    repeating-linear-gradient(45deg, #e8efe9 0 12px, #dfe8e1 12px 24px);
+}
+
+.au-mapa-label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.5rem 1.1rem 1rem;
+  color: var(--au-white);
+  font-weight: 700;
+  font-size: clamp(1rem, 1.6vw, 1.35rem);
+  line-height: 1.2;
+  background: linear-gradient(to top, rgba(0, 23, 10, .78) 0%, rgba(0, 23, 10, .45) 55%, rgba(0, 23, 10, 0) 100%);
+}
+.au-mapa-card.sin-imagen .au-mapa-label {
+  color: var(--au-teal);
+  background: none;
+}
+
+/* En pantallas angostas, dos columnas dejan los rótulos ilegibles:
+   una sola columna y se scrollea. */
+@media (max-width: 575.98px) {
+  .au-mapas-grid { grid-template-columns: 1fr; }
+  .au-mapa-card { aspect-ratio: 16 / 10; }
+}
+
+@media (min-width: 768px) {
+  .au-mapas { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+  .au-mapas-grid {
+    /* alto restante tras header + encabezado de la sección */
+    height: calc(100vh - var(--au-header-h) - 13rem);
+    min-height: 380px;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  /* con alto fijo manda la fila, no la proporción */
+  .au-mapa-card { aspect-ratio: auto; height: 100%; }
+}
+
+/* =========================================================
    Cards / sections
    ========================================================= */
 .au-section { padding: 3.5rem 0; }

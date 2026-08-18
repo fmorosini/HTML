@@ -294,6 +294,21 @@ print("Generado contacto.html")
 # ---------------------------------------------------------------
 # Render index.html
 # ---------------------------------------------------------------
+# Accesos a los mapas, en el orden en que se muestran en la grilla 2x2:
+# 1 arriba izq., 2 arriba der., 3 abajo izq., 4 abajo der.
+MAPAS_HOME = [
+    {"nombre": "San Martín Centro",    "href": "mapa_sma1.html",               "imagen": "boton-san-martin-de-los-andes-centro.png"},
+    {"nombre": "San Martín Periferia", "href": "mapa_sma3.html",               "imagen": "boton-san-martin-de-los-andes-periferia.png"},
+    {"nombre": "Junín de los Andes",   "href": "mapa-junin-de-los-andes.html", "imagen": "boton-junin-de-los-andes.png"},
+    {"nombre": "Aluminé",              "href": "mapa-alumine.html",            "imagen": "boton-alumine.png"},
+]
+
+faltantes = []
+for m in MAPAS_HOME:
+    m["imagen_ok"] = os.path.exists(os.path.join(ROOT, "assets/img", m["imagen"]))
+    if not m["imagen_ok"]:
+        faltantes.append(m["imagen"])
+
 tmpl_index = env.get_template("index.html")
 write("index.html", tmpl_index.render(
     base="", active="inicio",
@@ -301,10 +316,13 @@ write("index.html", tmpl_index.render(
     canonical_url=f"{SITE_URL}/index.html",
     og_image=DEFAULT_OG_IMAGE,
     page_title="Inicio",
-    page_description=f"Mapa interactivo y {SPECIES_COUNT} fichas de especies del arbolado urbano de la zona cordillerana de Norpatagonia.",
+    page_description=f"Mapas del arbolado urbano de San Martín de los Andes, Aluminé y Junín de los Andes, y {SPECIES_COUNT} fichas de especies.",
     species_count=SPECIES_COUNT,
+    mapas=MAPAS_HOME,
 ))
 print("Generado index.html")
+if faltantes:
+    print(f"  aviso: faltan {len(faltantes)} imágenes en assets/img/mapas/: {', '.join(faltantes)}")
 
 # ---------------------------------------------------------------
 # Search index (used only for potential future client-side needs)
