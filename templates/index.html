@@ -13,13 +13,20 @@
   </div>
 </section>
 
-<section class="au-section" id="mapa">
+<section class="au-section au-mapas" id="mapa">
   <div class="container">
-    <span class="au-eyebrow">Mapa interactivo</span>
-    <h2 class="au-section-title">Arbolado relevado</h2>
-    <p class="au-section-subtitle">Recorré el mapa y hacé click sobre cada árbol para ver sus datos.</p>
-    <div class="au-map-wrap">
-      <iframe src="{{ base }}mapa_sma1.html" class="au-map-frame" title="Mapa del arbolado urbano" loading="lazy"></iframe>
+    <span class="au-eyebrow">Mapas interactivos</span>
+    <h2 class="au-section-title">Elegí una localidad</h2>
+    <p class="au-section-subtitle">Cada mapa muestra el arbolado relevado. Hacé click sobre un árbol para ver sus datos y su ficha.</p>
+    <div class="au-mapas-grid">
+      {% for m in mapas %}
+      <a class="au-mapa-card{{ ' sin-imagen' if not m.imagen_ok else '' }}" href="{{ base }}{{ m.href }}">
+        {% if m.imagen_ok %}
+        <img src="{{ base }}assets/img/{{ m.imagen }}" alt="Mapa del arbolado de {{ m.nombre }}">
+        {% endif %}
+        <span class="au-mapa-label">{{ m.nombre }}</span>
+      </a>
+      {% endfor %}
     </div>
   </div>
 </section>
