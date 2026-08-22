@@ -15,6 +15,51 @@ CAT_MAP = {
     "Conífera caduca": "conifera-caduca",
 }
 
+# ---------------------------------------------------------------
+# Mapas del arbolado. Una sola lista para todo: las páginas de mapa y la
+# grilla del home, para que no se desincronicen.
+#   localidad  -> título de la página de mapa (h1)
+#   nombre     -> rótulo del botón en el home (más corto)
+#   en_home    -> si aparece en la grilla 2x2, en este orden:
+#                 1 arriba izq., 2 arriba der., 3 abajo izq., 4 abajo der.
+#   centro     -> None calcula el centro desde los propios datos
+# ---------------------------------------------------------------
+CENTRO_SMA = (-40.157417863269345, -71.35222077369691)
+
+MAPAS = [
+    {
+        "salida": "mapa_sma1.html", "geojson": "SMA1.geojson",
+        "localidad": "San Martín de Los Andes Centro", "nombre": "San Martín Centro",
+        "imagen": "boton-san-martin-de-los-andes-centro.png",
+        "centro": CENTRO_SMA, "zoom": 15, "en_home": True,
+    },
+    {
+        "salida": "mapa_sma3.html", "geojson": "SMA3.geojson",
+        "localidad": "San Martín de Los Andes Periferia", "nombre": "San Martín Periferia",
+        "imagen": "boton-san-martin-de-los-andes-periferia.png",
+        "centro": CENTRO_SMA, "zoom": 15, "en_home": True,
+    },
+    {
+        "salida": "mapa-junin-de-los-andes.html", "geojson": "junin.geojson",
+        "localidad": "Junín de Los Andes", "nombre": "Junín de los Andes",
+        "imagen": "boton-junin-de-los-andes.png",
+        "centro": None, "zoom": 18, "en_home": True,
+    },
+    {
+        "salida": "mapa-alumine.html", "geojson": "alumine.geojson",
+        "localidad": "Aluminé", "nombre": "Aluminé",
+        "imagen": "boton-alumine.png",
+        "centro": None, "zoom": 16, "en_home": True,
+    },
+    # Se genera pero queda sin enlazar desde el sitio (decisión del proyecto).
+    {
+        "salida": "mapa_sma2.html", "geojson": "SMA2.geojson",
+        "localidad": "San Martín de Los Andes", "nombre": "San Martín de los Andes",
+        "imagen": None,
+        "centro": CENTRO_SMA, "zoom": 15, "en_home": False,
+    },
+]
+
 def strip_accents(s):
     return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
 
@@ -294,14 +339,7 @@ print("Generado contacto.html")
 # ---------------------------------------------------------------
 # Render index.html
 # ---------------------------------------------------------------
-# Accesos a los mapas, en el orden en que se muestran en la grilla 2x2:
-# 1 arriba izq., 2 arriba der., 3 abajo izq., 4 abajo der.
-MAPAS_HOME = [
-    {"nombre": "San Martín Centro",    "href": "mapa_sma1.html",               "imagen": "boton-san-martin-de-los-andes-centro.png"},
-    {"nombre": "San Martín Periferia", "href": "mapa_sma3.html",               "imagen": "boton-san-martin-de-los-andes-periferia.png"},
-    {"nombre": "Junín de los Andes",   "href": "mapa-junin-de-los-andes.html", "imagen": "boton-junin-de-los-andes.png"},
-    {"nombre": "Aluminé",              "href": "mapa-alumine.html",            "imagen": "boton-alumine.png"},
-]
+MAPAS_HOME = [m for m in MAPAS if m.get("en_home")]
 
 faltantes = []
 for m in MAPAS_HOME:
@@ -322,7 +360,7 @@ write("index.html", tmpl_index.render(
 ))
 print("Generado index.html")
 if faltantes:
-    print(f"  aviso: faltan {len(faltantes)} imágenes en assets/img/mapas/: {', '.join(faltantes)}")
+    print(f"  aviso: faltan {len(faltantes)} imágenes en assets/img/: {', '.join(faltantes)}")
 
 # ---------------------------------------------------------------
 # Search index (used only for potential future client-side needs)
@@ -419,19 +457,9 @@ if sin_ficha:
 
 # ---------------------------------------------------------------
 # Mapas Leaflet
-# Los 5 salen de la misma plantilla; sólo cambian GeoJSON, centro, zoom
-# y título, así no vuelven a divergir entre sí.
+# Todos salen de la misma plantilla, con el marco del sitio (nav y pie);
+# sólo cambian GeoJSON, centro, zoom y localidad.
 # ---------------------------------------------------------------
-CENTRO_SMA = (-40.157417863269345, -71.35222077369691)
-
-MAPAS = [
-    {"salida": "mapa_sma1.html", "geojson": "SMA1.geojson", "titulo": "Mapa", "centro": CENTRO_SMA, "zoom": 15},
-    {"salida": "mapa_sma2.html", "geojson": "SMA2.geojson", "titulo": "Mapa", "centro": CENTRO_SMA, "zoom": 15},
-    {"salida": "mapa_sma3.html", "geojson": "SMA3.geojson", "titulo": "Mapa", "centro": CENTRO_SMA, "zoom": 15},
-    {"salida": "mapa-alumine.html", "geojson": "alumine.geojson", "titulo": "Mapa — Aluminé", "centro": None, "zoom": 16},
-    {"salida": "mapa-junin-de-los-andes.html", "geojson": "junin.geojson", "titulo": "Mapa — Junín de los Andes", "centro": None, "zoom": 18},
-]
-
 def centro_de(nombre_geojson):
     """Centro del bounding box de los datos, para encuadrar el mapa."""
     with open(os.path.join(ROOT, "json", nombre_geojson), encoding="utf-8") as f:
@@ -447,20 +475,42 @@ def centro_de(nombre_geojson):
     return ((min(lats) + max(lats)) / 2, (min(lons) + max(lons)) / 2)
 
 tmpl_mapa = env.get_template("mapa.html")
+generados = 0
 for cfg in MAPAS:
     ruta_geo = os.path.join(ROOT, "json", cfg["geojson"])
     if not os.path.exists(ruta_geo):
         print(f"  aviso: falta json/{cfg['geojson']}, se omite {cfg['salida']}")
         continue
     centro = cfg["centro"] or centro_de(cfg["geojson"])
+    canonical_url = f"{SITE_URL}/{cfg['salida']}"
+    breadcrumb = jsonld({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Inicio", "item": f"{SITE_URL}/index.html"},
+            {"@type": "ListItem", "position": 2, "name": cfg["localidad"], "item": canonical_url},
+        ],
+    })
+    og_image = (f"{SITE_URL}/assets/img/{cfg['imagen']}"
+                if cfg.get("imagen") and os.path.exists(os.path.join(ROOT, "assets/img", cfg["imagen"]))
+                else DEFAULT_OG_IMAGE)
     write(cfg["salida"], tmpl_mapa.render(
-        titulo=cfg["titulo"],
+        base="",
+        active="inicio",
+        site_url=SITE_URL,
+        canonical_url=canonical_url,
+        og_image=og_image,
+        page_title=cfg["localidad"],
+        page_description=f"Mapa interactivo del arbolado urbano de {cfg['localidad']}. Hacé click sobre un árbol para ver sus datos y su ficha.",
+        localidad=cfg["localidad"],
         geojson=cfg["geojson"],
         centro_lat=centro[0],
         centro_lon=centro[1],
         zoom=cfg["zoom"],
+        jsonld_breadcrumb=breadcrumb,
     ))
-print(f"Generados {len(MAPAS)} mapas desde templates/mapa.html")
+    generados += 1
+print(f"Generados {generados} mapas desde templates/mapa.html")
 
 # ---------------------------------------------------------------
 # sitemap.xml

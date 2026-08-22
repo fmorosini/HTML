@@ -1,71 +1,69 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>{{ titulo }}</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" href="js/leaflet.css" />
-    <style>
-        html,body {
-              padding: 0;
-            margin: 0;
-        }
-        #mapid {
-            height: 100vh;
+{% extends "base.html" %}
 
-        }
-        .buscador {
-            z-index: 401;
-            position: fixed;
-            top: 10px;
-            margin-left: 33%;
-            margin-right: 33%;
-			width: 100%;
-			display: inline-block;
-        }
-		#txtBuscar {
-			width: 100%;
-		}
-		#formulario{
-			padding-top: 0;
-			width: 33%;
-		}
-		.suggest-element{
-			color: rgb(60, 60, 60, 1);
-		}
-		.centrado{
-			text-align: center;
-		}
-        </style>
+{#
+   ARCHIVO GENERADO — no editar los mapa*.html a mano.
+   Los mapas se generan desde esta plantilla con scripts/build.py.
+   Todos comparten el mismo código; sólo cambian el GeoJSON, el centro,
+   el zoom y el nombre de la localidad.
+
+   Bootstrap y jQuery: el marco del sitio (base.html) ya trae Bootstrap 5,
+   que es el que estiliza los popups (card / card-header / img-fluid).
+   Acá sólo se agregan Leaflet, sus plugins y jQuery, que el mapa necesita.
+#}
+
+{% block head_extra %}
+<link rel="stylesheet" href="{{ base }}js/leaflet.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-<script src="js/leaflet.markercluster.js"></script>
-<link rel="stylesheet" href="js/MarkerCluster.css" />
-<link rel="stylesheet" href="js/MarkerCluster.Default.css" />
-<script src="https://unpkg.com/leaflet-responsive-popup@0.6.4/leaflet.responsive.popup.js"></script>
+<link rel="stylesheet" href="{{ base }}js/MarkerCluster.css" />
+<link rel="stylesheet" href="{{ base }}js/MarkerCluster.Default.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet-responsive-popup@0.6.4/leaflet.responsive.popup.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet-responsive-popup@0.6.4/leaflet.responsive.popup.rtl.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+{% endblock %}
+
+{% block jsonld_extra %}
+<script type="application/ld+json">{{ jsonld_breadcrumb|safe }}</script>
+{% endblock %}
+
+{% block content %}
+
+<div class="au-page-header">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ base }}index.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ localidad }}</li>
+      </ol>
+    </nav>
+    <span class="au-eyebrow">Mapas interactivos</span>
+    <h1>{{ localidad }}</h1>
+    <p class="mb-0" style="color: rgba(255,255,255,0.8);">Hacé click sobre un árbol para ver sus datos y su ficha.</p>
+  </div>
+</div>
+
+<div class="au-section au-mapa-seccion">
+  <div class="container">
+    <div class="au-mapa-embed">
+      <div id="mapid"></div>
+    </div>
+    <p class="mt-3 mb-0">
+      <a class="au-back-home" href="{{ base }}index.html">&larr; Volver a todos los mapas</a>
+    </p>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts_extra %}
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="{{ base }}js/leaflet.markercluster.js"></script>
+<script src="https://unpkg.com/leaflet-responsive-popup@0.6.4/leaflet.responsive.popup.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="js/leaflet-tilelayer-wmts.js"></script>
+<script src="{{ base }}js/leaflet-tilelayer-wmts.js"></script>
 <script type="application/javascript">
 
-/* ===========================================================
-   ARCHIVO GENERADO — no editar a mano.
-   Se genera desde templates/mapa.html con scripts/build.py.
-   Los 5 mapas comparten este mismo código; sólo cambian el
-   GeoJSON, el centro, el zoom y el título.
-   =========================================================== */
-
-{
-
-	var mymap;
-
-}
+var mymap;
 
 function invertir(arreglo){
 	var arreglo_invertido = [];
@@ -75,12 +73,7 @@ function invertir(arreglo){
 	return arreglo_invertido;
 }
 
-
-
-
 function cargarDatosEnMapa(){
-
-	console.log("carga datos")
 
 	mymap.eachLayer(function(l){if(l.options.layer != 'capabaseargenmap') mymap.removeLayer(l)}) //Borra todas las capas y marcadores menos la capa base
 
@@ -88,23 +81,20 @@ function cargarDatosEnMapa(){
 
 	mymap.addLayer(cluster);
 
-		L.control.locate({
-			locateOptions: {
-				showCompass: true,
-				drawCircle: true,
-				drawMarker: true,
-				enableHighAccuracy: true
-			},
-			strings: {
-				title: "Usted está aquí!"}
+	L.control.locate({
+		locateOptions: {
+			showCompass: true,
+			drawCircle: true,
+			drawMarker: true,
+			enableHighAccuracy: true
+		},
+		strings: {
+			title: "Usted está aquí!"
+		}
+	}).addTo(mymap);
 
-		}).addTo(mymap);
-
-
-	var rootUrl = './json/{{ geojson }}';
-	var lookupUrl = './json/especies-lookup.json';
-
-	console.log("pasa por acá")
+	var rootUrl = '{{ base }}json/{{ geojson }}';
+	var lookupUrl = '{{ base }}json/especies-lookup.json';
 
 	// El índice de especies completa lo que al GeoJSON le falte (junin no trae
 	// `imagen` ni `thumbnail`) y corrige los slugs viejos del dato de campo.
@@ -116,9 +106,6 @@ function cargarDatosEnMapa(){
 	});
 
 }
-
-
-
 
 function normalizarNombre(nombre){
 	return (nombre || "")
@@ -163,76 +150,65 @@ function iconoArbol(imagen, magnitud){
 
 function despliegaDatos(data, cluster, lookup)
 {
-	console.log(data)
-
 	for(var i = 0; i < data.features.length; i++){
 
-			var props = data.features[i].properties;
-			var ficha = buscarFicha(props.nombrecientifico, lookup);
+		var props = data.features[i].properties;
+		var ficha = buscarFicha(props.nombrecientifico, lookup);
 
-			// Manda lo que traiga el GeoJSON; el índice sólo rellena huecos.
-			var imagen    = (props.imagen || (ficha && ficha.imagen) || "").trim();
-			var thumbnail = (props.thumbnail || (ficha && ficha.thumbnail) || "").trim();
-			var fichaUrl  = (ficha && ficha.slug) ? 'especies/' + ficha.slug + '.html' : null;
+		// Manda lo que traiga el GeoJSON; el índice sólo rellena huecos.
+		var imagen    = (props.imagen || (ficha && ficha.imagen) || "").trim();
+		var thumbnail = (props.thumbnail || (ficha && ficha.thumbnail) || "").trim();
+		var fichaUrl  = (ficha && ficha.slug) ? '{{ base }}especies/' + ficha.slug + '.html' : null;
 
-			var m = new L.marker(invertir(data.features[i].geometry.coordinates), {icon: iconoArbol(imagen, props.magnitud), title: props.nombrevulgar});
+		var m = new L.marker(invertir(data.features[i].geometry.coordinates), {icon: iconoArbol(imagen, props.magnitud), title: props.nombrevulgar});
 
-			var html_popup = "<div class='card'>";
+		var html_popup = "<div class='card border-0'>";
 
-			if(thumbnail){
+		if(thumbnail){
 
-				var img = "<img class='img-fluid' style='max-width: " + (fichaUrl ? "80%" : "250px") + "' src='" + encodeURI("https://www.arbolesurbanos.com.ar/" + thumbnail.replace(/^\//, "")) + "' />";
+			var img = "<img class='img-fluid rounded' src='" + encodeURI("https://www.arbolesurbanos.com.ar/" + thumbnail.replace(/^\//, "")) + "' alt='" + props.nombrevulgar + "' />";
 
-				html_popup += " <div class='card-header'><center>" + (fichaUrl ? "<a href='" + fichaUrl + "' target='_top'>" + img + "</a>" : img) + "</center></div>";
-
-			}
-
-			html_popup += " <div class='card-body'>";
-			html_popup += "       <p><h5><center><strong>" + props.nombrevulgar + "</strong></center></h5>";
-			html_popup += "         <hr />";
-			html_popup += "         <h5><strong>Nombre científico:</strong> " + props.nombrecientifico + "</h5>";
-			html_popup += "         <h5><strong>Tipo:</strong> " + props.tipo + "</h5>";
-			html_popup += "         <h5><strong>Follaje:</strong> " + props.follaje + "</h5>";
-			html_popup += "		  <h5><strong>Magnitud:</strong> " + props.magnitud + "</h5>";
-
-			if(fichaUrl){
-				html_popup += "     <center><a href='" + fichaUrl + "' target='_top'>Ver ficha de la especie</a></center>";
-			}
-
-			html_popup += "     </p>";
-			html_popup += "  </div>";
-
-			html_popup += "</div>";
-
-			var popup = L.responsivePopup({ autoPanPadding: [10,10] }).setContent(html_popup);
-
-			m.bindPopup(popup);
-			m.addTo(cluster)
-
-
+			html_popup += "<div class='card-header bg-white border-0 text-center p-2'>" + (fichaUrl ? "<a href='" + fichaUrl + "'>" + img + "</a>" : img) + "</div>";
 
 		}
+
+		html_popup += "<div class='card-body pt-2'>";
+		html_popup += "<h5 class='text-center fw-bold mb-2'>" + props.nombrevulgar + "</h5>";
+		html_popup += "<hr class='my-2' />";
+		html_popup += "<p class='mb-1'><strong>Nombre científico:</strong> <em>" + props.nombrecientifico + "</em></p>";
+		html_popup += "<p class='mb-1'><strong>Tipo:</strong> " + props.tipo + "</p>";
+		html_popup += "<p class='mb-1'><strong>Follaje:</strong> " + props.follaje + "</p>";
+		html_popup += "<p class='mb-0'><strong>Magnitud:</strong> " + props.magnitud + "</p>";
+
+		if(fichaUrl){
+			html_popup += "<p class='text-center mt-3 mb-0'><a class='btn-au-primary d-inline-block' href='" + fichaUrl + "'>Ver ficha de la especie</a></p>";
+		}
+
+		html_popup += "</div>";
+		html_popup += "</div>";
+
+		// El mapa ya no ocupa toda la pantalla: sin un techo de alto, el plugin
+		// puede ubicar el popup por encima del borde y el recorte del contenedor
+		// se come la foto. maxHeight lo mantiene siempre dentro del mapa.
+		var popup = L.responsivePopup({ autoPan: true, keepInView: true, autoPanPadding: [12,12], maxHeight: 320 }).setContent(html_popup);
+
+		m.bindPopup(popup);
+		m.addTo(cluster)
+
+	}
 }
-
-
 
 function inicio(){
 
-
-
 	var container = L.DomUtil.get('mapid');
 	if(container != null){
-	container._leaflet_id = null;
+		container._leaflet_id = null;
 	}
 
 	mymap = L.map('mapid', {
 		center: [{{ centro_lat }},{{ centro_lon }}],
 		zoom: {{ zoom }}
-		});
-
-
-
-
+	});
 
 	var base = new L.TileLayer.WMTS( "https://wms.ign.gob.ar/geoserver/capabaseargenmap/gwc/service/wmts" ,
 		{
@@ -245,24 +221,18 @@ function inicio(){
 		}
 	);
 
-
-
 	mymap.addLayer(base);
 
-
-	console.log("antes de cargar data, en inicio")
 	cargarDatosEnMapa();
-
 
 }
 
+// base.html no usa onload en <body>: se arranca cuando el DOM está listo.
+if (document.readyState === 'loading') {
+	document.addEventListener('DOMContentLoaded', inicio);
+} else {
+	inicio();
+}
 
 </script>
-</head>
-<body onload="inicio();">
-
-
-		<div id="mapid"></div>
-
-</body>
-</html>
+{% endblock %}
