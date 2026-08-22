@@ -20,7 +20,7 @@
     <p class="au-section-subtitle">Cada mapa muestra el arbolado relevado. Hacé click sobre un árbol para ver sus datos y su ficha.</p>
     <div class="au-mapas-grid">
       {% for m in mapas %}
-      <a class="au-mapa-card{{ ' sin-imagen' if not m.imagen_ok else '' }}" href="{{ base }}{{ m.href }}">
+      <a class="au-mapa-card{{ ' sin-imagen' if not m.imagen_ok else '' }}" href="{{ base }}{{ m.salida }}">
         {% if m.imagen_ok %}
         <img src="{{ base }}assets/img/{{ m.imagen }}" alt="Mapa del arbolado de {{ m.nombre }}">
         {% endif %}

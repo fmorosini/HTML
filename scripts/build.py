@@ -1,4 +1,4 @@
-import json, os, re, unicodedata
+import glob, json, os, re, sys, unicodedata
 from jinja2 import Environment, FileSystemLoader
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -561,4 +561,28 @@ Email: mapaarbolesurbanos@gmail.com · Instagram: @mapa.arboles.urbanos
 write("llms.txt", llms_txt)
 print("Generado llms.txt")
 
+# ---------------------------------------------------------------
+# Chequeo final de las páginas generadas.
+# Jinja rinde una variable inexistente como cadena vacía, así que un typo en el
+# nombre de un campo deja href="" (que recarga la misma página) o src="" sin
+# ningún error. Ya pasó una vez con los 4 botones del home: conviene que el
+# build avise en lugar de publicar enlaces rotos.
+# ---------------------------------------------------------------
+problemas = []
+for ruta_html in sorted(glob.glob(os.path.join(ROOT, "*.html")) +
+                        glob.glob(os.path.join(ROOT, "especies", "*.html"))):
+    contenido = open(ruta_html, encoding="utf-8").read()
+    rel = os.path.relpath(ruta_html, ROOT)
+    for atributo in ('href=""', "href=''", 'src=""', "src=''"):
+        n = contenido.count(atributo)
+        if n:
+            problemas.append(f"{rel}: {n} x {atributo}")
+
+if problemas:
+    print("ERROR: hay atributos vacíos en las páginas generadas:")
+    for p in problemas:
+        print("   -", p)
+    sys.exit(1)
+
+print("Chequeo de enlaces vacíos: OK")
 print("BUILD OK")
