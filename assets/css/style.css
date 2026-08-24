@@ -634,6 +634,13 @@ strong, b { font-weight: 600; }
 .au-content-block ul { padding-left: 1.2rem; }
 .au-content-block li { margin-bottom: 0.4rem; }
 
+/* Los títulos de widget (Prácticas Laborales, Propatagonia) salían con el h3 por
+   defecto de Bootstrap, 28px contra 16px del cuerpo: demasiado grande para una
+   lista de trabajos. */
+.au-content-block h2 { font-size: 1.5rem; }
+.au-content-block h3 { font-size: 1.3rem; line-height: 1.3; margin-bottom: 0.6rem; }
+.au-content-block h4 { font-size: 1.15rem; }
+
 img.au-icon-img {
   display: block;
   width: auto;
