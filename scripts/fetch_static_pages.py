@@ -102,6 +102,16 @@ def process_image(img, dest_dir=IMG_DIR):
 def parse_cell(cell):
     blocks = []
     for widget in cell.select(".so-panel"):
+        # El título del widget (h3.widget-title) es hermano del .textwidget, no
+        # está dentro: si no se lee acá se pierden, por ejemplo, los títulos de
+        # los trabajos en Prácticas Laborales.
+        titulo = widget.select_one(".widget-title")
+        if titulo:
+            texto = re.sub(r"\s+", " ", titulo.get_text(" ", strip=True)).strip()
+            if texto:
+                nivel = titulo.name if titulo.name in ("h2", "h3", "h4") else "h3"
+                blocks.append({"type": "heading", "level": nivel, "text": texto})
+
         tw = widget.select_one(".textwidget")
         if tw:
             paras = text_widget_to_paragraphs(tw)

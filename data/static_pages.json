@@ -102,6 +102,11 @@
       [
         [
           {
+            "type": "heading",
+            "level": "h3",
+            "text": "Quiénes somos"
+          },
+          {
             "type": "text",
             "paragraphs": [
               "Pro Patagonia es una Organización No Gubernamental (ONG), conformada por un grupo de técnicos y profesionales que trabajamos en diversos temas y desde diferentes ámbitos, con las Comunidades Mapuche de la zona sur de la provincia de Neuquén y pobladores rurales en general."
@@ -157,6 +162,11 @@
       [
         [
           {
+            "type": "heading",
+            "level": "h3",
+            "text": "Areas de trabajo"
+          },
+          {
             "type": "text",
             "paragraphs": [
               "Producción Sustentable / Planificación territorial\nSoberanía Alimentaria\nEconomía solidaria\nEducación ambiental y espacios sociales"
@@ -204,6 +214,11 @@
       ],
       [
         [
+          {
+            "type": "heading",
+            "level": "h3",
+            "text": "Galería de fotos"
+          },
           {
             "type": "image",
             "file": "Captura-de-pantalla-2020-08-17-20-44-32.png",
@@ -289,6 +304,11 @@
       [
         [
           {
+            "type": "heading",
+            "level": "h3",
+            "text": "Relevamiento y propuesta de diseño de sendero en el bosque de coihues situado en la penìnsula sobre el Lago Aluminè"
+          },
+          {
             "type": "text",
             "paragraphs": [
               "Estudiante:\nEstefanía María del Rosario Urra Matus.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes."
@@ -308,6 +328,11 @@
       ],
       [
         [
+          {
+            "type": "heading",
+            "level": "h3",
+            "text": "Relevamiento y anàlisis del arbolado de tres espacios verdes en la ciudad de Zapala"
+          },
           {
             "type": "text",
             "paragraphs": [
@@ -329,6 +354,11 @@
       [
         [
           {
+            "type": "heading",
+            "level": "h3",
+            "text": "Relevamiento y diagnóstico del arbolado urbano en Barrio Parque Lago Moreno"
+          },
+          {
             "type": "text",
             "paragraphs": [
               "Estudiante:\nFrancisco Santana.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes."
@@ -348,6 +378,11 @@
       ],
       [
         [
+          {
+            "type": "heading",
+            "level": "h3",
+            "text": "Arbolado del espacio verde de Chacra 32 de San Martín de los Andes, Provincia del Neuquén: Relevamiento, análisis y propuesta de Intervención"
+          },
           {
             "type": "text",
             "paragraphs": [
@@ -369,6 +404,11 @@
       [
         [
           {
+            "type": "heading",
+            "level": "h3",
+            "text": "Diagnostico del arbolado de alineacion de la localidad de Taquimilán abajo, Provincia de Neuquen"
+          },
+          {
             "type": "text",
             "paragraphs": [
               "Estudiante:\nNéstor Carlos Herrera.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, Mayo 2017."
@@ -388,6 +428,11 @@
       ],
       [
         [
+          {
+            "type": "heading",
+            "level": "h3",
+            "text": "Evaluación de árboles de valor especial ubicados en el casco urbano de San Martín de Los Andes"
+          },
           {
             "type": "text",
             "paragraphs": [
@@ -409,6 +454,11 @@
       [
         [
           {
+            "type": "heading",
+            "level": "h3",
+            "text": "Propuesta técnica de intervencién en el arbolado de lo espacios verdes denominados Rahuecito y Mirador Dr. Raúl Ricardo Alfonsín (Aluminé)"
+          },
+          {
             "type": "text",
             "paragraphs": [
               "Estudiante:\nIsabel Pellao.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2018."
@@ -428,6 +478,11 @@
       ],
       [
         [
+          {
+            "type": "heading",
+            "level": "h3",
+            "text": "Relevamiento y diagnóstico del Arbolado de Alineación del Barrio Vamep 48 Viviendas (San Martín de los Andes)"
+          },
           {
             "type": "text",
             "paragraphs": [
@@ -449,6 +504,11 @@
       [
         [
           {
+            "type": "heading",
+            "level": "h3",
+            "text": "Evaluación y determinación de riesgo de arboles individuales ubicados en la plaza San Martín de Junin de los Andes"
+          },
+          {
             "type": "text",
             "paragraphs": [
               "Estudiante:\nNahuel Alfredo Bastian.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2020."
@@ -468,6 +528,11 @@
       ],
       [
         [
+          {
+            "type": "heading",
+            "level": "h3",
+            "text": "Intervención del arbolado en un sector del predio del Centro de Ecología Aplicada del Neuquén (CEAN)"
+          },
           {
             "type": "text",
             "paragraphs": [
@@ -489,6 +554,11 @@
       [
         [
           {
+            "type": "heading",
+            "level": "h3",
+            "text": "Propuesta de especies para utilizar en el arbolado de alineación, para el sector de ingreso del Loteo Social Nehuén Che, de la Ciudad de Junín de los Andes”"
+          },
+          {
             "type": "text",
             "paragraphs": [
               "Estudiante:\nFigueroa Cristian Darío.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2020."
@@ -508,6 +578,11 @@
       ],
       [
         [
+          {
+            "type": "heading",
+            "level": "h3",
+            "text": "Evaluación de especies del arbolado de alineación de parte del casco histórico de San Martín de los Andes"
+          },
           {
             "type": "text",
             "paragraphs": [
@@ -529,6 +604,11 @@
       [
         [
           {
+            "type": "heading",
+            "level": "h3",
+            "text": "Aplicación de Propuesta de Catalogación en Árboles Significativos del casco céntrico de San Martín de los Andes"
+          },
+          {
             "type": "text",
             "paragraphs": [
               "Estudiante:\nViviana A. Quijada Vieyra.\nProfesor guía:\nTécnico Forestal Adriano Arach.\nCátedra Arbolado urbano.\nSan Martín de los Andes, 2024."
@@ -548,6 +628,11 @@
       ],
       [
         [
+          {
+            "type": "heading",
+            "level": "h3",
+            "text": "Análisis y propuesta de intervención de un lote ubicado de la costanera del lago lacar"
+          },
           {
             "type": "text",
             "paragraphs": [
