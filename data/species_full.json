@@ -325,21 +325,24 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/10/ACER-CAMPSTRIS-SÁMARA-1.jpg",
-        "file": null,
+        "file": "ACER-CAMPSTRIS-SAMARA-1.jpg",
         "alt": "Acer campestris sámara",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer campestris/ACER CAMPSTRIS SÁMARA.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/10/ACER-CAMPESTRIS-FOLLAJE-OTOÑAL-1.jpg",
-        "file": null,
+        "file": "ACER-CAMPESTRIS-FOLLAJE-OTONAL-1.jpg",
         "alt": "Acer campestris follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer campestris/ACER CAMPESTRIS FOLLAJE OTOÑAL.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/10/ACER-CAMPESTRIS-EJEMPLAR-ENTRANDO-EN-EL-OTOÑO-1.jpg",
-        "file": null,
+        "file": "ACER-CAMPESTRIS-EJEMPLAR-ENTRANDO-EN-EL-OTONO-1.jpg",
         "alt": "Acer campestris ejemplar entrando en el otoño",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer campestris/ACER CAMPESTRIS EJEMPLAR ENTRANDO EN EL OTOÑO.jpg"
       }
     ]
   },
@@ -431,9 +434,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/10/ACER-NEGUNDO-SÁMARAS-INMADURAS.jpg",
-        "file": null,
+        "file": "ACER-NEGUNDO-SAMARAS-INMADURAS.jpg",
         "alt": "Acer negundo sámaras inmaduras",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer negundo/ACER NEGUNDO SÁMARAS INMADURAS.JPG"
       }
     ]
   },
@@ -499,15 +503,17 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/10/ACER-PALMATUM-FOLLAGE-OTOÑAL.jpg",
-        "file": null,
+        "file": "ACER-PALMATUM-FOLLAGE-OTONAL.jpg",
         "alt": "Acer palmatum follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer palmatum/ACER PALMATUM FOLLAGE OTOÑAL.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/10/ACER-PALMATUM-EJEMPLAR-ADULTO-EN-OTOÑO.jpg",
-        "file": null,
+        "file": "ACER-PALMATUM-EJEMPLAR-ADULTO-EN-OTONO.jpg",
         "alt": "Acer palmatum ejemplar adulto en otoño",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer palmatum/ACER PALMATUM EJEMPLAR ADULTO EN OTOÑO.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/10/ACER-PALMATUM-ENVES-FOLIAR.jpg",
@@ -593,9 +599,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/ACER-PLATANOIDES-HOJA-OTOÑAL.jpg",
-        "file": null,
+        "file": "ACER-PLATANOIDES-HOJA-OTONAL.jpg",
         "alt": "Acer platanoides hoja otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "ACER PLATANOIDES/ACER PLATANOIDES HOJA OTOÑAL.JPG"
       }
     ]
   },
@@ -663,21 +670,24 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Arce-blanco-variedad-atropurpurea-follaje-otoñal-300x236.jpg",
-        "file": null,
+        "file": "Arce-blanco-variedad-atropurpurea-follaje-otonal.jpg",
         "alt": "Arce blanco variedad atropurpurea follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer pseudoplatanus/Arce blanco variedad atropurpurea follaje otoñal.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Arce-blanco-envés-de-la-hoja-279x300.jpg",
-        "file": null,
+        "file": "Arce-blanco-enves-de-la-hoja.jpg",
         "alt": "Arce blanco enves de la hoja",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer pseudoplatanus/Arce blanco envés de la hoja.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Arce-blanco-follaje-otoñal-scaled-300x225.jpg",
-        "file": null,
+        "file": "Arce-blanco-follaje-otonal.jpg",
         "alt": "Arce blanco follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer pseudoplatanus/Arce blanco follaje otoñal.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Arce-blanco-haz-de-la-hoja-263x300.jpg",
@@ -687,15 +697,17 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Arce-blanco-sámaras-273x300.jpg",
-        "file": null,
+        "file": "Arce-blanco-samaras.jpg",
         "alt": "Arce blanco sámaras",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer pseudoplatanus/Arce blanco sámaras.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Arce-blanco-variedad-artopurpurea-envés-de-la-hoja-300x284.jpg",
-        "file": null,
+        "file": "Arce-blanco-variedad-artopurpurea-enves-de-la-hoja.jpg",
         "alt": "Arce blanco variedad artopurpúrea. Enves de la hoja",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer pseudoplatanus/Arce blanco variedad artopurpurea envés de la hoja.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Arce-blanco-variedad-artopurpurea-haz-de-la-hoja-300x254.jpg",
@@ -717,9 +729,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Arce-blanco-aspecto-otoñal-300x226.jpg",
-        "file": null,
+        "file": "Arce-blanco-aspecto-otonal.jpg",
         "alt": "Arce blanco aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Acer pseudoplatanus/Arce blanco aspecto otoñal.JPG"
       }
     ]
   },
@@ -1054,9 +1067,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/ALNUS-GLUTINOSA-EJEMPLARES-EN-OTOÑO-SOBRE-ARROYO.jpg",
-        "file": null,
+        "file": "ALNUS-GLUTINOSA-EJEMPLARES-EN-OTONO-SOBRE-ARROYO.jpg",
         "alt": "Alnus glutinosa aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Alnus glutinosa/ALNUS GLUTINOSA EJEMPLARES EN OTOÑO SOBRE ARROYO.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/ALNUS-GLUTINOSA-AS-FOLIAR.jpg",
@@ -1166,9 +1180,10 @@
     "images": [
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Araucaria-estróbilos-masculinos.jpg",
-        "file": null,
+        "file": "Araucaria-estrobilos-masculinos.jpg",
         "alt": "Araucaria estróbilos masculinos",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Araucaria araucana/Araucaria estróbilos masculinos.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Araucaria-ejemplar-hembra-adulto.jpg",
@@ -1184,9 +1199,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Araucarias-en-Lago-Paimún.jpg",
-        "file": null,
+        "file": "Araucarias-en-Lago-Paimun.jpg",
         "alt": "Araucarias en Lago Paimún",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Araucaria araucana/Araucarias en Lago Paimún.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Araucaria-rama.jpg",
@@ -1214,15 +1230,17 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Araucaria-piñón.jpg",
-        "file": null,
+        "file": "Araucaria-pinon.jpg",
         "alt": "Araucaria piñón",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Araucaria araucana/Araucaria piñón.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Araucaria-corteza-adulta-con-líquenes.jpg",
-        "file": null,
+        "file": "Araucaria-corteza-adulta-con-liquenes.jpg",
         "alt": "Araucaria corteza adulta con líquenes",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Araucaria araucana/Araucaria corteza adulta con líquenes.jpg"
       }
     ]
   },
@@ -1598,9 +1616,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Abedul-aspecto-otoñal.jpg",
-        "file": null,
+        "file": "Abedul-aspecto-otonal.jpg",
         "alt": "Abedul aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Betula pendula/Abedul aspecto otoñal.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Abedul-haz-de-la-hoja.jpg",
@@ -1762,9 +1781,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Cedro-de-incienso-rama-con-estróbilos-masculinos-300x273.jpg",
-        "file": null,
+        "file": "Cedro-de-incienso-rama-con-estrobilos-masculinos.jpg",
         "alt": "Cedro de incienso estróbilos masculinos",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Calocedrus decurrens/Cedro de incienso rama con estróbilos masculinos.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Cedro-de-incienso-detalle-de-ramificaciones-y-corteza-adulta-300x187.jpg",
@@ -1780,15 +1800,17 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Cedro-de-incienso-estróbilos-femeninos-inmaduros-300x258.jpg",
-        "file": null,
+        "file": "Cedro-de-incienso-estrobilos-femeninos-inmaduros.jpg",
         "alt": "Cedro de incienso estróbilos femeninos",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Calocedrus decurrens/Cedro de incienso estróbilos femeninos inmaduros.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Cedro-de-incienso-piñas-vacias-300x213.jpg",
-        "file": null,
+        "file": "Cedro-de-incienso-pinas-vacias.jpg",
         "alt": "Cedro de incienso piñas vacías",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Calocedrus decurrens/Cedro de incienso piñas vacias.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Cedro-de-incienso-corteza-adulta-167x300.jpg",
@@ -1902,9 +1924,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/CASTANEA-SATIVA-ASPECTO-OTOÑAL.jpg",
-        "file": null,
+        "file": "CASTANEA-SATIVA-ASPECTO-OTONAL.jpg",
         "alt": "Castanea sativa aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Castanea sativa/CASTANEA SATIVA ASPECTO OTOÑAL.JPG"
       }
     ]
   },
@@ -2161,9 +2184,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/CEDRUS-DEODARA-DETALLE-DE-FOLLAJE-Y-PIÑAS.jpg",
-        "file": null,
+        "file": "CEDRUS-DEODARA-DETALLE-DE-FOLLAJE-Y-PINAS.jpg",
         "alt": "Cedrus deodara detalle de follaje y piñas",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "CEDRUS DEODARA/CEDRUS DEODARA DETALLE DE FOLLAJE Y PIÑAS.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/CEDRUS-DEODARA-ADN.png",
@@ -2269,9 +2293,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/CEDRUS-LIBANII-DETALLE-DE-PIÑA-SOBRE-RAMA.jpg",
-        "file": null,
+        "file": "CEDRUS-LIBANII-DETALLE-DE-PINA-SOBRE-RAMA.jpg",
         "alt": "Cedrus libanii detalle de piña sobre rama",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Cedrus Libanii/CEDRUS LIBANII DETALLE DE PIÑA SOBRE RAMA.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/CEDRUS-LIBANII-CORTEZA-MADURA.jpg",
@@ -2758,9 +2783,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/02/CRATAEGUS-MONOGYNA-EJEMPLAR-CON-FOLLAJE-OTOÑAL-269x300.jpg",
-        "file": null,
+        "file": "CRATAEGUS-MONOGYNA-EJEMPLAR-CON-FOLLAJE-OTONAL.jpg",
         "alt": "Crataegus monogyna ejemplar con follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Crataegus monogyna/CRATAEGUS MONOGYNA EJEMPLAR CON FOLLAJE OTOÑAL.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/02/CRATAEGUS-MONOGYNA-EJEMPLAR-FLORECIDO-300x280.jpg",
@@ -2794,9 +2820,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/02/CRATEAGUS-MONOGYNA-FRUTOS-Y-HOJAS-OTOÑALES-300x288.jpg",
-        "file": null,
+        "file": "CRATEAGUS-MONOGYNA-FRUTOS-Y-HOJAS-OTONALES.jpg",
         "alt": "Crataegus monogyna flores y hojas otoñales",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Crataegus monogyna/CRATEAGUS MONOGYNA FRUTOS Y HOJAS OTOÑALES.JPG"
       }
     ]
   },
@@ -2991,9 +3018,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/CUPRESSUS-ARIZONICA-RAMITA-CON-PIÑAS-234x300.jpg",
-        "file": null,
+        "file": "CUPRESSUS-ARIZONICA-RAMITA-CON-PINAS.jpg",
         "alt": "Cupressus arizonica ramita con piñas",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "CUPRESSUS ARIZONICA/CUPRESSUS ARIZONICA RAMITA CON PIÑAS.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/CUPRESSUS-ARIZONICA-ADN-300x199.png",
@@ -3063,9 +3091,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/02/CUPRESSUS-MACROCARPA-DETALLE-DE-PIÑAS-Y-FOLLAJE-300x230.jpg",
-        "file": null,
+        "file": "CUPRESSUS-MACROCARPA-DETALLE-DE-PINAS-Y-FOLLAJE.jpg",
         "alt": "Cupressus macrocarpa detalle de piñas y follaje",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Cupressus macrocarpa/CUPRESSUS MACROCARPA DETALLE DE PIÑAS Y FOLLAJE.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/02/CUPRESSUS-MACROCARPA-VAR-GOLDEN-CREST-300x265.jpg",
@@ -3348,9 +3377,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Notro-envés-de-la-hoja.jpg",
-        "file": null,
+        "file": "Notro-enves-de-la-hoja.jpg",
         "alt": "Notro envés de la hoja",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Embotrium coccineum/Notro envés de la hoja.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Notro-florecido-en-vereda-2.jpg",
@@ -3372,9 +3402,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Notro-Hás-de-la-hoja-florecido.jpg",
-        "file": null,
+        "file": "Notro-Has-de-la-hoja-florecido.jpg",
         "alt": "Notro haz de la hoja florecido",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Embotrium coccineum/Notro Hás de la hoja florecido.JPG"
       }
     ]
   },
@@ -3552,9 +3583,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/FRAXINUS-AMERICANA-EJEMPLAR-ADULTO-ASPECTO-OTOÑAL.jpg",
-        "file": null,
+        "file": "FRAXINUS-AMERICANA-EJEMPLAR-ADULTO-ASPECTO-OTONAL.jpg",
         "alt": "Fraxinus americana ejemplar adulto aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "FRAXINUS AMERICANA/FRAXINUS AMERICANA EJEMPLAR ADULTO ASPECTO OTOÑAL.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/FRAXINUS-AMERICANA-UTILIZADOS-EN-ALINEACION.jpg",
@@ -3624,9 +3656,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/FRAXINUS-EXCELSIOR-ASPECTO-OTOÑAL.jpg",
-        "file": null,
+        "file": "FRAXINUS-EXCELSIOR-ASPECTO-OTONAL.jpg",
         "alt": "Fraxinus excelsior aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "FRAXINUS EXCELSIOR/FRAXINUS EXCELSIOR ASPECTO OTOÑAL.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/FRAXINUS-EXCELSIOR-EJEMPLAR-EN-INVIERNO.jpg",
@@ -3666,9 +3699,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/FRAXINUS-EXCELSIOR-FOLLAJE-OTOÑAL.jpg",
-        "file": null,
+        "file": "FRAXINUS-EXCELSIOR-FOLLAJE-OTONAL.jpg",
         "alt": "Fraxinus excelsior follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "FRAXINUS EXCELSIOR/FRAXINUS EXCELSIOR FOLLAJE OTOÑAL.JPG"
       }
     ]
   },
@@ -3717,9 +3751,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Acacia-de-tres-espinas-follaje-otoñal.jpg",
-        "file": null,
+        "file": "Acacia-de-tres-espinas-follaje-otonal.jpg",
         "alt": "Acacia de tres espinas follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Gleditsia triacanthos/Acacia de tres espinas follaje otoñal.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/GLEDITSIA-TRIACANTHOS-ADN.png",
@@ -3729,9 +3764,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Acacia-de-tres-espinas-envés-de-la-hoja-1.jpg",
-        "file": null,
+        "file": "Acacia-de-tres-espinas-enves-de-la-hoja-1.jpg",
         "alt": "Acacia de tres espinas envés de la hoja",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Gleditsia triacanthos/Acacia de tres espinas envés de la hoja.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Acacia-de-tres-espinas-aspecto-primaveral-1.jpg",
@@ -3741,9 +3777,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Acacia-de-tres-espinas-aspecto-otoñal-1.jpg",
-        "file": null,
+        "file": "Acacia-de-tres-espinas-aspecto-otonal-1.jpg",
         "alt": "Acacia de tres espinas aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Gleditsia triacanthos/Acacia de tres espinas aspecto otoñal.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Acacia-de-tres-espinas-flores-y-espinas.jpg",
@@ -4160,9 +4197,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Alerce-europeo-aspecto-otoñal-120x300.jpg",
-        "file": null,
+        "file": "Alerce-europeo-aspecto-otonal.jpg",
         "alt": "Alerce europeo aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Larix decidua/Alerce europeo aspecto otoñal.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Alerce-europeo-detalle-de-braquiblasto-291x300.jpg",
@@ -4172,9 +4210,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Alerce-europeo-piña-inmadura-300x279.jpg",
-        "file": null,
+        "file": "Alerce-europeo-pina-inmadura.jpg",
         "alt": "Alerce europeo piña inmadura",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Larix decidua/Alerce europeo piña inmadura.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/LARIX-DECIDUA-ADN-300x161.png",
@@ -4202,9 +4241,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Alerce-europeo-piña-madura-251x300.jpg",
-        "file": null,
+        "file": "Alerce-europeo-pina-madura.jpg",
         "alt": "Alerce europeo piñá madura",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Larix decidua/Alerce europeo piña madura.JPG"
       }
     ]
   },
@@ -4272,15 +4312,17 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/LARIX-KAEMPFERI-PIÑAS-INMADURAS-225x300.jpg",
-        "file": null,
+        "file": "LARIX-KAEMPFERI-PINAS-INMADURAS.jpg",
         "alt": "Larix kaempferi piñas inmaduras",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Larix kaempferi/LARIX KAEMPFERI PIÑAS INMADURAS.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/LARIX-KAEMPFERY-PIÑA-282x300.jpg",
-        "file": null,
+        "file": "LARIX-KAEMPFERY-PINA.jpg",
         "alt": "Larix kaempferi piña",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Larix kaempferi/LARIX KAEMPFERY PIÑA.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/LARIX-KAEMPFERY-ADN-300x233.png",
@@ -4364,9 +4406,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/LARIX-LARICINA-PIÑA-228x300.jpg",
-        "file": null,
+        "file": "LARIX-LARICINA-PINA.jpg",
         "alt": "Larix laricinia piña",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Larix laricina/LARIX LARICINA PIÑA.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/LARIX-LARICINA-ADN-300x181.png",
@@ -4484,15 +4527,17 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/02/LIQUIDAMBAR-STYRACIFLUA-ASPECTO-OTOÑAL-274x300.jpg",
-        "file": null,
+        "file": "LIQUIDAMBAR-STYRACIFLUA-ASPECTO-OTONAL.jpg",
         "alt": "Liquidambar stracyflua aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "LIQUIDAMBAR/LIQUIDAMBAR STYRACIFLUA ASPECTO OTOÑAL.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/02/LIQUIDAMBAR-STYRACIFLUA-FOLLAJE-OTOÑAL-300x211.jpg",
-        "file": null,
+        "file": "LIQUIDAMBAR-STYRACIFLUA-FOLLAJE-OTONAL.jpg",
         "alt": "Liquidambar stracyflua follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "LIQUIDAMBAR/LIQUIDAMBAR STYRACIFLUA FOLLAJE OTOÑAL.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/02/LIQUIDAMBAR-STYRASIFLUA-EJEMPLAR-JOVEN-214x300.jpg",
@@ -4560,9 +4605,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/02/LIRIODENDRON-TULIPIFERA-FOLLAJE-OTOÑAL-300x225.jpg",
-        "file": null,
+        "file": "LIRIODENDRON-TULIPIFERA-FOLLAJE-OTONAL.jpg",
         "alt": "Liriodendron tulipífera follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "LIRIODENDRON TULIPIFERA /LIRIODENDRON TULIPIFERA FOLLAJE OTOÑAL.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/02/LIRIODENDRON-TULIPIFERA-HOJA-OTOÑAL-2-267x300.jpg",
@@ -4711,9 +4757,10 @@
     "images": [
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Arrayan-a-orilla-del-Lago-Lácar-217x300.jpg",
-        "file": null,
+        "file": "Arrayan-a-orilla-del-Lago-Lacar.jpg",
         "alt": "Arrayan a orilla del Lago Lácar",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Luma apiculata/Arrayan a orilla del Lago Lácar.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Arrayan-detalle-de-las-rama-300x192.jpg",
@@ -4723,9 +4770,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Arrayán-detalle-dfe-flores-300x260.jpg",
-        "file": null,
+        "file": "Arrayan-detalle-dfe-flores.jpg",
         "alt": "Arrayán detalle de flores",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Luma apiculata/Arrayán detalle dfe flores.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Arrayan-detalle-de-la-corteza-134x300.jpg",
@@ -5130,33 +5178,38 @@
     "images": [
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Raulí-detalle-de-fruto-y-follaje-otoñal4.jpg",
-        "file": null,
+        "file": "Rauli-detalle-de-fruto-y-follaje-otonal4.jpg",
         "alt": "Raulí detalle de fruto y follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus alpina/Raulí detalle de fruto y follaje otoñal4.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Raulí-ejemplar-joven-en-otoño.jpg",
-        "file": null,
+        "file": "Rauli-ejemplar-joven-en-otono.jpg",
         "alt": "Raulí ejemplar joven en otoño",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus alpina/Raulí ejemplar joven en otoño.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Raulí-enves-de-la-hoja.jpg",
-        "file": null,
+        "file": "Rauli-enves-de-la-hoja.jpg",
         "alt": "Raulí enves de la hoja",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus alpina/Raulí enves de la hoja.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Raulí-flor-femenina.jpg",
-        "file": null,
+        "file": "Rauli-flor-femenina.jpg",
         "alt": "Raulí flor femenina",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus alpina/Raulí flor femenina.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Raulí-maduro-en-el-Cerro-Curruhuinca.jpg",
-        "file": null,
+        "file": "Rauli-maduro-en-el-Cerro-Curruhuinca.jpg",
         "alt": "Raulí maduro en el Cerro Curruhuinca",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus alpina/Raulí maduro en el Cerro Curruhuinca.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/NOTHOFAGUS-ALPINA-ADN.png",
@@ -5166,33 +5219,38 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Raulí-corteza-adulta.jpg",
-        "file": null,
+        "file": "Rauli-corteza-adulta.jpg",
         "alt": "Raulí corteza adulta",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus alpina/Raulí corteza adulta.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Raulí-en-su-entorno-natural.jpg",
-        "file": null,
+        "file": "Rauli-en-su-entorno-natural.jpg",
         "alt": "Raulí en su entorno natural",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus alpina/Raulí en su entorno natural.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Raulí-flores-masculinas.jpg",
-        "file": null,
+        "file": "Rauli-flores-masculinas.jpg",
         "alt": "Raulí flores masculinas",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus alpina/Raulí flores masculinas.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Raulí-haz-de-la-hoja.jpg",
-        "file": null,
+        "file": "Rauli-haz-de-la-hoja.jpg",
         "alt": "Raulí haz de la hoja",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus alpina/Raulí haz de la hoja.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Raulí-maduro-sendero-las-corinas.jpg",
-        "file": null,
+        "file": "Rauli-maduro-sendero-las-corinas.jpg",
         "alt": "Raulí maduro sendero Las Corinas",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus alpina/Raulí maduro, sendero las corinas.jpg"
       }
     ]
   },
@@ -5252,45 +5310,52 @@
     "images": [
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Ñire-aspecto-otoñal-ejemplar-en-Pza-Centenario.jpg",
-        "file": null,
+        "file": "Nire-aspecto-otonal-ejemplar-en-Pza-Centenario.jpg",
         "alt": "Ñire aspecto otoñal ejemplar Plaza Centenario",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "nothofagus antarctica/Ñire aspecto otoñal ejemplar en Pza Centenario.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Ñire-corteza-madura.jpg",
-        "file": null,
+        "file": "Nire-corteza-madura.jpg",
         "alt": "Ñire corteza madura",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "nothofagus antarctica/Ñire corteza madura.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Ñire-detalle-de-frutos-inmaduros.jpg",
-        "file": null,
+        "file": "Nire-detalle-de-frutos-inmaduros.jpg",
         "alt": "Ñire frutos inmaduros",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "nothofagus antarctica/Ñire detalle de frutos inmaduros.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Ñirantal-en-otoño-camino-a-Nivinco.jpg",
-        "file": null,
+        "file": "Nirantal-en-otono-camino-a-Nivinco.jpg",
         "alt": "Ñirantal en otoño camino a Nivinco",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "nothofagus antarctica/Ñirantal en otoño camino a Nivinco.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Ñire-aspecto-primaveral-ejemplar-en-Pza-Centenario.jpg",
-        "file": null,
+        "file": "Nire-aspecto-primaveral-ejemplar-en-Pza-Centenario.jpg",
         "alt": "Ñire aspecto primaveral ejemplar en Plaza Centenario",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "nothofagus antarctica/Ñire aspecto primaveral ejemplar en Pza Centenario.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Ñire-detalle-de-flores-masculinas.jpg",
-        "file": null,
+        "file": "Nire-detalle-de-flores-masculinas.jpg",
         "alt": "Ñire detalle flores masculinas",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "nothofagus antarctica/Ñire detalle de flores masculinas.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Ñire-en-el-Lago-Quillén.jpg",
-        "file": null,
+        "file": "Nire-en-el-Lago-Quillen.jpg",
         "alt": "Ñire en el Lago Quillén",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "nothofagus antarctica/Ñire en el Lago Quillén.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/NOTHOFAGUS-ANTARCTICA-ADN.png",
@@ -5446,69 +5511,80 @@
     "images": [
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Roble-pellín-en-el-bosque.jpg",
-        "file": null,
+        "file": "Roble-pellin-en-el-bosque.jpg",
         "alt": "Roble pellín en el bosque",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/Roble pellín en el bosque.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Roble-pellín-flores-masculinas1.jpg",
-        "file": null,
+        "file": "Roble-pellin-flores-masculinas1.jpg",
         "alt": "Roble pellín flores masculinas",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/Roble pellín flores masculinas1.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Roble-pellín-frutos-inmaduros.jpg",
-        "file": null,
+        "file": "Roble-pellin-frutos-inmaduros.jpg",
         "alt": "Roble pellín frutos inmaduros",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/Roble pellín frutos inmaduros.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Roble-pellín-hojas.jpg",
-        "file": null,
+        "file": "Roble-pellin-hojas.jpg",
         "alt": "Roble pellín hojas",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/Roble pellín hojas.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/roble-pellín-joven-en-otoño.jpg",
-        "file": null,
+        "file": "roble-pellin-joven-en-otono.jpg",
         "alt": "Roble pellín joven en otoño",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/roble pellín joven en otoño.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Roble-pellín-semillas.jpg",
-        "file": null,
+        "file": "Roble-pellin-semillas.jpg",
         "alt": "Roble pellín semillas",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/Roble pellín semillas.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Roble-pellín-enves-de-la-hoja.jpg",
-        "file": null,
+        "file": "Roble-pellin-enves-de-la-hoja.jpg",
         "alt": "Roble pellín enves de la hoja",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/Roble pellín enves de la hoja.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Roble-pellín-follaje-otoñal.jpg",
-        "file": null,
+        "file": "Roble-pellin-follaje-otonal.jpg",
         "alt": "Roble pellín follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/Roble pellín follaje otoñal.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Roble-pellín-haz-de-la-hoja.jpg",
-        "file": null,
+        "file": "Roble-pellin-haz-de-la-hoja.jpg",
         "alt": "Roble pellín haz de la hoja",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/Roble pellín haz de la hoja.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Roble-pellín-hojas-y-frutos-inmaduros.jpg",
-        "file": null,
+        "file": "Roble-pellin-hojas-y-frutos-inmaduros.jpg",
         "alt": "Roble pellín hojas y frutos inmaduros",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/Roble pellín hojas y frutos inmaduros.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Roble-pellín-otoñal-en-muelle-de-Pucará.jpg",
-        "file": null,
+        "file": "Roble-pellin-otonal-en-muelle-de-Pucara.jpg",
         "alt": "Roble pellín otoñal en muelle de Pucará",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Nothofagus obliqua/Roble pellín otoñal en muelle de Pucará.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/NOTHOFAGUS-OBLIQUA-ADN.png",
@@ -5824,15 +5900,17 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/PICEA-PUNGENS-GLAUCA-DETALLE-DE-PIÑAS-Y-FOLLAJE.jpg",
-        "file": null,
+        "file": "PICEA-PUNGENS-GLAUCA-DETALLE-DE-PINAS-Y-FOLLAJE.jpg",
         "alt": "Picea pungens glauca detalle de piñas y follaje",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Picea pungens/PICEA PUNGENS GLAUCA DETALLE DE PIÑAS Y FOLLAJE.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/PICEA-PUNGENS-GLAUCA-PIÑA.jpg",
-        "file": null,
+        "file": "PICEA-PUNGENS-GLAUCA-PINA.jpg",
         "alt": "Picea pingens glauca piña",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Picea pungens/PICEA PUNGENS GLAUCA PIÑA.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/PICEA-PUNGENS-ADN.png",
@@ -6016,9 +6094,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/PINUS-CONTORTA-PIÑA.jpg",
-        "file": null,
+        "file": "PINUS-CONTORTA-PINA.jpg",
         "alt": "Pinus contorta piña",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pinus contorta/PINUS CONTORTA PIÑA.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/PINUS-CONTORTA-ADN.png",
@@ -6120,9 +6199,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/PINUS-MONTICOLA-PIÑA.jpg",
-        "file": null,
+        "file": "PINUS-MONTICOLA-PINA.jpg",
         "alt": "Pinus montícola piña",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pinus monticola/PINUS MONTICOLA PIÑA.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/PINUS-MONTICOLA-DETALLE-DE-LAS-RAMIFICACIONES.jpg",
@@ -6206,9 +6286,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Pino-negral-piña-madura.jpg",
-        "file": null,
+        "file": "Pino-negral-pina-madura.jpg",
         "alt": "Pino negral piña inmadura",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pinus nigra/Pino negral piña madura.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/PINUS-NIGRA-ADN.png",
@@ -6266,9 +6347,10 @@
     "images": [
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Pinos-ponderosa-Plaza-San-Martín-de-Junín-de-los-andes.jpg",
-        "file": null,
+        "file": "Pinos-ponderosa-Plaza-San-Martin-de-Junin-de-los-andes.jpg",
         "alt": "Pinos ponderosa Plaza San Martín de Junín de los andes",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pinus ponderosa/Pinos ponderosa Plaza San Martín de Junín de los andes.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Pino-ponderosa-corteza-adulta.jpg",
@@ -6278,21 +6360,24 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Pinos-ponderosa-detalle-de-piñas-maduras-e-inmaduras.jpg",
-        "file": null,
+        "file": "Pinos-ponderosa-detalle-de-pinas-maduras-e-inmaduras.jpg",
         "alt": "Pino ponderosa detalle de piñas maduras e inmaduras",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pinus ponderosa/Pinos ponderosa detalle de piñas maduras e inmaduras.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Pino-pondrerosa-adulto-en-plantación-.jpg",
-        "file": null,
+        "file": "Pino-pondrerosa-adulto-en-plantacion-.jpg",
         "alt": "Pino ponderosa adulto en plantación",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pinus ponderosa/Pino pondrerosa adulto en plantación .JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Pino-ponderosa-estróbilos-masculinos.jpg",
-        "file": null,
+        "file": "Pino-ponderosa-estrobilos-masculinos.jpg",
         "alt": "Pino ponderosa estróbilos masculinos",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pinus ponderosa/Pino ponderosa estróbilos masculinos.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Pino-ponderosa-follaje.jpg",
@@ -6680,9 +6765,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/POPULUS-ALBA-FOLLAJE-OTOÑAL.jpg",
-        "file": null,
+        "file": "POPULUS-ALBA-FOLLAJE-OTONAL.jpg",
         "alt": "Populus alba follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Populus alba/POPULUS ALBA FOLLAJE OTOÑAL.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/POPULUS-ALBA-EJEMPLAR-ADULTO.jpg",
@@ -6801,9 +6887,10 @@
     "images": [
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/POPULUS-NIGRA-ASPECTO-OTOÑAL-EN-PARAJE-KILKA.jpg",
-        "file": null,
+        "file": "POPULUS-NIGRA-ASPECTO-OTONAL-EN-PARAJE-KILKA.jpg",
         "alt": "Populus nigra aspecto otoñal en Paraje Kilka (Aluminé)",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Populus nigra/POPULUS NIGRA ASPECTO OTOÑAL EN PARAJE KILKA.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/POPULUS-NIGRA-DENTRO-DE-UN-PATIO.jpg",
@@ -6813,9 +6900,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/POPULUS-NIGRA-GRUPO-CON-ASPECTO-OTOÑAL.jpg",
-        "file": null,
+        "file": "POPULUS-NIGRA-GRUPO-CON-ASPECTO-OTONAL.jpg",
         "alt": "Populus nigra grupo con aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Populus nigra/POPULUS NIGRA GRUPO CON ASPECTO OTOÑAL.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/04/POPULUS-NIGRA-ADN.png",
@@ -7313,27 +7401,31 @@
     "images": [
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Pino-oregón-piña-madura-133x300.jpg",
-        "file": null,
+        "file": "Pino-oregon-pina-madura.jpg",
         "alt": "Pino oregón piña madura",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pseudotsuga menziesii/Pino oregón piña madura.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Pino-oregón-corteza-joven-120x300.jpg",
-        "file": null,
+        "file": "Pino-oregon-corteza-joven.jpg",
         "alt": "Pino oregón corteza joven",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pseudotsuga menziesii/Pino oregón corteza joven.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Pino-oregón-corteza-adulta-85x300.jpg",
-        "file": null,
+        "file": "Pino-oregon-corteza-adulta.jpg",
         "alt": "Pino oregón corteza adulta",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pseudotsuga menziesii/Pino oregón corteza adulta.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Pino-oregón-detalle-de-follaje-y-piñas-inmaduras-300x248.jpg",
-        "file": null,
+        "file": "Pino-oregon-detalle-de-follaje-y-pinas-inmaduras.jpg",
         "alt": "Pino oregón detalle de follaje y piñas inmaduras",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pseudotsuga menziesii/Pino oregón detalle de follaje y piñas inmaduras.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/04/PSEUDOTSUGA-MENZIESII-ADN-294x300.png",
@@ -7343,21 +7435,24 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Pinos-oregón-en-Plaza-San-Martín-295x300.jpg",
-        "file": null,
+        "file": "Pinos-oregon-en-Plaza-San-Martin.jpg",
         "alt": "Pinos oregón Plaza San Martín",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pseudotsuga menziesii/Pinos oregón en Plaza San Martín.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Pinos-oregón-en-una-plantación-213x300.jpg",
-        "file": null,
+        "file": "Pinos-oregon-en-una-plantacion.jpg",
         "alt": "Pinos oregón en una plantación",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pseudotsuga menziesii/Pinos oregón en una plantación.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/Pino-oregón-follaje-233x300.jpg",
-        "file": null,
+        "file": "Pino-oregon-follaje.jpg",
         "alt": "Pino oregón follaje",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Pseudotsuga menziesii/Pino oregón follaje.jpg"
       }
     ]
   },
@@ -7525,15 +7620,17 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/QUERCUS-PALUSTRIS-ASPECTO-OTOÑAL-DE-EJEMPLAR-JOVEN.jpg",
-        "file": null,
+        "file": "QUERCUS-PALUSTRIS-ASPECTO-OTONAL-DE-EJEMPLAR-JOVEN.jpg",
         "alt": "Quercus palustris aspecto otoñal de ejemplar joven",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Quercus palustris/QUERCUS PALUSTRIS ASPECTO OTOÑAL DE EJEMPLAR JOVEN.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/QUERCUS-PALUSTRIS-DETALLE-DE-FOLLAJE-OTOÑAL.jpg",
-        "file": null,
+        "file": "QUERCUS-PALUSTRIS-DETALLE-DE-FOLLAJE-OTONAL.jpg",
         "alt": "Quercus palustris detalle de follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Quercus palustris/QUERCUS PALUSTRIS DETALLE DE FOLLAJE OTOÑAL.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/QUERCUS-PALUSTRIS-FLORES.jpg",
@@ -7649,9 +7746,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Roble-europeo-envés-foliar.jpg",
-        "file": null,
+        "file": "Roble-europeo-enves-foliar.jpg",
         "alt": "Roble europeo envés foliar",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Quercus robur/Roble europeo envés foliar.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/QUERCUS-ROBUR-ADN.png",
@@ -7733,9 +7831,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/QUERCUS-RUBRA-ASPECTO-OTOÑAL.jpg",
-        "file": null,
+        "file": "QUERCUS-RUBRA-ASPECTO-OTONAL.jpg",
         "alt": "Quercus rubra aspecto otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "QUERCUS RUBRA/QUERCUS RUBRA ASPECTO OTOÑAL.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/QUERCUS-RUBRA-FLORES.jpg",
@@ -7745,9 +7844,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/QUERCUS-RUBRA-FOLLAJE-OTOÑAL.jpg",
-        "file": null,
+        "file": "QUERCUS-RUBRA-FOLLAJE-OTONAL.jpg",
         "alt": "Quercus rubra follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "QUERCUS RUBRA/QUERCUS RUBRA FOLLAJE OTOÑAL.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/01/QUERCUS-RUBRA-ADN.png",
@@ -7898,9 +7998,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Acacias-blancas-en-alinación.jpg",
-        "file": null,
+        "file": "Acacias-blancas-en-alinacion.jpg",
         "alt": "Acacias blancas en alineación",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Robinia pseudoacacia/Acacias blancas en alinación.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/ROBINIA-PSEUDOACACIA-ADN.png",
@@ -7910,9 +8011,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Acacia-blanca-envés-de-la-hoja.jpg",
-        "file": null,
+        "file": "Acacia-blanca-enves-de-la-hoja.jpg",
         "alt": "Acacia blanca envés de la hoja",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Robinia pseudoacacia/Acacia blanca envés de la hoja.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Acacia-blanca-flores.jpg",
@@ -7922,9 +8024,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Acacia-blanca-ház-de-la-hoja.jpg",
-        "file": null,
+        "file": "Acacia-blanca-haz-de-la-hoja.jpg",
         "alt": "Acacia blanca ház de la hoja",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Robinia pseudoacacia/Acacia blanca ház de la hoja.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Robinia-pseudoacacia-cv-umbraculifera.jpg",
@@ -8279,15 +8382,17 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Secuoya-roja-estróbilos-masculinos.jpg",
-        "file": null,
+        "file": "Secuoya-roja-estrobilos-masculinos.jpg",
         "alt": "Secuoya roja estróbilos masculinos",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Sequoya sempervirens/Secuoya roja estróbilos masculinos.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Secuoya-roja-piñas-maduras.jpg",
-        "file": null,
+        "file": "Secuoya-roja-pinas-maduras.jpg",
         "alt": "Secuoya roja piñas maduras",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Sequoya sempervirens/Secuoya roja piñas maduras.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Secuoya-roja-ejemplar-adulto.jpg",
@@ -8381,9 +8486,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Secuoya-gigante-piña-madura.jpg",
-        "file": null,
+        "file": "Secuoya-gigante-pina-madura.jpg",
         "alt": "Secuoya gigante piña madura",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Sequoyadendron giganteum/Secuoya gigante piña madura.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/09/Sequoya-gigante-ejemplar-adulto.jpeg",
@@ -8495,9 +8601,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Serbal-del-cazador-frutos-y-follaje-otoñal.jpg",
-        "file": null,
+        "file": "Serbal-del-cazador-frutos-y-follaje-otonal.jpg",
         "alt": "Serbal del cazador frutos y follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Sorbus aucuparia/Serbal del cazador frutos y follaje otoñal.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Serbal-del-cazador-hoja.jpg",
@@ -8507,9 +8614,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Serbal-del-cazador-hoja-otoñal-II.jpg",
-        "file": null,
+        "file": "Serbal-del-cazador-hoja-otonal-II.jpg",
         "alt": "Serbal del cazador hoja otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Sorbus aucuparia/Serbal del cazador hoja otoñal II.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/ADN-SORBUS-AUCUPARIA.png",
@@ -8525,9 +8633,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Serbal-del-cazador-en-arbolado-de-alineación.jpg",
-        "file": null,
+        "file": "Serbal-del-cazador-en-arbolado-de-alineacion.jpg",
         "alt": "Serbal del cazador en arbolado de alineación",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Sorbus aucuparia/Serbal del cazador en arbolado de alineación.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Serbal-del-cazador-florecido.jpg",
@@ -8537,9 +8646,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Serbal-del-cazador-hoja-otoñal.jpg",
-        "file": null,
+        "file": "Serbal-del-cazador-hoja-otonal.jpg",
         "alt": "Serbal del cazador hoja otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Sorbus aucuparia/Serbal del cazador hoja otoñal.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2019/08/Serbal-del-cazador-corteza.jpg",
@@ -8662,9 +8772,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/THUJA-OCCIDENTALIS-RAMITA-Y-PIÑAS.jpg",
-        "file": null,
+        "file": "THUJA-OCCIDENTALIS-RAMITA-Y-PINAS.jpg",
         "alt": "Thuja occidentalis ramita y piña",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "THUJA OCCIDENTALIS/THUJA OCCIDENTALIS RAMITA Y PIÑAS.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/THUJA-OCCIDENTALIS-ADN.png",
@@ -8853,9 +8964,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/ULMUS-GLABRA-FOLLAJE-OTOÑAL.jpg",
-        "file": null,
+        "file": "ULMUS-GLABRA-FOLLAJE-OTONAL.jpg",
         "alt": "Ulmus glabra follaje otoñal",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Ulmus glabra/ULMUS GLABRA FOLLAJE OTOÑAL.jpg"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/ULMUS-GLABRA-CORTEZA.jpg",
@@ -8865,9 +8977,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/ULMUS-GLABRA-EJEMPLAR-MADURO-EN-OTOÑO.jpg",
-        "file": null,
+        "file": "ULMUS-GLABRA-EJEMPLAR-MADURO-EN-OTONO.jpg",
         "alt": "Ulmus glabra ejemplar maduro en otoño",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "Ulmus glabra/ULMUS GLABRA EJEMPLAR MADURO EN OTOÑO.jpg"
       }
     ]
   },
@@ -8922,9 +9035,10 @@
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/ULMUS-PUMILA-EJEMPLAR-EN-ARBOLADO-DE-ALINEACIÓN.jpg",
-        "file": null,
+        "file": "ULMUS-PUMILA-EJEMPLAR-EN-ARBOLADO-DE-ALINEACION.jpg",
         "alt": "Ulmus pumilia ejemplar en arbolado de alineación",
-        "is_map": false
+        "is_map": false,
+        "recuperada_de": "ULMUS PUMILA/ULMUS PUMILA EJEMPLAR EN ARBOLADO DE ALINEACIÓN.JPG"
       },
       {
         "src_original": "https://arbolesurbanos.com.ar/wp-content/uploads/2020/03/ULMUS-PUMILA-FLORES.jpg",
