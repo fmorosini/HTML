@@ -556,7 +556,7 @@ llms_txt = f"""# Arboles Urbanos
 
 ## Contacto
 
-Email: mapaarbolesurbanos@gmail.com · Instagram: @mapa.arboles.urbanos
+Email: mapaarbolesurbanos@gmail.com · Instagram: @mapa.arboles.urbanos · LinkedIn: https://www.linkedin.com/company/arboles-urbanos
 """
 write("llms.txt", llms_txt)
 print("Generado llms.txt")
