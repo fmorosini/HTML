@@ -391,6 +391,19 @@ strong, b { font-weight: 600; }
   }
   /* con alto fijo manda la fila, no la proporción */
   .au-mapa-card { aspect-ratio: auto; height: 100%; }
+
+  /* Con 5 mapas: 3 arriba y 2 abajo, sobre una grilla de 6 columnas. */
+  .au-mapas-grid:has(> .au-mapa-card:nth-child(5):last-child) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .au-mapas-grid:has(> .au-mapa-card:nth-child(5):last-child) > .au-mapa-card { grid-column: span 2; }
+  .au-mapas-grid:has(> .au-mapa-card:nth-child(5):last-child) > .au-mapa-card:nth-child(n+4) { grid-column: span 3; }
+}
+
+/* Dos columnas sin alto fijo: si la cantidad es impar, la última tarjeta
+   ocupa todo el ancho con la misma altura que las demás. */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .au-mapa-card:last-child:nth-child(odd) { grid-column: 1 / -1; aspect-ratio: 8 / 3; }
 }
 
 /* =========================================================

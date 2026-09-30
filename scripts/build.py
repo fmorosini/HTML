@@ -20,8 +20,9 @@ CAT_MAP = {
 # grilla del home, para que no se desincronicen.
 #   localidad  -> título de la página de mapa (h1)
 #   nombre     -> rótulo del botón en el home (más corto)
-#   en_home    -> si aparece en la grilla 2x2, en este orden:
-#                 1 arriba izq., 2 arriba der., 3 abajo izq., 4 abajo der.
+#   en_home    -> si aparece en la grilla del home, en este orden (de
+#                 izquierda a derecha y de arriba abajo; con 5 mapas quedan
+#                 3 arriba y 2 abajo)
 #   centro     -> None calcula el centro desde los propios datos
 # ---------------------------------------------------------------
 CENTRO_SMA = (-40.157417863269345, -71.35222077369691)
@@ -50,6 +51,12 @@ MAPAS = [
         "localidad": "Aluminé", "nombre": "Aluminé",
         "imagen": "boton-alumine.png",
         "centro": None, "zoom": 16, "en_home": True,
+    },
+    {
+        "salida": "mapa-zapala.html", "geojson": "zapala.geojson",
+        "localidad": "Zapala", "nombre": "Zapala",
+        "imagen": "boton-zapala.png",
+        "centro": None, "zoom": 15, "en_home": True,
     },
     # Se genera pero queda sin enlazar desde el sitio (decisión del proyecto).
     {
@@ -354,7 +361,7 @@ write("index.html", tmpl_index.render(
     canonical_url=f"{SITE_URL}/index.html",
     og_image=DEFAULT_OG_IMAGE,
     page_title="Inicio",
-    page_description=f"Mapas del arbolado urbano de San Martín de los Andes, Aluminé y Junín de los Andes, y {SPECIES_COUNT} fichas de especies.",
+    page_description=f"Mapas del arbolado urbano de San Martín de los Andes, Junín de los Andes, Aluminé y Zapala, y {SPECIES_COUNT} fichas de especies.",
     species_count=SPECIES_COUNT,
     mapas=MAPAS_HOME,
 ))
@@ -516,12 +523,14 @@ print(f"Generados {generados} mapas desde templates/mapa.html")
 # sitemap.xml
 # ---------------------------------------------------------------
 static_urls = ["index.html", "fichas-de-especies.html", "contacto.html"] + [f"{slug}.html" for slug in static_pages]
+# Sólo los mapas enlazados desde el home (mapa_sma2 queda afuera a propósito).
+mapa_urls = [m["salida"] for m in MAPAS_HOME if os.path.exists(os.path.join(ROOT, "json", m["geojson"]))]
 species_urls = [f"especies/{sp['slug']}.html" for sp in species]
 
 sitemap_entries = "\n".join(
     f"  <url><loc>{SITE_URL}/{path}</loc><changefreq>monthly</changefreq><priority>{prio}</priority></url>"
     for path, prio in (
-        [(p, "0.8") for p in static_urls] + [(p, "0.6") for p in species_urls]
+        [(p, "0.8") for p in static_urls + mapa_urls] + [(p, "0.6") for p in species_urls]
     )
 )
 sitemap_xml = (
@@ -531,7 +540,7 @@ sitemap_xml = (
     "</urlset>\n"
 )
 write("sitemap.xml", sitemap_xml)
-print(f"Generado sitemap.xml ({len(static_urls) + len(species_urls)} URLs)")
+print(f"Generado sitemap.xml ({len(static_urls) + len(mapa_urls) + len(species_urls)} URLs)")
 
 # ---------------------------------------------------------------
 # robots.txt
