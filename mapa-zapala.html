@@ -14,12 +14,12 @@
 <meta property="og:url" content="https://arbolesurbanos.com.ar/mapa-zapala.html">
 <meta property="og:title" content="Zapala · Arboles Urbanos">
 <meta property="og:description" content="Mapa interactivo del arbolado urbano de Zapala. Hacé click sobre un árbol para ver sus datos y su ficha.">
-<meta property="og:image" content="https://arbolesurbanos.com.ar/assets/img/au_logo_horizontal_verde.png">
+<meta property="og:image" content="https://arbolesurbanos.com.ar/assets/img/boton-zapala.png">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Zapala · Arboles Urbanos">
 <meta name="twitter:description" content="Mapa interactivo del arbolado urbano de Zapala. Hacé click sobre un árbol para ver sus datos y su ficha.">
-<meta name="twitter:image" content="https://arbolesurbanos.com.ar/assets/img/au_logo_horizontal_verde.png">
+<meta name="twitter:image" content="https://arbolesurbanos.com.ar/assets/img/boton-zapala.png">
 
 <script type="application/ld+json">
 {
@@ -354,6 +354,12 @@ function despliegaDatos(data, cluster, lookup)
 		m.bindPopup(popup);
 		m.addTo(cluster)
 
+	}
+
+	// Encuadra el mapa con todos los árboles, según el tamaño de la pantalla.
+	var limites = cluster.getBounds();
+	if(limites.isValid()){
+		mymap.fitBounds(limites, {padding: [20, 20], maxZoom: 18});
 	}
 }
 

@@ -23,22 +23,24 @@ CAT_MAP = {
 #   en_home    -> si aparece en la grilla del home, en este orden (de
 #                 izquierda a derecha y de arriba abajo; con 5 mapas quedan
 #                 3 arriba y 2 abajo)
-#   centro     -> None calcula el centro desde los propios datos
+#   centro     -> vista inicial; None la calcula desde los propios datos.
+#                 Al cargar los árboles, el mapa se encuadra con todos ellos
+#                 (templates/mapa.html), así que centro y zoom sólo valen
+#                 hasta ese momento.
 # ---------------------------------------------------------------
-CENTRO_SMA = (-40.157417863269345, -71.35222077369691)
 
 MAPAS = [
     {
         "salida": "mapa_sma1.html", "geojson": "SMA1.geojson",
         "localidad": "San Martín de Los Andes Centro", "nombre": "San Martín Centro",
         "imagen": "boton-san-martin-de-los-andes-centro.png",
-        "centro": CENTRO_SMA, "zoom": 15, "en_home": True,
+        "centro": None, "zoom": 15, "en_home": True,
     },
     {
         "salida": "mapa_sma3.html", "geojson": "SMA3.geojson",
         "localidad": "San Martín de Los Andes Periferia", "nombre": "San Martín Periferia",
         "imagen": "boton-san-martin-de-los-andes-periferia.png",
-        "centro": CENTRO_SMA, "zoom": 15, "en_home": True,
+        "centro": None, "zoom": 15, "en_home": True,
     },
     {
         "salida": "mapa-junin-de-los-andes.html", "geojson": "junin.geojson",
@@ -63,7 +65,7 @@ MAPAS = [
         "salida": "mapa_sma2.html", "geojson": "SMA2.geojson",
         "localidad": "San Martín de Los Andes", "nombre": "San Martín de los Andes",
         "imagen": None,
-        "centro": CENTRO_SMA, "zoom": 15, "en_home": False,
+        "centro": None, "zoom": 15, "en_home": False,
     },
 ]
 

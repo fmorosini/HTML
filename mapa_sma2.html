@@ -355,6 +355,12 @@ function despliegaDatos(data, cluster, lookup)
 		m.addTo(cluster)
 
 	}
+
+	// Encuadra el mapa con todos los árboles, según el tamaño de la pantalla.
+	var limites = cluster.getBounds();
+	if(limites.isValid()){
+		mymap.fitBounds(limites, {padding: [20, 20], maxZoom: 18});
+	}
 }
 
 function inicio(){
@@ -365,7 +371,7 @@ function inicio(){
 	}
 
 	mymap = L.map('mapid', {
-		center: [-40.157417863269345,-71.35222077369691],
+		center: [-40.1535267324744,-71.35395856816106],
 		zoom: 15
 	});
 
