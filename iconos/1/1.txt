@@ -1,0 +1,57 @@
+total 220
+-rw-r--r-- 1 root root    0 Oct 22 15:41 1.txt
+-rwxrw-rw- 1 root root 1929 Oct 22 00:52 ACER JAPONICA.gif
+-rwxrw-rw- 1 root root 1776 Oct 22 00:52 ACER NEGUNDO.gif
+-rwxrw-rw- 1 root root 3430 Oct 22 00:52 ACER PSEUDOPLATANUS.gif
+-rwxrw-rw- 1 root root 1752 Oct 22 00:52 ARAUCARIA ANGUSTIFOLIA.gif
+-rwxrw-rw- 1 root root 2665 Oct 22 00:52 ARAUCARIA ARAUCANA.gif
+-rwxrw-rw- 1 root root 3125 Oct 22 00:52 ARISTOTELIA CHILENSIS.gif
+-rwxrw-rw- 1 root root 2231 Oct 22 00:53 AUTROCEDRUS CHILENSIS.gif
+-rwxrw-rw- 1 root root 1896 Oct 22 00:52 AZARA MICROPHILA.gif
+-rwxrw-rw- 1 root root 2123 Oct 22 00:52 BETULA PENDULA.gif
+-rwxrw-rw- 1 root root 2871 Oct 22 00:53 BUDDLEJA GLOBOSA.gif
+-rwxrw-rw- 1 root root 2903 Oct 22 00:52 CALOCEDRUS DECURRENS.gif
+-rwxrw-rw- 1 root root 2534 Oct 22 00:52 CASTANEA SATIVA.gif
+-rwxrw-rw- 1 root root 2908 Oct 22 00:52 CATALPA BIGNONIOIDES.gif
+-rwxrw-rw- 1 root root 2026 Oct 22 00:53 CHAMAECYPARIS LAWSONIANA.gif
+-rwxrw-rw- 1 root root 3475 Oct 22 00:53 CRATAEGUS LAEVIGATA CV PAUL SCARLET.gif
+-rwxrw-rw- 1 root root 2881 Oct 22 00:53 CUPRESSUS MACROCARPA.gif
+-rwxrw-rw- 1 root root 2857 Oct 22 00:52 CUPRESSUS MACROCARPA VAR GOLDEN CREST.gif
+-rwxrw-rw- 1 root root 2251 Oct 22 00:52 EMBOTRHIUM COCCINEUM.gif
+-rwxrw-rw- 1 root root 2164 Oct 22 00:52 FRAXINUS AMERICANA.gif
+-rwxrw-rw- 1 root root 1938 Oct 22 00:53 FRAXINUS EXELCIOR.gif
+-rwxrw-rw- 1 root root 2026 Oct 22 00:52 GLEDITSIA TRIACANTHOS.gif
+-rwxrw-rw- 1 root root 2930 Oct 22 00:52 ILEX AQUIFOLIUM.gif
+-rwxrw-rw- 1 root root 2989 Oct 22 00:52 ILEX OPACA.gif
+-rwxrw-rw- 1 root root 2004 Oct 22 00:52 LARIX DECIDUA c.gif
+-rwxrw-rw- 1 root root 1866 Oct 22 00:52 LARIX KAEMFERI.gif
+-rwxrw-rw- 1 root root 1826 Oct 22 00:52 LARIX LARICINA.gif
+-rwxrw-rw- 1 root root 3066 Oct 22 00:52 LOMATIA HIRSUTA.gif
+-rwxrw-rw- 1 root root 2194 Oct 22 00:52 LUMA APICULATA.gif
+-rwxrw-rw- 1 root root 2959 Oct 22 00:52 MALUS FLORIBUNDA.gif
+-rwxrw-rw- 1 root root 3919 Oct 22 00:52 MAYTENUS BOARIA.gif
+-rwxrw-rw- 1 root root 2112 Oct 22 00:53 NOTHOFAGUS ALPINA.gif
+-rwxrw-rw- 1 root root 2353 Oct 22 00:52 NOTHOFAGUS ANTARCTICA.gif
+-rwxrw-rw- 1 root root 3020 Oct 22 00:53 NOTHOFAGUS DOMBEYI.gif
+-rwxrw-rw- 1 root root 2101 Oct 22 00:52 NOTHOFAUS OBLIQUA.gif
+-rwxrw-rw- 1 root root 1928 Oct 22 00:53 PICEA ABIES.gif
+-rwxrw-rw- 1 root root 2071 Oct 22 00:52 PICEA PUNGENS.gif
+-rwxrw-rw- 1 root root 2311 Oct 22 00:53 PINUS CONTORTA.gif
+-rwxrw-rw- 1 root root 2380 Oct 22 00:52 PINUS MONTICOLA.gif
+-rwxrw-rw- 1 root root 1993 Oct 22 00:52 PINUS NIGRA.gif
+-rwxrw-rw- 1 root root 1598 Oct 22 00:52 PINUS PONDEROSA.gif
+-rwxrw-rw- 1 root root 3140 Oct 22 00:52 PINUS RADIATA.gif
+-rwxrw-rw- 1 root root 1642 Oct 22 00:52 POPULUS NIGRA CV ITALICA.gif
+-rwxrw-rw- 1 root root 2119 Oct 22 00:53 POPULUS TRICHOCARPA.gif
+-rwxrw-rw- 1 root root 1894 Oct 22 00:53 PRUNUS CERACIFERA VAR PISARDI.gif
+-rwxrw-rw- 1 root root 2039 Oct 22 00:52 PSEUDOTSUGA MENZIESII.gif
+-rwxrw-rw- 1 root root 2148 Oct 22 00:52 QUECUS PALUSTRIS.gif
+-rwxrw-rw- 1 root root 3454 Oct 22 00:53 QUERCUS ROBUR.gif
+-rwxrw-rw- 1 root root 2432 Oct 22 00:53 SALIX MATSUDANA.gif
+-rwxrw-rw- 1 root root 2052 Oct 22 00:52 SALIX SP.gif
+-rwxrw-rw- 1 root root 2849 Oct 22 00:52 SAMBUCUS NIGRA.gif
+-rwxrw-rw- 1 root root 1906 Oct 22 00:52 SEQUOYADENDRON GIGANTEUM.gif
+-rwxrw-rw- 1 root root 1841 Oct 22 00:52 SEQUOYA SEMPERVIRENS.gif
+-rwxrw-rw- 1 root root 2340 Oct 22 00:52 SORBUS AUCUPARIA.gif
+-rwxrw-rw- 1 root root 2901 Oct 22 00:53 ULMUS GLABRA.gif
+-rwxrw-rw- 1 root root 2281 Oct 22 00:52 ULMUS PUMILA.gif

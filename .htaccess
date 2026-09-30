@@ -1,0 +1,4 @@
+# Los .geojson salían sin Content-Type y Firefox intentaba leerlos como XML
+# ("XML Parsing Error: not well-formed" en la consola de los mapas).
+AddType application/geo+json .geojson
+AddCharset utf-8 .geojson .json
